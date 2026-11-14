@@ -2,10 +2,13 @@ import { ProductImage } from "@/components/product-image";
 import Link from "next/link";
 import type { Product } from "@/lib/products";
 
+// The supplier shoots dining chairs and tables as square photos; a square frame shows them whole without side bars.
+const squarePhotoCategories = new Set(["dining-chairs", "dining-sets"]);
+
 export function ProductCard({ product }: { product: Product }) {
   return (
     <Link className="product-card" href={`/catalog/${product.category}/${product.id}`}>
-      <span className="product-card-image">
+      <span className={`product-card-image${squarePhotoCategories.has(product.category) ? " product-card-image-square" : ""}`}>
         <ProductImage product={product} card />
       </span>
       <span className="product-card-copy">
