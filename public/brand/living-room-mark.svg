@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="230" viewBox="0 0 420 230" role="img" aria-labelledby="title">
+  <title id="title">סלון מצויר להחן שברהיט</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M105 83V64C105 31 143 16 211 16C279 16 317 31 317 64V83" stroke="#AE9471" stroke-width="3.5"/>
+    <path d="M49 135V112C49 94 64 85 85 85H172C193 85 208 94 208 112V135" stroke="#383B35" stroke-width="5.5"/>
+    <path d="M45 127C32 127 26 135 26 148V169C26 179 34 185 45 185H211C222 185 230 179 230 169V148C230 135 224 127 211 127" stroke="#383B35" stroke-width="5.5"/>
+    <path d="M52 153H204M56 185V195M200 185V195" stroke="#383B35" stroke-width="4"/>
+    <path d="M304 145V119C304 98 322 87 344 87C367 87 386 99 386 121V145" stroke="#383B35" stroke-width="5"/>
+    <path d="M302 143C292 143 287 149 287 159V173C287 182 294 187 303 187H387C397 187 403 182 403 173V159C403 149 397 143 387 143" stroke="#383B35" stroke-width="5"/>
+    <path d="M309 162H381M310 187V195M380 187V195" stroke="#383B35" stroke-width="3.8"/>
+    <path d="M205 198H274M240 198V213M222 213H258" stroke="#AE9471" stroke-width="3.5"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">חן שבראשית — מונוגרמה אדריכלית</title>
+  <desc id="desc">לוגו עברי יוקרתי על כחול לילה עם סמל קשתות גיאומטרי בגוון שמפניה.</desc>
+  <rect width="1600" height="900" fill="#101C2D"/>
+  <g fill="none" stroke="#C8AB75" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M702 359V276C702 222 746 178 800 178S898 222 898 276V359"/>
+    <path d="M745 359V277C745 247 769 223 799 223S854 247 854 277V359"/>
+    <path d="M703 359H899"/>
+    <path d="M800 224V358"/>
+  </g>
+  <path d="M716 392H884" stroke="#C8AB75" stroke-width="1.5"/>
+  <text x="800" y="557" text-anchor="middle" direction="rtl" unicode-bidi="plaintext" font-family="New Peninim MT, Arial Hebrew, serif" font-size="112" font-weight="400" letter-spacing="-1" fill="#F4F0E7">חן שבראשית</text>
+  <text x="800" y="624" text-anchor="middle" direction="rtl" unicode-bidi="plaintext" font-family="SF Hebrew, Arial Hebrew, sans-serif" font-size="27" font-weight="400" letter-spacing="5" fill="#C8AB75">כשנוחות ויופי נפגשים</text>
+</svg>

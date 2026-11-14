@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">חן שבראשית — כיוון טיפוגרפי</title>
+  <desc id="desc">לוגו עברי אלגנטי בצבע כחול עמוק על רקע שנהב, עם סימן יהלום קטן וקו דק.</desc>
+  <rect width="1600" height="900" fill="#F7F4ED"/>
+  <g fill="none" stroke="#B49867" stroke-width="2">
+    <path d="M590 270H760M840 270H1010"/>
+    <path d="M800 249L821 270L800 291L779 270Z"/>
+  </g>
+  <text x="800" y="500" text-anchor="middle" direction="rtl" unicode-bidi="plaintext" font-family="New Peninim MT, Arial Hebrew, serif" font-size="118" font-weight="400" letter-spacing="-2" fill="#101E37">חן שבראשית</text>
+  <path d="M590 548H1010" fill="none" stroke="#B49867" stroke-width="1.5"/>
+  <text x="800" y="607" text-anchor="middle" direction="rtl" unicode-bidi="plaintext" font-family="SF Hebrew, Arial Hebrew, sans-serif" font-size="28" font-weight="400" letter-spacing="5" fill="#776B5C">כשנוחות ויופי נפגשים</text>
+</svg>

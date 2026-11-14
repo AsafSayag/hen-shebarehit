@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">חן שבראשית — קווים טבעיים</title>
+  <desc id="desc">לוגו עברי עכשווי בגווני ירוק יער ואבן, עם קווי מתאר רכים שמזכירים ריהוט מעוצב.</desc>
+  <rect width="1600" height="900" fill="#EDE8DC"/>
+  <g fill="none" stroke="#2E493D" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M237 401C237 338 269 300 328 300H439C498 300 530 338 530 401V504H237Z"/>
+    <path d="M275 418C275 376 295 349 337 349H430C472 349 492 376 492 418"/>
+    <path d="M237 462H530"/>
+    <path d="M258 504V531M509 504V531"/>
+  </g>
+  <path d="M339 300C346 272 364 249 384 234C404 249 422 272 429 300" fill="none" stroke="#A4755E" stroke-width="7" stroke-linecap="round"/>
+  <text x="1330" y="430" text-anchor="end" direction="rtl" unicode-bidi="plaintext" font-family="SF Hebrew, Arial Hebrew, sans-serif" font-size="112" font-weight="600" letter-spacing="-4" fill="#203C31">חן שבראשית</text>
+  <path d="M666 474H1327" stroke="#A4755E" stroke-width="2"/>
+  <text x="1324" y="535" text-anchor="end" direction="rtl" unicode-bidi="plaintext" font-family="SF Hebrew, Arial Hebrew, sans-serif" font-size="28" font-weight="400" letter-spacing="3" fill="#695F52">כשנוחות ויופי נפגשים</text>
+</svg>

@@ -1,0 +1,77 @@
+[
+  {
+    "id": 27602,
+    "category": "mattresses",
+    "name": "מזרן זוגי ENGLANDER LEXUS",
+    "details": [
+      "מערכת קפיצים מבודדים",
+      "שכבת ויסקו אלסטי",
+      "בד סריג נושם"
+    ],
+    "sizes": [
+      "140 × 190",
+      "160 × 190",
+      "160 × 200"
+    ],
+    "images": [
+      "/products/drgav/lexus-2.png",
+      "/products/drgav/lexus-1.jpg",
+      "/products/drgav/lexus-3.png",
+      "/products/drgav/lexus-4.png",
+      "/products/drgav/lexus-5.png",
+      "/products/drgav/lexus-6.png"
+    ],
+    "sourceUrl": "https://www.dr-gav.co.il/sleep/mattresses/twin-mattresses/englander/0a97d02b"
+  },
+  {
+    "id": 27601,
+    "category": "mattresses",
+    "name": "מזרן זוגי ENGLANDER INFINITY",
+    "details": [
+      "מערכת קפיצים מבודדים",
+      "שכבת ויסקו אלסטי",
+      "בד סריג נושם",
+      "טכנולוגיית NO FLIP"
+    ],
+    "sizes": [
+      "140 × 190",
+      "160 × 190",
+      "160 × 200"
+    ],
+    "images": [
+      "/products/drgav/infinity-5.png",
+      "/products/drgav/infinity-1.jpg",
+      "/products/drgav/infinity-2.png",
+      "/products/drgav/infinity-3.png",
+      "/products/drgav/infinity-4.png",
+      "/products/drgav/infinity-6.png"
+    ],
+    "sourceUrl": "https://www.dr-gav.co.il/sleep/mattresses/twin-mattresses/englander/0f020f95"
+  },
+  {
+    "id": 27600,
+    "category": "mattresses",
+    "name": "מזרן זוגי ENGLANDER GENESIS",
+    "details": [
+      "מערכת קפיצים מבודדים",
+      "שכבת לטקס",
+      "בד סריג נושם",
+      "טכנולוגיית NO FLIP"
+    ],
+    "sizes": [
+      "140 × 190",
+      "160 × 190",
+      "160 × 200",
+      "180 × 200"
+    ],
+    "images": [
+      "/products/drgav/genesis-6.png",
+      "/products/drgav/genesis-1.jpg",
+      "/products/drgav/genesis-2.png",
+      "/products/drgav/genesis-3.png",
+      "/products/drgav/genesis-4.png",
+      "/products/drgav/genesis-5.png"
+    ],
+    "sourceUrl": "https://www.dr-gav.co.il/sleep/mattresses/twin-mattresses/englander/037ee26c"
+  }
+]

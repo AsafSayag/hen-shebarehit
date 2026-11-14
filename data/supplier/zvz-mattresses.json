@@ -1,0 +1,164 @@
+[
+  {
+    "id": 30001,
+    "model": "gold",
+    "name": "מזרן GOLD",
+    "sourceUrl": "https://zvzstyle.com/products/gold-מזרן-ויסקו-משולב-קפיצי-פוקט-מבודדים",
+    "sizes": [
+      "80 × 190",
+      "90 × 190",
+      "120 × 190",
+      "140 × 190",
+      "160 × 190",
+      "80 × 200",
+      "90 × 200",
+      "120 × 200",
+      "140 × 200",
+      "160 × 200",
+      "180 × 200",
+      "200 × 200"
+    ],
+    "details": [
+      "שכבת ויסקו ומערכת קפיצי פוקט מבודדים",
+      "דרגת קשיחות: בינונית–רכה",
+      "גובה המזרן: 32 ס״מ",
+      "טכנולוגיית ONE-SIDE"
+    ],
+    "images": [
+      "https://zvzstyle.com/cdn/shop/files/image_8_90149176-c99e-40dc-a790-b40e7838eef3.jpg?v=1779355757&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/222_3560ac3f-7d18-4738-bdfd-17183f0eae0d.png?v=1779353448&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/4455_d0699c6b-5c3c-4d86-9ad2-ded68b0ce2d8-Photoroom.png?v=1779353714&width=1254"
+    ]
+  },
+  {
+    "id": 30002,
+    "model": "yellow",
+    "name": "מזרן YELLOW",
+    "sourceUrl": "https://zvzstyle.com/products/yellow-מזרן-ויסקו-משולב-קפיצי-פוקט-מבודדים",
+    "sizes": [
+      "80 × 190",
+      "90 × 190",
+      "120 × 190",
+      "140 × 190",
+      "160 × 190",
+      "80 × 200",
+      "90 × 200",
+      "120 × 200",
+      "140 × 200",
+      "160 × 200",
+      "180 × 200",
+      "200 × 200"
+    ],
+    "details": [
+      "שכבת ויסקו ומערכת קפיצי פוקט מבודדים",
+      "דרגת קשיחות: בינונית–רכה",
+      "גובה המזרן: 26 ס״מ",
+      "טכנולוגיית ONE-SIDE"
+    ],
+    "images": [
+      "https://zvzstyle.com/cdn/shop/files/48.jpg?v=1779355740&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/45_21725097-1db3-4211-bea6-01e8d8f87002.png?v=1779352468&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/47.png?v=1779352543&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/46.png?v=1779352543&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/Screenshot2025-07-08at13-22-10_1500x1500_7d21b683-80a1-413a-926d-4cd8496dc3a8.png?v=1751970138&width=1470"
+    ]
+  },
+  {
+    "id": 30003,
+    "model": "cloud",
+    "name": "מזרן CLOUD",
+    "sourceUrl": "https://zvzstyle.com/products/cloud-מזרן-ויסקו-אלסטי-משולב-קפיצי-פוקט-מבודדים",
+    "sizes": [
+      "80 × 190",
+      "90 × 190",
+      "120 × 190",
+      "140 × 190",
+      "160 × 190",
+      "80 × 200",
+      "90 × 200",
+      "120 × 200",
+      "140 × 200",
+      "160 × 200",
+      "180 × 200",
+      "200 × 200"
+    ],
+    "details": [
+      "שכבת ויסקו אלסטי ומערכת קפיצי פוקט מבודדים",
+      "דרגת קשיחות: בינונית",
+      "גובה המזרן: 26 ס״מ",
+      "טכנולוגיית ONE-SIDE"
+    ],
+    "images": [
+      "https://zvzstyle.com/cdn/shop/files/image_8_c94ae98b-277e-41de-aa49-9e8c28e823fe.jpg?v=1779355725&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/1_7f4bc437-b89b-461b-8ca4-12d9f922268f.png?v=1779352749&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/3_d53d2df8-f2bf-4504-bbf1-4133db762cdf.png?v=1779352748&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/44_e8ede66e-27d2-4eef-a5c4-1f55b676fbba.png?v=1779352748&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/Screenshot2025-07-08at13-06-02_1500x1500_02d9d2a7-3285-44fa-acb7-98ebb904c174.png?v=1751969170&width=1470"
+    ]
+  },
+  {
+    "id": 30004,
+    "model": "waterlily",
+    "name": "מזרן WATERLILY",
+    "sourceUrl": "https://zvzstyle.com/products/waterlily-visco-firm-mattress",
+    "sizes": [
+      "80 × 190",
+      "90 × 190",
+      "120 × 190",
+      "140 × 190",
+      "160 × 190",
+      "80 × 200",
+      "90 × 200",
+      "120 × 200",
+      "140 × 200",
+      "160 × 200",
+      "180 × 200",
+      "200 × 200"
+    ],
+    "details": [
+      "מזרן ויסקו ללא קפיצים",
+      "דרגת קשיחות: קשיח",
+      "גובה המזרן: 30 ס״מ",
+      "טכנולוגיית ONE-SIDE"
+    ],
+    "images": [
+      "https://zvzstyle.com/cdn/shop/files/image_10_86a34751-ab4d-4111-94bb-bb2ecc134f16.jpg?v=1779355693&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/333_432216c1-82c0-4c3d-9846-cf404f5e022f.png?v=1779355344&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/455_f587c9ce-8205-4cac-bfbd-b0aa210478b0.png?v=1779355552&width=951",
+      "https://zvzstyle.com/cdn/shop/files/Screenshot2025-07-08at12-20-21_1500x1500_a020d6bf-ddca-40b7-a008-fe6cce701701.png?v=1751966428&width=1470"
+    ]
+  },
+  {
+    "id": 30005,
+    "model": "carbon",
+    "name": "מזרן CARBON",
+    "sourceUrl": "https://zvzstyle.com/products/carbon-visco-medium-firm-mattress",
+    "sizes": [
+      "80 × 190",
+      "90 × 190",
+      "120 × 190",
+      "140 × 190",
+      "160 × 190",
+      "80 × 200",
+      "90 × 200",
+      "120 × 200",
+      "140 × 200",
+      "160 × 200",
+      "180 × 200",
+      "200 × 200"
+    ],
+    "details": [
+      "מזרן ויסקו ללא קפיצים",
+      "דרגת קשיחות: בינונית",
+      "גובה המזרן: 26 ס״מ",
+      "טכנולוגיית ONE-SIDE"
+    ],
+    "images": [
+      "https://zvzstyle.com/cdn/shop/files/image_17.jpg?v=1779355908&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/4555_0e48b558-240c-4c02-bb63-743d871bf7d1.png?v=1779356121&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/4445.png?v=1779356054&width=1254",
+      "https://zvzstyle.com/cdn/shop/files/455555.png?v=1779356289&width=1030",
+      "https://zvzstyle.com/cdn/shop/files/Screenshot2025-07-07at23-24-18_1500x1500_95017dbc-f3b7-4f3b-bc12-f04775a178c2.png?v=1751965969&width=1429"
+    ]
+  }
+]
