@@ -40,12 +40,14 @@ export const categories: Category[] = [
   { slug: "sideboards", title: "מזנונים", icon: "sideboard", tone: "linen" },
 ];
 
-export const holyClosets = {
-  title: "ארונות קודש",
-  href: "/catalog/bedrooms/aronot-kodesh",
-  icon: "holy-closet" as CategoryIconName,
-  tone: "clay",
-};
+export const bedroomSubcategories = [
+  { slug: "sliding-wardrobes", title: "ארונות הזזה", icon: "wardrobe", tone: "stone" },
+  { slug: "hinged-wardrobes", title: "ארונות פתיחה", icon: "wardrobe", tone: "linen" },
+  { slug: "holy-closets", title: "ארונות קודש", icon: "holy-closet", tone: "clay" },
+  { slug: "imported-wardrobes", title: "ארונות ייבוא", icon: "wardrobe", tone: "sand" },
+  { slug: "bedroom-sets", title: "חדרי שינה", icon: "bed", tone: "stone" },
+  { slug: "kids-rooms", title: "חדרי ילדים", icon: "bed", tone: "linen" },
+] as const;
 
 export function categoryHref(slug: string) {
   return `/catalog/${slug}`;

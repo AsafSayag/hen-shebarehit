@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Product } from "@/lib/products";
 
 // The supplier shoots dining chairs and tables as square photos; a square frame shows them whole without side bars.
-const squarePhotoCategories = new Set(["dining-chairs", "dining-sets"]);
+const squarePhotoCategories = new Set(["dining-chairs", "dining-sets", "beds"]);
 
 export function ProductCard({ product }: { product: Product }) {
   return (

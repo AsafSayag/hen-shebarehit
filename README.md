@@ -33,24 +33,32 @@ npm run dev
 
 ## מוצרי הספק
 
-נכון ל־12 בנובמבר 2026: 48 מוצרים מקטגוריית כסאות האוכל ו־46 מקטגוריית שולחנות האוכל של ABPrice. המידע הציבורי המקורי נשמר ב־`data/supplier/`, והמידע שמוצג באתר נוצר ב־`data/products.json`. תמונות המוצרים נשמרות מקומית תחת `public/products/abprice/`.
+נכון ל־12 בנובמבר 2026: 48 מוצרים מקטגוריית כסאות האוכל ו־46 מקטגוריית שולחנות האוכל של ABPrice. המידע הציבורי המקורי נשמר ב־`data/supplier/`, והמידע שמוצג באתר נוצר ב־`data/products.json`. תמונות המוצרים נשמרות מקומית תחת `public/products/catalog/`.
 
 עמוד ״פינות אוכל״ מציג כרגע **שולחנות אוכל בלבד**; אין במקור שנמסר סטים מלאים של שולחן וכסאות. מחירי הספק ומצב המלאי נשמרו לייחוס פנימי, ואינם מוצגים ללקוחות. תיאורי המוצרים באתר אינם כוללים פרטי יבואן, משלוח או הרכבה של הספק, שעלולים לא להתאים לתנאי החנות.
 
 ליצירה מחדש של נתוני הקטלוג מהתצלום השמור: `python3 scripts/import-abprice.py`. להורדת תמונות חסרות בהדרגה: `python3 scripts/import-abprice.py --download --delay 1.5`.
 
-שלושת מזרוני ENGLANDER מקורם [בקטגוריית ד״ר גב](https://www.dr-gav.co.il/sleep/mattresses/twin-mattresses/englander). תצלומי עמודי המקור נשמרו ב־`data/supplier/drgav/`; המידות נלקחו מאפשרויות המוצר שמשויכות לו בפועל. מידע המזרונים נשמר ב־`data/mattresses.json` והתמונות ב־`public/products/drgav/`. מחירים ומצב מלאי אינם נכללים בנתוני מוצרי האתר ואינם מוצגים. גובה המזרון הושמט בגלל סתירה בין טקסט העמוד לנתוני הדגמים. ליצירה מחדש: `python3 scripts/import-drgav.py`.
+שלושת מזרוני ENGLANDER מקורם [בקטגוריית ד״ר גב](https://www.dr-gav.co.il/sleep/mattresses/twin-mattresses/englander). תצלומי עמודי המקור נשמרו ב־`data/supplier/drgav/`; המידות נלקחו מאפשרויות המוצר שמשויכות לו בפועל. מידע המזרונים נשמר ב־`data/mattresses.json` והתמונות ב־`public/products/catalog/`. מחירים ומצב מלאי אינם נכללים בנתוני מוצרי האתר ואינם מוצגים. גובה המזרון הושמט בגלל סתירה בין טקסט העמוד לנתוני הדגמים. ליצירה מחדש: `python3 scripts/import-drgav.py`.
 
-חמישה מזרונים נוספים מקורם [בקטגוריית ZVZ Style](https://zvzstyle.com/collections/mattresses): GOLD, YELLOW, CLOUD, WATERLILY ו־CARBON. דגם RIO הושמט לפי הבקשה. נתוני המקור שנבדקו נשמרו ב־`data/supplier/zvz-mattresses.json`, נתוני התצוגה ב־`data/zvz-mattresses.json`, והתמונות ב־`public/products/zvz/`. אין בהם מחירים או מצב מלאי. ליצירה מחדש: `python3 scripts/import-zvz.py`.
+חמישה מזרונים נוספים מקורם [בקטגוריית ZVZ Style](https://zvzstyle.com/collections/mattresses): GOLD, YELLOW, CLOUD, WATERLILY ו־CARBON. דגם RIO הושמט לפי הבקשה. נתוני המקור שנבדקו נשמרו ב־`data/supplier/zvz-mattresses.json`, נתוני התצוגה ב־`data/zvz-mattresses.json`, והתמונות ב־`public/products/catalog/`. אין בהם מחירים או מצב מלאי. ליצירה מחדש: `python3 scripts/import-zvz.py`.
 
 ## סלונים, כורסאות ומזנונים מהדרייב
 
 נכון ל־14 בנובמבר 2026: נבדקו 213 תמונות בתיקיית הדרייב שסופקה. נוספו 61 ספות וסלונים, 23 כורסאות ו־26 מזנונים. שמות הדגמים נבחרו לצורכי האתר ואינם שמות יצרן מאומתים. תצורות וגוונים שלא ניתן לאמת כזהים נשמרו כפריטים נפרדים. לא נוספו מחירים, מידות, חומרים או מנגנונים שלא נמסרו.
 
-מיפוי ידני בין תמונות לפריטים נמצא ב־`data/supplier/drive-furniture-groups.json`, רשימת המקור ב־`data/supplier/drive-files.json` ואימות קובצי התמונה (מזהה דרייב, שם מקורי, SHA-256 ורזולוציה) ב־`data/supplier/drive-image-audit.json`. הנתונים המוצגים נמצאים ב־`data/drive-furniture.json` והתמונות ב־`public/products/drive/`. תמונות של קטגוריות אחרות, כפילויות וקבצים שאינם תמונות לא צורפו. תמונת רקע קטנה שלא ניתן לזהות בה בביטחון את הדגם לא הועלתה כמוצר.
+מיפוי ידני בין תמונות לפריטים נמצא ב־`data/supplier/drive-furniture-groups.json`, רשימת המקור ב־`data/supplier/drive-files.json` ואימות קובצי התמונה (מזהה דרייב, שם מקורי, SHA-256 ורזולוציה) ב־`data/supplier/drive-image-audit.json`. הנתונים המוצגים נמצאים ב־`data/drive-furniture.json` והתמונות ב־`public/products/catalog/`. תמונות של קטגוריות אחרות, כפילויות וקבצים שאינם תמונות לא צורפו. תמונת רקע קטנה שלא ניתן לזהות בה בביטחון את הדגם לא הועלתה כמוצר.
 
 תמונות קטנות ובינוניות מוגשות כ־WebP עם `srcset`, התאמה לרוחב המסך וטעינה עצלה. הרזולוציה המקורית נשמרת לגרסה הגדולה; כאשר המרת WebP מגדילה את הקובץ, נשמר ה־JPEG המקורי במקום להכביד. קבצים אינם מוגדלים מעבר למקור. בתמונות שמכילות כמה דגמים או ממשק צילום מסך מוגדר מסגור תצוגה באמצעות SVG, כדי להציג רק את הפריט המתאים, בלי לשנות את קובץ המקור.
 
 שיפורי הצילום בקטלוג מוגדרים ב־`data/photo-overrides.json`: חלק מהתמונות ממוסגרות מחדש וחלקן הוחלפו בעריכה חזותית שנשמרת ב־`public/products/edited/`. קובצי המקור נשמרו ללא שינוי. `data/photo-edit-audit.json` מתעד את המקור ואת התמונה הערוכה לכל מוצר שהוחלף.
+
+בקטגוריית ״מיטות״ מוצגים 46 דגמים מתוך [מיטות זוגיות](https://nammal-sleep.co.il/product-category/double-beds/) ו־11 דגמים מתוך [מיטות יהודיות](https://nammal-sleep.co.il/product-category/jewish-beds/) של הנמל SLEEP, עם 185 שילובי גרסאות. נתוני המקור המצומצמים נמצאים ב־`data/supplier/nammal-beds.json`, נתוני התצוגה ב־`data/nammal-beds.json`, והתמונות המקומיות ב־`public/products/catalog/`. לא הועתקו מחירים או תיאורי ספק. לייבוא חוזר מהעמודים הציבוריים: `python3 scripts/import-nammal-beds.py`.
+
+ב״ארונות וחדרי שינה״ מוצגות שש תתי־קטגוריות: ארונות הזזה, ארונות פתיחה, ארונות קודש, ארונות ייבוא, חדרי שינה וחדרי ילדים. נתוני המקור נמשכים דרך ממשק המוצרים הציבורי של גובר גלרי בקצב של בקשה אחת לכל חמש שניות (`scripts/import-guber-metadata.py`). סך 280 הופעות המוצר מייצגות 237 מוצרים ייחודיים; מוצר שמשויך לשתי תתי־קטגוריות נשמר פעם אחת ומוצג בשתיהן. המידע שנשמר ב־`data/supplier/guber-products.json` מסונן ממחירים, הנחות, תוספות ודברי מדיניות של הספק. התמונות המקוריות מורדות בקצב מתון עם בדיקת תקינות ומניפסט המשך (`scripts/download-guber-images.py`). `scripts/build-guber-catalog.py` יוצר נתוני תצוגה ב־`data/guber-products.json` וגרסאות מוקטנות לתצוגה, תוך שמירת קובצי המקור ללא שינוי. כתובות המקור נשארות בנתוני העבודה ואינן מועברות לדפדפן.
+
+סדר עדכון הקטלוג: `python3 scripts/import-guber-metadata.py`, אחריו `python3 scripts/download-guber-images.py`, ולבסוף `python3 scripts/build-guber-catalog.py`. ערכי מידה חריגים במקור מסוננים מדפי המוצר ומוחלפים בהפניה לבירור.
+
+שמות קובצי התמונות הציבוריים ניטרליים. אחרי כל ייבוא מחדש, יש להריץ `python3 scripts/neutralize-product-images.py` כדי לעדכן את הנתיבים בנתוני האתר. כתובות מקור ופרטי ספק נשמרים בנתוני העבודה, אך `lib/products.ts` מעביר לרכיבי האתר רק שדות תצוגה מאושרים.
 
 ליצירה מחדש, הורידו את המקורות עם חשבון הדרייב המחובר, שמרו בשמות `001.jpg` וכו׳ לפי האינדקסים ברשימת המקור, והריצו `node scripts/import-drive-furniture.mjs /path/to/originals`.

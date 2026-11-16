@@ -1,14 +1,15 @@
 import Image from "next/image";
 import type { Product } from "@/lib/products";
 
-type Props = { product: Product; index?: number; card?: boolean };
+type Props = { product: Product; index?: number; card?: boolean; featured?: boolean };
 
-export function ProductImage({ product, index = 0, card = false }: Props) {
+export function ProductImage({ product, index = 0, card = false, featured = false }: Props) {
   const src = product.images[index];
   const alt = card ? product.name : `${product.name} — תמונה ${index + 1}`;
   const variants = product.imageVariants?.[src];
+  const prominent = featured || (!card && index === 0);
   if (!variants) {
-    return <Image src={src} alt={alt} width={card ? 600 : 900} height={card ? 600 : 900} unoptimized priority={!card && index === 0} />;
+    return <Image src={src} alt={alt} width={card ? 600 : 900} height={card ? 600 : 900} unoptimized priority={prominent} />;
   }
   const original = variants[variants.length - 1];
   const focus = product.imageFocus?.[src];
@@ -30,9 +31,9 @@ export function ProductImage({ product, index = 0, card = false }: Props) {
     // Static responsive files avoid image-server work and load only the needed resolution.
     // eslint-disable-next-line @next/next/no-img-element
     <img src={original.src} srcSet={variants.map((v) => `${v.src} ${v.width}w`).join(", ")}
-      sizes={card ? "(max-width: 700px) 48vw, (max-width: 1100px) 32vw, 300px" : index === 0 ? "(max-width: 700px) 100vw, 650px" : "(max-width: 700px) 48vw, 320px"}
+      sizes={card ? "(max-width: 700px) 48vw, (max-width: 1100px) 32vw, 300px" : prominent ? "(max-width: 700px) 100vw, 650px" : "(max-width: 700px) 48vw, 320px"}
       alt={alt} width={original.width} height={original.height}
-      loading={!card && index === 0 ? "eager" : "lazy"} decoding="async"
-      fetchPriority={!card && index === 0 ? "high" : "auto"} />
+      loading={prominent ? "eager" : "lazy"} decoding="async"
+      fetchPriority={prominent ? "high" : "auto"} />
   );
 }

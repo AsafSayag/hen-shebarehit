@@ -2,6 +2,8 @@ import productData from "@/data/products.json";
 import mattressData from "@/data/mattresses.json";
 import zvzMattressData from "@/data/zvz-mattresses.json";
 import driveFurnitureData from "@/data/drive-furniture.json";
+import nammalBedsData from "@/data/nammal-beds.json";
+import guberProductsData from "@/data/guber-products.json";
 import photoOverrides from "@/data/photo-overrides.json";
 
 export type Product = {
@@ -12,21 +14,37 @@ export type Product = {
   details: string[];
   images: string[];
   collection?: "sofas" | "armchairs" | "sideboards";
+  bedType?: "double" | "jewish";
+  bedVariants?: { label: string; image: string }[];
+  bedroomGroups?: string[];
   imageVariants?: Record<string, { src: string; width: number; height: number }[]>;
   imageFocus?: Record<string, [number, number, number, number]>;
   sizes?: string[];
-  sourceUrl: string;
-  supplierPriceIls?: string;
-  supplierInStock?: boolean;
 };
 
-const sourceProducts = [...productData, ...mattressData, ...zvzMattressData, ...driveFurnitureData] as Product[];
+const sourceProducts = [...productData, ...mattressData, ...zvzMattressData, ...driveFurnitureData, ...nammalBedsData, ...guberProductsData] as Product[];
 const editedPhotos = photoOverrides as unknown as Record<string, Partial<Product>>;
 
 export const products = sourceProducts.map((product) => {
   const override = editedPhotos[String(product.id)];
+  // Only these fields may reach rendered pages or client components.
+  const publicProduct: Product = {
+    id: product.id,
+    category: product.category,
+    name: product.name,
+    sku: product.sku,
+    details: product.details,
+    images: product.images,
+    collection: product.collection,
+    bedType: product.bedType,
+    bedVariants: product.bedVariants,
+    bedroomGroups: product.bedroomGroups,
+    imageVariants: product.imageVariants,
+    imageFocus: product.imageFocus,
+    sizes: product.sizes,
+  };
   return {
-    ...product,
+    ...publicProduct,
     ...override,
     imageFocus: override?.images ? override.imageFocus : override?.imageFocus ?? product.imageFocus,
   };

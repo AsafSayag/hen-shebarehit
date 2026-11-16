@@ -1,0 +1,3844 @@
+[
+  {
+    "id": 722773,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם SOL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-980e2c63add34978bb463203e495e53f.webp",
+      "/products/catalog/img-fd80bb9ce9c9417794e16ae7e6a9f05a.webp",
+      "/products/catalog/img-6adc105b4a884deda515c1d3f96080d9.webp",
+      "/products/catalog/img-61adc06f0d3d40859a259e82c323d889.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-980e2c63add34978bb463203e495e53f.webp": [
+        {
+          "src": "/products/catalog/img-1c5d75f4e4e14fbaa6cf4f99b01b6728.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-4ad691b8fe4549c397834a8ebc2e94ce.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-980e2c63add34978bb463203e495e53f.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-fd80bb9ce9c9417794e16ae7e6a9f05a.webp": [
+        {
+          "src": "/products/catalog/img-f9256fd75abe4fd9931f16482b7c5843.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-eae628cd7ec74b02b5483b8632e3c5ac.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-fd80bb9ce9c9417794e16ae7e6a9f05a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-6adc105b4a884deda515c1d3f96080d9.webp": [
+        {
+          "src": "/products/catalog/img-0b114d5d54d34bafb17c5b379866439c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d87349afe09f47b29ba266cf67186f3a.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-6adc105b4a884deda515c1d3f96080d9.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-61adc06f0d3d40859a259e82c323d889.webp": [
+        {
+          "src": "/products/catalog/img-138dc61ef1d64011b61a886ac4da1c3d.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-97441ec04d8a4484ad0fe51cfce95740.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-61adc06f0d3d40859a259e82c323d889.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 26400",
+        "image": "/products/catalog/img-fd80bb9ce9c9417794e16ae7e6a9f05a.webp"
+      },
+      {
+        "label": "בד: אריג אבן 12182",
+        "image": "/products/catalog/img-6adc105b4a884deda515c1d3f96080d9.webp"
+      },
+      {
+        "label": "בד: אריג אבן בהיר 62002",
+        "image": "/products/catalog/img-61adc06f0d3d40859a259e82c323d889.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/sol-bed/"
+  },
+  {
+    "id": 724542,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם EMANUEL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-131393233e2247c9a070bb874501cdfc.webp",
+      "/products/catalog/img-4ea75cbb9c054d23b29382f32ce79f80.webp",
+      "/products/catalog/img-040785dee3de41afab42c5a06891b880.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-131393233e2247c9a070bb874501cdfc.webp": [
+        {
+          "src": "/products/catalog/img-681d8013b9264bfa88885731183f0520.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-2da54251e5f04991965aa670e934d860.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-131393233e2247c9a070bb874501cdfc.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-4ea75cbb9c054d23b29382f32ce79f80.webp": [
+        {
+          "src": "/products/catalog/img-3847bbc546a142a29f3e24610f5b1a12.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-acefe329bf6d414c9f0b4b9aebf4e77b.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-4ea75cbb9c054d23b29382f32ce79f80.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-040785dee3de41afab42c5a06891b880.webp": [
+        {
+          "src": "/products/catalog/img-c8aa3aa85c69414992ca467a0345a4f7.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-1712bcd7eb0c4f828b2f24658ea4c9ab.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-040785dee3de41afab42c5a06891b880.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אבן בהיר 002",
+        "image": "/products/catalog/img-4ea75cbb9c054d23b29382f32ce79f80.webp"
+      },
+      {
+        "label": "בד: אריג אבן 559102",
+        "image": "/products/catalog/img-131393233e2247c9a070bb874501cdfc.webp"
+      },
+      {
+        "label": "בד: אריג אפור כהה 555598",
+        "image": "/products/catalog/img-040785dee3de41afab42c5a06891b880.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/emanuel-bed/"
+  },
+  {
+    "id": 725075,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם MONNA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-7b89f524084a4318a06de02fce4f2718.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-7b89f524084a4318a06de02fce4f2718.webp": [
+        {
+          "src": "/products/catalog/img-ae2430e9dbf74fb8a29daa309289deb8.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-aa6579389cc44aff8af3cca5f1b8b4cc.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-7b89f524084a4318a06de02fce4f2718.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אבן בהיר 002",
+        "image": "/products/catalog/img-7b89f524084a4318a06de02fce4f2718.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/monna-bed/"
+  },
+  {
+    "id": 718727,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם YOSEF",
+    "details": [],
+    "images": [
+      "/products/catalog/img-d1999e1bc5394a3cbc0101407366874d.webp",
+      "/products/catalog/img-6386e434da184a2f9e4e2440abe3a04a.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-d1999e1bc5394a3cbc0101407366874d.webp": [
+        {
+          "src": "/products/catalog/img-51d067b0530b4b46a5ca3312dd388042.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-6f212914bcfd4ab3a4867c643dbb4b3a.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-d1999e1bc5394a3cbc0101407366874d.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-6386e434da184a2f9e4e2440abe3a04a.webp": [
+        {
+          "src": "/products/catalog/img-73bf4126940346a2bd9542b086a9050c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-30100bd0693d402f902d403d0512be93.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-6386e434da184a2f9e4e2440abe3a04a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג VLNT2",
+        "image": "/products/catalog/img-d1999e1bc5394a3cbc0101407366874d.webp"
+      },
+      {
+        "label": "בד: אריג VLNT10",
+        "image": "/products/catalog/img-6386e434da184a2f9e4e2440abe3a04a.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/yosef-bed/"
+  },
+  {
+    "id": 724190,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם MILA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-ff26d97dfceb44529e39a1825563e68d.webp",
+      "/products/catalog/img-e879fbe8048347bf94bc6f1172aed38a.webp",
+      "/products/catalog/img-b050c4a83266457db18cce9e5da8d0ac.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-ff26d97dfceb44529e39a1825563e68d.webp": [
+        {
+          "src": "/products/catalog/img-11ea44ae79d94f91bcf5589366a5e24a.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-bb898a4740ec4189935376ae5f56db8c.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ff26d97dfceb44529e39a1825563e68d.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-e879fbe8048347bf94bc6f1172aed38a.webp": [
+        {
+          "src": "/products/catalog/img-cc5e37646f3940f49fa89a7f1bcd98d4.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-8fd026cb73f5438f9a6b2c28b58d6a6a.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-e879fbe8048347bf94bc6f1172aed38a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-b050c4a83266457db18cce9e5da8d0ac.webp": [
+        {
+          "src": "/products/catalog/img-31cdd806c87142f893eca457e1e8d33d.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-a44f34dca7934309937eb150016be108.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-b050c4a83266457db18cce9e5da8d0ac.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אבן 74622",
+        "image": "/products/catalog/img-ff26d97dfceb44529e39a1825563e68d.webp"
+      },
+      {
+        "label": "בד: אריג אפור 62009",
+        "image": "/products/catalog/img-e879fbe8048347bf94bc6f1172aed38a.webp"
+      },
+      {
+        "label": "בד: אריג אבן בהיר 62002",
+        "image": "/products/catalog/img-b050c4a83266457db18cce9e5da8d0ac.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/milla-bed/"
+  },
+  {
+    "id": 725787,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם CHELSEA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-ac597512626f4c2abd6701469b563dcd.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-ac597512626f4c2abd6701469b563dcd.webp": [
+        {
+          "src": "/products/catalog/img-39d485e86a544ff69064663138dcc56e.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-4a6f0b9570c94de687d7471ab9de421f.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ac597512626f4c2abd6701469b563dcd.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-ac597512626f4c2abd6701469b563dcd.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-ac597512626f4c2abd6701469b563dcd.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/chelsea-bed/"
+  },
+  {
+    "id": 721315,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם BELL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-9bee942d35154d239f311d422bb55332.webp",
+      "/products/catalog/img-aa9d13f6687c455a91b292800b6cafb9.webp",
+      "/products/catalog/img-2b8e0bf462b642b9a74dcff5290facdf.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-9bee942d35154d239f311d422bb55332.webp": [
+        {
+          "src": "/products/catalog/img-5d254b74bda74945b270e520f4dabd6d.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-afccd4c04b2647a49f7dc26fb7227702.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-9bee942d35154d239f311d422bb55332.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-aa9d13f6687c455a91b292800b6cafb9.webp": [
+        {
+          "src": "/products/catalog/img-f29f112b5f56488ebf493c57f6e83eea.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d1dffeee308343f4b1bb941f57f68eb0.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-aa9d13f6687c455a91b292800b6cafb9.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-2b8e0bf462b642b9a74dcff5290facdf.webp": [
+        {
+          "src": "/products/catalog/img-5099d533757e43eeb4c2beb3dfd61885.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-8a8c42c5a6b145e5bbc332e5d1b31733.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-2b8e0bf462b642b9a74dcff5290facdf.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 26400",
+        "image": "/products/catalog/img-aa9d13f6687c455a91b292800b6cafb9.webp"
+      },
+      {
+        "label": "בד: אריג אפור 62009",
+        "image": "/products/catalog/img-2b8e0bf462b642b9a74dcff5290facdf.webp"
+      },
+      {
+        "label": "בד: אריג אבן בהיר 62002",
+        "image": "/products/catalog/img-9bee942d35154d239f311d422bb55332.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/bell-bed/"
+  },
+  {
+    "id": 725742,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם LIÁ",
+    "details": [],
+    "images": [
+      "/products/catalog/img-de482a7cbbc141e381ea52a441247270.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-de482a7cbbc141e381ea52a441247270.webp": [
+        {
+          "src": "/products/catalog/img-b6822ce83e774f11a092cc8a33f07104.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-52794c02aff149dea72852155f23d7b4.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-de482a7cbbc141e381ea52a441247270.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-de482a7cbbc141e381ea52a441247270.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-de482a7cbbc141e381ea52a441247270.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/lia-bed/"
+  },
+  {
+    "id": 725802,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם LUNA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-6edf7f7e77f245c09f8c7d476986a2cd.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-6edf7f7e77f245c09f8c7d476986a2cd.webp": [
+        {
+          "src": "/products/catalog/img-fec1d7cd54284bad852cfe23ea6e95ff.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-adef9086797640a5b388f2f8dbf3bc48.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-6edf7f7e77f245c09f8c7d476986a2cd.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 004",
+        "image": "/products/catalog/img-6edf7f7e77f245c09f8c7d476986a2cd.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/luna-bed2/"
+  },
+  {
+    "id": 701612,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם VICTORIA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-c512a9016e704bdd9d284eb65e75a70a.webp",
+      "/products/catalog/img-817e9fafb2a84edc9e1639955a68a6af.webp",
+      "/products/catalog/img-ef4ae4d1dd994c8fad948f2d819cc958.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-c512a9016e704bdd9d284eb65e75a70a.webp": [
+        {
+          "src": "/products/catalog/img-10137d171008474c8730e338d0285224.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-19e35403554546e6b9db41ea2abd75ba.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-c512a9016e704bdd9d284eb65e75a70a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-817e9fafb2a84edc9e1639955a68a6af.webp": [
+        {
+          "src": "/products/catalog/img-ed62a6c9e7c64637a038ce3bc1ea57fe.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-43066110c8da4aba901a4d3f542dffe4.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-817e9fafb2a84edc9e1639955a68a6af.webp",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "/products/catalog/img-ef4ae4d1dd994c8fad948f2d819cc958.webp": [
+        {
+          "src": "/products/catalog/img-d86df5b7405545d3ada0e0522286b9fa.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-b08c6bcffe464c0ebcda761704246cab.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ef4ae4d1dd994c8fad948f2d819cc958.webp",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-c512a9016e704bdd9d284eb65e75a70a.webp"
+      },
+      {
+        "label": "בד: אריג אפור בהיר 545552",
+        "image": "/products/catalog/img-817e9fafb2a84edc9e1639955a68a6af.webp"
+      },
+      {
+        "label": "בד: אריג 545553",
+        "image": "/products/catalog/img-ef4ae4d1dd994c8fad948f2d819cc958.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/victoria-best-bed/"
+  },
+  {
+    "id": 724128,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם ADEL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-db7061feff19449abaaaf6372be1f312.webp",
+      "/products/catalog/img-d879f56ea66d456a8e8aa674429759dc.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-db7061feff19449abaaaf6372be1f312.webp": [
+        {
+          "src": "/products/catalog/img-f9c98231d0374a72a0061a6e1c08b304.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-7fdf95d9994f4184b82405fa6480346a.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-db7061feff19449abaaaf6372be1f312.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-d879f56ea66d456a8e8aa674429759dc.webp": [
+        {
+          "src": "/products/catalog/img-8fa0cbfd3faa41c281155e40a1a00e98.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-92ee02bc1cf84888a91e5af521fe94eb.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-d879f56ea66d456a8e8aa674429759dc.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג 543851 + 363",
+        "image": "/products/catalog/img-d879f56ea66d456a8e8aa674429759dc.webp"
+      },
+      {
+        "label": "בד: אריג 543854 + 373",
+        "image": "/products/catalog/img-db7061feff19449abaaaf6372be1f312.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/adel-bed/"
+  },
+  {
+    "id": 721416,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם HALO",
+    "details": [],
+    "images": [
+      "/products/catalog/img-54b1f2d0bab94f7c8c724152e97c7798.webp",
+      "/products/catalog/img-77de9f755b1548998fd043a2dcb69388.webp",
+      "/products/catalog/img-4a9df5f404aa427bb44ecb83f52656bf.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-54b1f2d0bab94f7c8c724152e97c7798.webp": [
+        {
+          "src": "/products/catalog/img-0da85bc25a3145cd8cf202e49cba1ba0.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-7ff41e5d6b2f4a49a1b51ba0928963e3.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-54b1f2d0bab94f7c8c724152e97c7798.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-77de9f755b1548998fd043a2dcb69388.webp": [
+        {
+          "src": "/products/catalog/img-f2d71bbd975a47edaa8c1221b071c9aa.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-a439c21bff07409389a17eac684a9b6b.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-77de9f755b1548998fd043a2dcb69388.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-4a9df5f404aa427bb44ecb83f52656bf.webp": [
+        {
+          "src": "/products/catalog/img-755198e505e24bc28ee959387f47b781.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-185cfa2e12264c0094fb500d45215be7.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-4a9df5f404aa427bb44ecb83f52656bf.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אבן בהיר 002",
+        "image": "/products/catalog/img-77de9f755b1548998fd043a2dcb69388.webp"
+      },
+      {
+        "label": "בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-54b1f2d0bab94f7c8c724152e97c7798.webp"
+      },
+      {
+        "label": "בד: אריג אפור 103",
+        "image": "/products/catalog/img-4a9df5f404aa427bb44ecb83f52656bf.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/halo-bed/"
+  },
+  {
+    "id": 701828,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם DOLCE",
+    "details": [],
+    "images": [
+      "/products/catalog/img-a63884bdb6da45fab97b3b279462c75c.webp",
+      "/products/catalog/img-eaeb10c8a7514c76b0e1786436729d98.webp",
+      "/products/catalog/img-b5fe8070a6a94aeaa10c5f4900403fcf.webp",
+      "/products/catalog/img-df35525dbcd6462f86ff03500def9a3e.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-a63884bdb6da45fab97b3b279462c75c.webp": [
+        {
+          "src": "/products/catalog/img-969ed0998343485f953ada6fe8c70cfc.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-3b9c40b7036f4abab3d67902b7c2480e.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-a63884bdb6da45fab97b3b279462c75c.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-eaeb10c8a7514c76b0e1786436729d98.webp": [
+        {
+          "src": "/products/catalog/img-b174845b74134b7381fedc87f397477a.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d66b9b70295244e084ebada4c9c3d751.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-eaeb10c8a7514c76b0e1786436729d98.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-b5fe8070a6a94aeaa10c5f4900403fcf.webp": [
+        {
+          "src": "/products/catalog/img-55aafc02b03140e48dc45de2189c72f1.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-3f39c299da3343339ea759a8a4daa021.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-b5fe8070a6a94aeaa10c5f4900403fcf.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-df35525dbcd6462f86ff03500def9a3e.webp": [
+        {
+          "src": "/products/catalog/img-ad0640c794b5422f80d4bcd3aebe8860.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-4ca5c695e1ca41f2aea1578774a5e8b9.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-df35525dbcd6462f86ff03500def9a3e.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' שמנת 2002",
+        "image": "/products/catalog/img-a63884bdb6da45fab97b3b279462c75c.webp"
+      },
+      {
+        "label": "בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-eaeb10c8a7514c76b0e1786436729d98.webp"
+      },
+      {
+        "label": "בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-b5fe8070a6a94aeaa10c5f4900403fcf.webp"
+      },
+      {
+        "label": "בד: אריג שחור 107",
+        "image": "/products/catalog/img-df35525dbcd6462f86ff03500def9a3e.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/dolce-bed/"
+  },
+  {
+    "id": 715076,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם CLASS",
+    "details": [],
+    "images": [
+      "/products/catalog/img-355bca031b824f13a3a30347f3c4b244.webp",
+      "/products/catalog/img-8e2d8bcde2654301a4519ad5e2d67aaa.webp",
+      "/products/catalog/img-eb192bb182674fdd92a339ec0754e73e.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-355bca031b824f13a3a30347f3c4b244.webp": [
+        {
+          "src": "/products/catalog/img-5589ddb0a3ac41d2af538779a598c5a1.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d1ba43c07ac6499299b00df3fbb6a341.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-355bca031b824f13a3a30347f3c4b244.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-8e2d8bcde2654301a4519ad5e2d67aaa.webp": [
+        {
+          "src": "/products/catalog/img-fc5845752f2f4468a74dbdd8972aff02.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-5893c6b2baa44764bc75524a2ed3f25f.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-8e2d8bcde2654301a4519ad5e2d67aaa.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-eb192bb182674fdd92a339ec0754e73e.webp": [
+        {
+          "src": "/products/catalog/img-86aebec255144432b0f6164792b556f6.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-72fa5b4f46d64dc282176e73dff77f97.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-eb192bb182674fdd92a339ec0754e73e.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אפור 38036",
+        "image": "/products/catalog/img-8e2d8bcde2654301a4519ad5e2d67aaa.webp"
+      },
+      {
+        "label": "בד: אריג בז' מוקה 580213",
+        "image": "/products/catalog/img-eb192bb182674fdd92a339ec0754e73e.webp"
+      },
+      {
+        "label": "בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-355bca031b824f13a3a30347f3c4b244.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/class-bed/"
+  },
+  {
+    "id": 721685,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם AMBER",
+    "details": [],
+    "images": [
+      "/products/catalog/img-d42e289e66e74a389ad7769280d44f6d.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-d42e289e66e74a389ad7769280d44f6d.webp": [
+        {
+          "src": "/products/catalog/img-d94e3d5f7853425f9a9b1f25e0c2980e.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-9f39119ffe4646978c1b956da57310a4.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-d42e289e66e74a389ad7769280d44f6d.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-d42e289e66e74a389ad7769280d44f6d.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-d42e289e66e74a389ad7769280d44f6d.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/amber-bed/"
+  },
+  {
+    "id": 702701,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם TZVITA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-6f63fbdd6a594603b8d4cf02f7d16001.webp",
+      "/products/catalog/img-5150064793bd46469fa8b2cdd4145b7f.webp",
+      "/products/catalog/img-1654a2221f084b9c9bc8f40d886ab313.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-6f63fbdd6a594603b8d4cf02f7d16001.webp": [
+        {
+          "src": "/products/catalog/img-e3b24b26927c447195a3411b0836cb06.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-c87863cbb4eb4e61a28a1fc38f722c1f.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-6f63fbdd6a594603b8d4cf02f7d16001.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-5150064793bd46469fa8b2cdd4145b7f.webp": [
+        {
+          "src": "/products/catalog/img-9592378ab1ed486ab3d637ad1be6719c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-da2dbed408ea4b9982e07e7eff36608c.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-5150064793bd46469fa8b2cdd4145b7f.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-1654a2221f084b9c9bc8f40d886ab313.webp": [
+        {
+          "src": "/products/catalog/img-a9532f086a2243b0b47a6ed7b65d7874.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-e2fe17c2479342d294c478aae7ab984b.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-1654a2221f084b9c9bc8f40d886ab313.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' שמנת 2002",
+        "image": "/products/catalog/img-5150064793bd46469fa8b2cdd4145b7f.webp"
+      },
+      {
+        "label": "בד: אריג אפור 103",
+        "image": "/products/catalog/img-6f63fbdd6a594603b8d4cf02f7d16001.webp"
+      },
+      {
+        "label": "בד: אריג שחור 107",
+        "image": "/products/catalog/img-1654a2221f084b9c9bc8f40d886ab313.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/bed-model-tzvita/"
+  },
+  {
+    "id": 717402,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם TOMMY",
+    "details": [],
+    "images": [
+      "/products/catalog/img-1a63bdfe4a9e440598f2137530ec50fc.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-1a63bdfe4a9e440598f2137530ec50fc.webp": [
+        {
+          "src": "/products/catalog/img-01b360c89f5e413682a38b4a9e504da3.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d9526f59371a472b8b5001aa23607f41.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-1a63bdfe4a9e440598f2137530ec50fc.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 120/190",
+        "image": "/products/catalog/img-1a63bdfe4a9e440598f2137530ec50fc.webp"
+      },
+      {
+        "label": "מידה: 140/190",
+        "image": "/products/catalog/img-1a63bdfe4a9e440598f2137530ec50fc.webp"
+      },
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-1a63bdfe4a9e440598f2137530ec50fc.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-1a63bdfe4a9e440598f2137530ec50fc.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/tommy-bed/"
+  },
+  {
+    "id": 719063,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם TOKYO",
+    "details": [],
+    "images": [
+      "/products/catalog/img-3bc1e9d0af634b46b31fac87699f54ee.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-3bc1e9d0af634b46b31fac87699f54ee.webp": [
+        {
+          "src": "/products/catalog/img-35a9f92afa5941bda6b2135d96997ccf.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-09243a61cdbc4e919dc244868d174f31.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-3bc1e9d0af634b46b31fac87699f54ee.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 140/190",
+        "image": "/products/catalog/img-3bc1e9d0af634b46b31fac87699f54ee.webp"
+      },
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-3bc1e9d0af634b46b31fac87699f54ee.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-3bc1e9d0af634b46b31fac87699f54ee.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/tokyo-bed/"
+  },
+  {
+    "id": 724040,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם MELISSA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-c397477f17ef46ce9ebc0b33ca324344.webp",
+      "/products/catalog/img-9a5b64924a5a42bf897e6fb321b38285.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-c397477f17ef46ce9ebc0b33ca324344.webp": [
+        {
+          "src": "/products/catalog/img-a7520ba965854b8685f78500b31fc027.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-a0ae94d5dbff4577bb5d45fa3c1619a9.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-c397477f17ef46ce9ebc0b33ca324344.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-9a5b64924a5a42bf897e6fb321b38285.webp": [
+        {
+          "src": "/products/catalog/img-36a23a778bc74b2988954a0725d36418.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-9c2e474c9ccb46debcb728c91af47ad5.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-9a5b64924a5a42bf897e6fb321b38285.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג לבן שמנת 543851",
+        "image": "/products/catalog/img-9a5b64924a5a42bf897e6fb321b38285.webp"
+      },
+      {
+        "label": "בד: אריג בז' 543854",
+        "image": "/products/catalog/img-c397477f17ef46ce9ebc0b33ca324344.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/melissa-bed/"
+  },
+  {
+    "id": 718833,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם TEXAS",
+    "details": [],
+    "images": [
+      "/products/catalog/img-62ee97f6a0dc40229185afb42f8752e3.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-62ee97f6a0dc40229185afb42f8752e3.webp": [
+        {
+          "src": "/products/catalog/img-915a1dc865c14358bacc50763317ebeb.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-b494e2fb25474d30b66d8f4d9de90305.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-62ee97f6a0dc40229185afb42f8752e3.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-62ee97f6a0dc40229185afb42f8752e3.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-62ee97f6a0dc40229185afb42f8752e3.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/texas-bed/"
+  },
+  {
+    "id": 702123,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם NOY",
+    "details": [],
+    "images": [
+      "/products/catalog/img-d39d331180424fcea6a17fa5fadf99b4.webp",
+      "/products/catalog/img-59a962f17a5d4eca9a6f802c50be870a.webp",
+      "/products/catalog/img-86ad10e450d640069e97f00d6c95015c.webp",
+      "/products/catalog/img-9fb4a32cf75840dc97809098b37e1f86.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-d39d331180424fcea6a17fa5fadf99b4.webp": [
+        {
+          "src": "/products/catalog/img-0b9619be4a97459ea9f27f24d25e62e4.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-397b12f5439c44cc9135476cd7dad546.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-d39d331180424fcea6a17fa5fadf99b4.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-59a962f17a5d4eca9a6f802c50be870a.webp": [
+        {
+          "src": "/products/catalog/img-f0e62857855443169d05ab5ab66e9e91.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-84adf82caae24a8a9c9bb1442e6b4844.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-59a962f17a5d4eca9a6f802c50be870a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-86ad10e450d640069e97f00d6c95015c.webp": [
+        {
+          "src": "/products/catalog/img-54f44e01475b4d17b5b2883d533fe64f.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-88afbd3b3f63462ea6cfe23c8368bc61.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-86ad10e450d640069e97f00d6c95015c.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-9fb4a32cf75840dc97809098b37e1f86.webp": [
+        {
+          "src": "/products/catalog/img-5a6bbdbca23647b78d2d8bcd61a1c1e3.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-75b3d00dde654c4c9e78ab5b1e9be3e8.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-9fb4a32cf75840dc97809098b37e1f86.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג 38011",
+        "image": "/products/catalog/img-59a962f17a5d4eca9a6f802c50be870a.webp"
+      },
+      {
+        "label": "בד: אריג 38013",
+        "image": "/products/catalog/img-86ad10e450d640069e97f00d6c95015c.webp"
+      },
+      {
+        "label": "בד: אריג אבן בהיר 62002",
+        "image": "/products/catalog/img-d39d331180424fcea6a17fa5fadf99b4.webp"
+      },
+      {
+        "label": "בד: אריג 38035",
+        "image": "/products/catalog/img-9fb4a32cf75840dc97809098b37e1f86.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/noy-bed/"
+  },
+  {
+    "id": 725169,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם EMILY כולל ארגז מצעים",
+    "details": [],
+    "images": [
+      "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp": [
+        {
+          "src": "/products/catalog/img-2263719f077045518f5f4fadc4d5bc52.webp",
+          "width": 480,
+          "height": 422
+        },
+        {
+          "src": "/products/catalog/img-dc6b7d167be442ca8c3a88b2abf198b4.webp",
+          "width": 960,
+          "height": 845
+        },
+        {
+          "src": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp",
+          "width": 1500,
+          "height": 1320
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 120/190",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      },
+      {
+        "label": "מידה: 120/200",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      },
+      {
+        "label": "מידה: 140/190",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      },
+      {
+        "label": "מידה: 140/200",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      },
+      {
+        "label": "מידה: 160/190",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      },
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      },
+      {
+        "label": "מידה: 180/190",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-1921f56183524d06a509638672f31a0a.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/emily-bed/"
+  },
+  {
+    "id": 718708,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם BOX",
+    "details": [],
+    "images": [
+      "/products/catalog/img-ffd76048e5c34a17b458e364b77be9fd.webp",
+      "/products/catalog/img-7a4a4832c3554fe595719afe3308be94.webp",
+      "/products/catalog/img-415d45dcc1da417f8d273571d549f2a4.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-ffd76048e5c34a17b458e364b77be9fd.webp": [
+        {
+          "src": "/products/catalog/img-f84f147a8e504d2191991a64f4c7625c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-6df654a7ee9c415d8a256fcd88be6378.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ffd76048e5c34a17b458e364b77be9fd.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-7a4a4832c3554fe595719afe3308be94.webp": [
+        {
+          "src": "/products/catalog/img-10667b57f60c4899b07cb0d98e2934f0.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-760a1a9fe6fb458da177e3a4e45a80c1.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-7a4a4832c3554fe595719afe3308be94.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-415d45dcc1da417f8d273571d549f2a4.webp": [
+        {
+          "src": "/products/catalog/img-30daafb9f84949509b801f4f9d7e5ac6.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-02800b4f0e7a4fb1a3846552a29d805c.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-415d45dcc1da417f8d273571d549f2a4.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 101",
+        "image": "/products/catalog/img-ffd76048e5c34a17b458e364b77be9fd.webp"
+      },
+      {
+        "label": "בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-7a4a4832c3554fe595719afe3308be94.webp"
+      },
+      {
+        "label": "בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-415d45dcc1da417f8d273571d549f2a4.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/box-bed/"
+  },
+  {
+    "id": 718688,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם BASE",
+    "details": [],
+    "images": [
+      "/products/catalog/img-352837a24efa4a70bbb1854bfc824413.webp",
+      "/products/catalog/img-ec59fec010504e49a9042dc00714310b.webp",
+      "/products/catalog/img-cbe2bcb93f2a4add9ec1ac2068a35742.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-352837a24efa4a70bbb1854bfc824413.webp": [
+        {
+          "src": "/products/catalog/img-45de66b8631645a09b65c9038f2f965a.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-14a06008376e4a93ac321197ff6afc4c.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-352837a24efa4a70bbb1854bfc824413.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-ec59fec010504e49a9042dc00714310b.webp": [
+        {
+          "src": "/products/catalog/img-d8acaf7aacca490facc00879c50708d2.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d1d97ba2ee814feea732b551580f0a93.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ec59fec010504e49a9042dc00714310b.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-cbe2bcb93f2a4add9ec1ac2068a35742.webp": [
+        {
+          "src": "/products/catalog/img-f7e1ba5617e34408ad4ea900a5c02905.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-3591ac076ef44baaa93c668520de1f60.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-cbe2bcb93f2a4add9ec1ac2068a35742.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 101",
+        "image": "/products/catalog/img-ec59fec010504e49a9042dc00714310b.webp"
+      },
+      {
+        "label": "בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-cbe2bcb93f2a4add9ec1ac2068a35742.webp"
+      },
+      {
+        "label": "בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-352837a24efa4a70bbb1854bfc824413.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/base-bed/"
+  },
+  {
+    "id": 702118,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם MIAMI",
+    "details": [],
+    "images": [
+      "/products/catalog/img-4b25c8f690f14056b5c3135ea0c72bf8.webp",
+      "/products/catalog/img-65742ef3c9304cc189c866fe5c6793cf.webp",
+      "/products/catalog/img-62e71abd1e4d4b26be010b643b0b2417.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-4b25c8f690f14056b5c3135ea0c72bf8.webp": [
+        {
+          "src": "/products/catalog/img-f461478a613a46b5967a874b406bab41.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-66d830f4a2c746b59cf18264924a2225.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-4b25c8f690f14056b5c3135ea0c72bf8.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-65742ef3c9304cc189c866fe5c6793cf.webp": [
+        {
+          "src": "/products/catalog/img-0fab06cfdbf048e29cfdb44553103d84.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-9692661b1292411b9d3b8b6295e1a127.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-65742ef3c9304cc189c866fe5c6793cf.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-62e71abd1e4d4b26be010b643b0b2417.webp": [
+        {
+          "src": "/products/catalog/img-4d8461a60e6b46e3ab87c77a384c2690.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-765e919372f745858ea162f54501fb26.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-62e71abd1e4d4b26be010b643b0b2417.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-4b25c8f690f14056b5c3135ea0c72bf8.webp"
+      },
+      {
+        "label": "בד: אריג בז' 580211",
+        "image": "/products/catalog/img-65742ef3c9304cc189c866fe5c6793cf.webp"
+      },
+      {
+        "label": "בד: אריג אפור 580202",
+        "image": "/products/catalog/img-62e71abd1e4d4b26be010b643b0b2417.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/miami-bed/"
+  },
+  {
+    "id": 721339,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם GRACE",
+    "details": [],
+    "images": [
+      "/products/catalog/img-53e72b64696644a980b3b89d3e56e07b.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-53e72b64696644a980b3b89d3e56e07b.webp": [
+        {
+          "src": "/products/catalog/img-7c29a48192c846058377d130e98821e0.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-3c52908411c740268366a4b30c712038.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-53e72b64696644a980b3b89d3e56e07b.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג שמנת 62001",
+        "image": "/products/catalog/img-53e72b64696644a980b3b89d3e56e07b.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/grace-bed/"
+  },
+  {
+    "id": 701815,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם MALTA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-e0721224dff948a8981a94522e4005fa.webp",
+      "/products/catalog/img-ca3e89ee65f64c619416e963b0373a9d.webp",
+      "/products/catalog/img-f7c46985e9de4f44904ac2a3b6f8b9be.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-e0721224dff948a8981a94522e4005fa.webp": [
+        {
+          "src": "/products/catalog/img-2fbd67d7296944ff80ef750eb3f39279.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-84d687c19e2646c0af840bbceff518d4.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-e0721224dff948a8981a94522e4005fa.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-ca3e89ee65f64c619416e963b0373a9d.webp": [
+        {
+          "src": "/products/catalog/img-0d893ba92756430a9e95ad0ab098005d.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-1527fa4fce694cfcb8ae9ad3234dc9c2.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ca3e89ee65f64c619416e963b0373a9d.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-f7c46985e9de4f44904ac2a3b6f8b9be.webp": [
+        {
+          "src": "/products/catalog/img-bf1d373cb93845e4a9d6442a9dccd773.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-e0801682acc94fc8b17b5593a038a62d.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-f7c46985e9de4f44904ac2a3b6f8b9be.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 580211",
+        "image": "/products/catalog/img-e0721224dff948a8981a94522e4005fa.webp"
+      },
+      {
+        "label": "בד: אריג אפור 38036",
+        "image": "/products/catalog/img-ca3e89ee65f64c619416e963b0373a9d.webp"
+      },
+      {
+        "label": "בד: אריג שמנת 62001",
+        "image": "/products/catalog/img-f7c46985e9de4f44904ac2a3b6f8b9be.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/malta-model-bed/"
+  },
+  {
+    "id": 702792,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם VERONA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-3a9032369d2f4695a7b14a8be772ec64.webp",
+      "/products/catalog/img-6dd66180cc7444fda94e542686caafbf.webp",
+      "/products/catalog/img-8fcd7e20acb5431ca4343653a7183802.webp",
+      "/products/catalog/img-24d1618dedce40b7a3e57e52d4ba6d0f.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-3a9032369d2f4695a7b14a8be772ec64.webp": [
+        {
+          "src": "/products/catalog/img-933f69b41e694430bf765d4898c64693.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-c574139cf7be4de888deb9bfb898a194.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-3a9032369d2f4695a7b14a8be772ec64.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-6dd66180cc7444fda94e542686caafbf.webp": [
+        {
+          "src": "/products/catalog/img-7c154d059410448cba94f8f9a6f7b48c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-35c263d5491d42859421a3403b226763.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-6dd66180cc7444fda94e542686caafbf.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-8fcd7e20acb5431ca4343653a7183802.webp": [
+        {
+          "src": "/products/catalog/img-dc4842e1f900491b8d5d3ce4d375883f.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-368314e687af44fa952c7f7b704d1086.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-8fcd7e20acb5431ca4343653a7183802.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-24d1618dedce40b7a3e57e52d4ba6d0f.webp": [
+        {
+          "src": "/products/catalog/img-1550054746fc4beab9104b5e14566d39.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-f10848ee5b964289abe919f585255f63.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-24d1618dedce40b7a3e57e52d4ba6d0f.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אפור 38036",
+        "image": "/products/catalog/img-3a9032369d2f4695a7b14a8be772ec64.webp"
+      },
+      {
+        "label": "בד: אריג שמנת 62001",
+        "image": "/products/catalog/img-6dd66180cc7444fda94e542686caafbf.webp"
+      },
+      {
+        "label": "בד: קטיפה 35102",
+        "image": "/products/catalog/img-8fcd7e20acb5431ca4343653a7183802.webp"
+      },
+      {
+        "label": "בד: קטיפה 35118",
+        "image": "/products/catalog/img-24d1618dedce40b7a3e57e52d4ba6d0f.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/verona-model-bed/"
+  },
+  {
+    "id": 705408,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם SOHO",
+    "details": [],
+    "images": [
+      "/products/catalog/img-32866f8d2e6046e4a070f31b4814f6b2.webp",
+      "/products/catalog/img-817c4e3fc7cb4f869005fa56e4697c09.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-32866f8d2e6046e4a070f31b4814f6b2.webp": [
+        {
+          "src": "/products/catalog/img-2db3e6b21ce944d7b214b991f12d3697.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-7829d608257c40b1999e2b297c52cc29.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-32866f8d2e6046e4a070f31b4814f6b2.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-817c4e3fc7cb4f869005fa56e4697c09.webp": [
+        {
+          "src": "/products/catalog/img-08ac92f47f7c49f1a943316b5a39a64a.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-9f98e956681748fa90e13a618ee31d23.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-817c4e3fc7cb4f869005fa56e4697c09.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אפור כהה 580203",
+        "image": "/products/catalog/img-817c4e3fc7cb4f869005fa56e4697c09.webp"
+      },
+      {
+        "label": "בד: אריג אפור 580202",
+        "image": "/products/catalog/img-32866f8d2e6046e4a070f31b4814f6b2.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/soho-model-bed/"
+  },
+  {
+    "id": 714578,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם ARIEL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-a0e1f1e3abcc471b81c7e6ff44522eb0.webp",
+      "/products/catalog/img-89777386f45c44b6a10c4300ed171070.webp",
+      "/products/catalog/img-06c93ee4bc2c4f0092f9f106f568f476.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-a0e1f1e3abcc471b81c7e6ff44522eb0.webp": [
+        {
+          "src": "/products/catalog/img-dfcfaf774d5440fa87c7cedbb246020c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-33d6750685d44c04931c1eeb83ddd686.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-a0e1f1e3abcc471b81c7e6ff44522eb0.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-89777386f45c44b6a10c4300ed171070.webp": [
+        {
+          "src": "/products/catalog/img-61108f9376c64f5c87038844e977dc99.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-45795d0de8ff4aafa83a8b6b5f53bd05.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-89777386f45c44b6a10c4300ed171070.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-06c93ee4bc2c4f0092f9f106f568f476.webp": [
+        {
+          "src": "/products/catalog/img-e08d3a5adffa4aa8b71b9158e005e23b.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-9d4f1ef8fd2f4e02bdf707142f6eb4d2.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-06c93ee4bc2c4f0092f9f106f568f476.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 101",
+        "image": "/products/catalog/img-a0e1f1e3abcc471b81c7e6ff44522eb0.webp"
+      },
+      {
+        "label": "בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-89777386f45c44b6a10c4300ed171070.webp"
+      },
+      {
+        "label": "בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-06c93ee4bc2c4f0092f9f106f568f476.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/ariel-bed/"
+  },
+  {
+    "id": 702590,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם CERAMONY",
+    "details": [],
+    "images": [
+      "/products/catalog/img-ef83be8d923840eda15de25f39d1d502.webp",
+      "/products/catalog/img-f5497726c6684d18af015f378892ae1c.webp",
+      "/products/catalog/img-04b6ff75bdf54300a818c51a8f8f4329.webp",
+      "/products/catalog/img-5d89be5ece1243999c3590b4b46c4553.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-ef83be8d923840eda15de25f39d1d502.webp": [
+        {
+          "src": "/products/catalog/img-5d5fdf8c3ae44391a21448103f3e1331.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-6371812628e04e60ad5a24c31f1b1242.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ef83be8d923840eda15de25f39d1d502.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-f5497726c6684d18af015f378892ae1c.webp": [
+        {
+          "src": "/products/catalog/img-414f0f3499c54b83aa5b0e3d552178b0.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-87841569e1cb41468b4fa756ec666d34.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-f5497726c6684d18af015f378892ae1c.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-04b6ff75bdf54300a818c51a8f8f4329.webp": [
+        {
+          "src": "/products/catalog/img-2db2f77418f7432ea33437eb71ff278e.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-3b8e85574d94444b8456084584394182.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-04b6ff75bdf54300a818c51a8f8f4329.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-5d89be5ece1243999c3590b4b46c4553.webp": [
+        {
+          "src": "/products/catalog/img-56f11d917dd347d9b78db1b70396dae3.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-c138039ecb7148c1acce10e8d3d83a4e.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-5d89be5ece1243999c3590b4b46c4553.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אפור 38036",
+        "image": "/products/catalog/img-ef83be8d923840eda15de25f39d1d502.webp"
+      },
+      {
+        "label": "בד: אריג 556461",
+        "image": "/products/catalog/img-f5497726c6684d18af015f378892ae1c.webp"
+      },
+      {
+        "label": "בד: אריג 555403",
+        "image": "/products/catalog/img-04b6ff75bdf54300a818c51a8f8f4329.webp"
+      },
+      {
+        "label": "בד: אריג 555400",
+        "image": "/products/catalog/img-5d89be5ece1243999c3590b4b46c4553.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/bed-model-seremoni/"
+  },
+  {
+    "id": 714542,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם KWILT LOW",
+    "details": [],
+    "images": [
+      "/products/catalog/img-84039f825b914ae08f29a0bf0c40ce87.webp",
+      "/products/catalog/img-200832c2ec86494c9ff7625a42d2f9f3.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-84039f825b914ae08f29a0bf0c40ce87.webp": [
+        {
+          "src": "/products/catalog/img-782dac161a8d4b01bb796ed8d57fb954.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-78ae5e74f2cf4755a9bb1b84cdda77cd.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-84039f825b914ae08f29a0bf0c40ce87.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-200832c2ec86494c9ff7625a42d2f9f3.webp": [
+        {
+          "src": "/products/catalog/img-663c743ce13242a3b727dcf8a353a1eb.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-325063882f4c45d9a8e74d40c44c91e1.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-200832c2ec86494c9ff7625a42d2f9f3.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אפור 580202",
+        "image": "/products/catalog/img-84039f825b914ae08f29a0bf0c40ce87.webp"
+      },
+      {
+        "label": "בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-200832c2ec86494c9ff7625a42d2f9f3.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/kwilt-low-bed/"
+  },
+  {
+    "id": 717193,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם MALTA HIGH",
+    "details": [],
+    "images": [
+      "/products/catalog/img-18ca6f99ae854650be177e7daa110934.webp",
+      "/products/catalog/img-3f852fe3d0ab48408d5c67ce6650dbc6.webp",
+      "/products/catalog/img-774e62a783d547e1add1d18636eeaf3a.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-18ca6f99ae854650be177e7daa110934.webp": [
+        {
+          "src": "/products/catalog/img-679d181699c9448b9f0c409084153830.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-8d00363e86bb4c169a7e2181f37c00d2.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-18ca6f99ae854650be177e7daa110934.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-3f852fe3d0ab48408d5c67ce6650dbc6.webp": [
+        {
+          "src": "/products/catalog/img-1ddf83348c434533973915a29ffe4d1c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-a2ce20ae7076417982406301dd571fcf.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-3f852fe3d0ab48408d5c67ce6650dbc6.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-774e62a783d547e1add1d18636eeaf3a.webp": [
+        {
+          "src": "/products/catalog/img-4c671ef92491467280f74cd5c8b5a33e.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-7964d857b2334049b28de8f6089e5af7.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-774e62a783d547e1add1d18636eeaf3a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג בז' 580211",
+        "image": "/products/catalog/img-3f852fe3d0ab48408d5c67ce6650dbc6.webp"
+      },
+      {
+        "label": "בד: אריג שמנת 62001",
+        "image": "/products/catalog/img-18ca6f99ae854650be177e7daa110934.webp"
+      },
+      {
+        "label": "בד: אריג אפור 38036",
+        "image": "/products/catalog/img-774e62a783d547e1add1d18636eeaf3a.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/malta-high/"
+  },
+  {
+    "id": 702541,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם KWILT",
+    "details": [],
+    "images": [
+      "/products/catalog/img-d899d586b23a4ffb81886aba8900936f.webp",
+      "/products/catalog/img-90426d0f38b24e039e83f6e376bbadf1.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-d899d586b23a4ffb81886aba8900936f.webp": [
+        {
+          "src": "/products/catalog/img-e7658d2fee044a45b482d854ace840f6.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-fe5080bf077f488d800711f35229201f.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-d899d586b23a4ffb81886aba8900936f.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-90426d0f38b24e039e83f6e376bbadf1.webp": [
+        {
+          "src": "/products/catalog/img-727761338cca478ab386da45cba9b627.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-ab2fd649a7814db0a92872181e539711.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-90426d0f38b24e039e83f6e376bbadf1.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: סגול קטיפה 35134",
+        "image": "/products/catalog/img-d899d586b23a4ffb81886aba8900936f.webp"
+      },
+      {
+        "label": "בד: קטיפה 35102",
+        "image": "/products/catalog/img-90426d0f38b24e039e83f6e376bbadf1.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/kwilt-model-bed/"
+  },
+  {
+    "id": 702482,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם SHAHAR",
+    "details": [],
+    "images": [
+      "/products/catalog/img-59af7cf62e2442faab45a57dd718d9a9.webp",
+      "/products/catalog/img-383d8487e3bd4e0da4c0a66b693a1cce.webp",
+      "/products/catalog/img-df023169ea68419d9d4a256838300982.webp",
+      "/products/catalog/img-89e6d2d68620496bae5130848f4d0a18.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-59af7cf62e2442faab45a57dd718d9a9.webp": [
+        {
+          "src": "/products/catalog/img-84133c4fcb924ea0a3907573779cb1a8.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-4c4024a20ba34920847c4640869b32d0.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-59af7cf62e2442faab45a57dd718d9a9.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-383d8487e3bd4e0da4c0a66b693a1cce.webp": [
+        {
+          "src": "/products/catalog/img-18cd83bad1714bd38ac48c6e74f71db1.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-ff3753b39abc46c0a678b6e09cc0d737.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-383d8487e3bd4e0da4c0a66b693a1cce.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-df023169ea68419d9d4a256838300982.webp": [
+        {
+          "src": "/products/catalog/img-961caf52313a41028dad6e826ff4e350.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-6c7c79c52ecc4d1bb201edbc82ebbc60.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-df023169ea68419d9d4a256838300982.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-89e6d2d68620496bae5130848f4d0a18.webp": [
+        {
+          "src": "/products/catalog/img-84d5c0fd06e3484b84492e100a4e36aa.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-1ccef521d4e948759f4d2f5f5ae81548.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-89e6d2d68620496bae5130848f4d0a18.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: סגול קטיפה 35134",
+        "image": "/products/catalog/img-383d8487e3bd4e0da4c0a66b693a1cce.webp"
+      },
+      {
+        "label": "בד: אריג אפור 103",
+        "image": "/products/catalog/img-df023169ea68419d9d4a256838300982.webp"
+      },
+      {
+        "label": "בד: אריג שחור 107",
+        "image": "/products/catalog/img-89e6d2d68620496bae5130848f4d0a18.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/bed-model-shahar/"
+  },
+  {
+    "id": 702412,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם TALYA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-256c7e5ef1ac43279819eff86a1b7677.webp",
+      "/products/catalog/img-b12b17f8bfcd47ab99a9b0482fd2b135.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-256c7e5ef1ac43279819eff86a1b7677.webp": [
+        {
+          "src": "/products/catalog/img-e952d1a33f99485585be7710c5901599.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-c3350a07663b4c47b29063e09320744e.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-256c7e5ef1ac43279819eff86a1b7677.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-b12b17f8bfcd47ab99a9b0482fd2b135.webp": [
+        {
+          "src": "/products/catalog/img-29e680579cb44965a7aa1da8cfa1c17f.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-47f93d45866c4770b18a8d7ddf37281d.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-b12b17f8bfcd47ab99a9b0482fd2b135.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: קטיפה 35155",
+        "image": "/products/catalog/img-256c7e5ef1ac43279819eff86a1b7677.webp"
+      },
+      {
+        "label": "בד: סגול קטיפה 35134",
+        "image": "/products/catalog/img-b12b17f8bfcd47ab99a9b0482fd2b135.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/talya-model-bed/"
+  },
+  {
+    "id": 715929,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם LENNY",
+    "details": [],
+    "images": [
+      "/products/catalog/img-724636a2ede94706b43b09da9f831f37.webp",
+      "/products/catalog/img-5f3e0b985052422383849d36e80fca91.webp",
+      "/products/catalog/img-82f390279c5f4c6a841a26ab779cd427.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-724636a2ede94706b43b09da9f831f37.webp": [
+        {
+          "src": "/products/catalog/img-e9621673772e49f68d5af0b910198f69.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-efe9574ccb4441d98e9698bb75a3c0f7.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-724636a2ede94706b43b09da9f831f37.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-5f3e0b985052422383849d36e80fca91.webp": [
+        {
+          "src": "/products/catalog/img-c410651ab99e41f384a496b636abef27.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-a6baff5a92454dcfa288db68fb1663be.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-5f3e0b985052422383849d36e80fca91.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-82f390279c5f4c6a841a26ab779cd427.webp": [
+        {
+          "src": "/products/catalog/img-ded6a55925354acc8beee8c63a87f52a.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-fdb985bd5f6242e59dcbcf03414ab4af.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-82f390279c5f4c6a841a26ab779cd427.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג שמנת 62001",
+        "image": "/products/catalog/img-724636a2ede94706b43b09da9f831f37.webp"
+      },
+      {
+        "label": "בד: אריג בז' 580211",
+        "image": "/products/catalog/img-5f3e0b985052422383849d36e80fca91.webp"
+      },
+      {
+        "label": "בד: אריג אפור כהה 580203",
+        "image": "/products/catalog/img-82f390279c5f4c6a841a26ab779cd427.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/lenny-bed/"
+  },
+  {
+    "id": 722534,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם ALMA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-b455b3cd7c184071945a45a8405b693a.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-b455b3cd7c184071945a45a8405b693a.webp": [
+        {
+          "src": "/products/catalog/img-7c910c0492e04235bb28ee605af17d07.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-59b22ce3af124222ad1a7af18a21611c.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-b455b3cd7c184071945a45a8405b693a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 140/190",
+        "image": "/products/catalog/img-b455b3cd7c184071945a45a8405b693a.webp"
+      },
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-b455b3cd7c184071945a45a8405b693a.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-b455b3cd7c184071945a45a8405b693a.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/alma-bed/"
+  },
+  {
+    "id": 718815,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם ELEGANT",
+    "details": [],
+    "images": [
+      "/products/catalog/img-b43b5324c12d4e32a08874acf13486dc.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-b43b5324c12d4e32a08874acf13486dc.webp": [
+        {
+          "src": "/products/catalog/img-00afec1d2850418abbfbedddb18b4970.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-42bf9e7aff624dc4b534ec87cc9ce446.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-b43b5324c12d4e32a08874acf13486dc.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-b43b5324c12d4e32a08874acf13486dc.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-b43b5324c12d4e32a08874acf13486dc.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/elegant-bed/"
+  },
+  {
+    "id": 725313,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם GLORY",
+    "details": [],
+    "images": [
+      "/products/catalog/img-5c4e3d31425e46e080bc6dd9f197ae4a.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-5c4e3d31425e46e080bc6dd9f197ae4a.webp": [
+        {
+          "src": "/products/catalog/img-2cfe280d21f942dc8bae708b22362067.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-68fa31ce0bf241b18625d16a9f830b45.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-5c4e3d31425e46e080bc6dd9f197ae4a.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-5c4e3d31425e46e080bc6dd9f197ae4a.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-5c4e3d31425e46e080bc6dd9f197ae4a.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/glory-bed/"
+  },
+  {
+    "id": 723095,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם MELANIE",
+    "details": [],
+    "images": [
+      "/products/catalog/img-4971df0b35194693b1f63657389ced09.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-4971df0b35194693b1f63657389ced09.webp": [
+        {
+          "src": "/products/catalog/img-264a57bd0f434f36adff77112a264a5c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-87e640f4124543ac8911459b0ac146f0.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-4971df0b35194693b1f63657389ced09.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-4971df0b35194693b1f63657389ced09.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-4971df0b35194693b1f63657389ced09.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/melanie-bed/"
+  },
+  {
+    "id": 714254,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם PETRA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-2522f87f865342cc9fa35d8fc8987c10.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-2522f87f865342cc9fa35d8fc8987c10.webp": [
+        {
+          "src": "/products/catalog/img-f30f63b1161c494b87c424acef5d87a8.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-79a8da0afc834bcc9b431f9f726f6d3d.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-2522f87f865342cc9fa35d8fc8987c10.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-2522f87f865342cc9fa35d8fc8987c10.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-2522f87f865342cc9fa35d8fc8987c10.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/petra-bed/"
+  },
+  {
+    "id": 711930,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם ANJI",
+    "details": [],
+    "images": [
+      "/products/catalog/img-d8eb4440b15f40609de188669fd4a74c.webp",
+      "/products/catalog/img-86138da032894adf813210dd58656c50.webp",
+      "/products/catalog/img-99370ee4adda4797b245f3c4f596666f.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-d8eb4440b15f40609de188669fd4a74c.webp": [
+        {
+          "src": "/products/catalog/img-df1821e68f144c68bcfe4b5ef4b94411.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-784a158d427041fba985aab6f42093a2.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-d8eb4440b15f40609de188669fd4a74c.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-86138da032894adf813210dd58656c50.webp": [
+        {
+          "src": "/products/catalog/img-6bb3688c2ebe415288b56ecaa8ac6175.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-5612dd3231bf4c71b41268037f42b0cb.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-86138da032894adf813210dd58656c50.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-99370ee4adda4797b245f3c4f596666f.webp": [
+        {
+          "src": "/products/catalog/img-4aaf35f3d2de49bcbf821b9bbdc11f0f.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-82ca05a1be964f45a7332a7d04d48eb5.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-99370ee4adda4797b245f3c4f596666f.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "צבע: אבן · מידה: 180/200",
+        "image": "/products/catalog/img-86138da032894adf813210dd58656c50.webp"
+      },
+      {
+        "label": "צבע: אבן · מידה: 160/200",
+        "image": "/products/catalog/img-86138da032894adf813210dd58656c50.webp"
+      },
+      {
+        "label": "צבע: אפור · מידה: 160/200",
+        "image": "/products/catalog/img-99370ee4adda4797b245f3c4f596666f.webp"
+      },
+      {
+        "label": "צבע: אפור · מידה: 180/200",
+        "image": "/products/catalog/img-99370ee4adda4797b245f3c4f596666f.webp"
+      },
+      {
+        "label": "צבע: לבן · מידה: 160/200",
+        "image": "/products/catalog/img-d8eb4440b15f40609de188669fd4a74c.webp"
+      },
+      {
+        "label": "צבע: לבן · מידה: 180/200",
+        "image": "/products/catalog/img-d8eb4440b15f40609de188669fd4a74c.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/bed-anji/"
+  },
+  {
+    "id": 717486,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם VITTON",
+    "details": [],
+    "images": [
+      "/products/catalog/img-a048d63242704490a4cce0b34a25d74e.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-a048d63242704490a4cce0b34a25d74e.webp": [
+        {
+          "src": "/products/catalog/img-396cbc3479a1480f90c05877987a67c7.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-9489ec8f19c1442cac2f39180a57ee12.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-a048d63242704490a4cce0b34a25d74e.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 140/190",
+        "image": "/products/catalog/img-a048d63242704490a4cce0b34a25d74e.webp"
+      },
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-a048d63242704490a4cce0b34a25d74e.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-a048d63242704490a4cce0b34a25d74e.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/vitton-bed/"
+  },
+  {
+    "id": 717552,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם JULIE",
+    "details": [],
+    "images": [
+      "/products/catalog/img-9515c4fbfefd476799b6cbf40fcb4f9c.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-9515c4fbfefd476799b6cbf40fcb4f9c.webp": [
+        {
+          "src": "/products/catalog/img-cf554a38d50b457bb927ec222ebd40ba.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-788fc79d57a2419f9129358d02822238.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-9515c4fbfefd476799b6cbf40fcb4f9c.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "מידה: 140/190",
+        "image": "/products/catalog/img-9515c4fbfefd476799b6cbf40fcb4f9c.webp"
+      },
+      {
+        "label": "מידה: 160/200",
+        "image": "/products/catalog/img-9515c4fbfefd476799b6cbf40fcb4f9c.webp"
+      },
+      {
+        "label": "מידה: 180/200",
+        "image": "/products/catalog/img-9515c4fbfefd476799b6cbf40fcb4f9c.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/julie-bed/"
+  },
+  {
+    "id": 711244,
+    "category": "beds",
+    "bedType": "double",
+    "name": "מיטה זוגית דגם ROME",
+    "details": [],
+    "images": [
+      "/products/catalog/img-e459281b8b2c44fcb9813f7a47609c3b.webp",
+      "/products/catalog/img-2afbb1072b524b22be1f27402eccce0f.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-e459281b8b2c44fcb9813f7a47609c3b.webp": [
+        {
+          "src": "/products/catalog/img-c9714906628b4f76bf83798b6e1e0037.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-eecf299278174bebacd74838545b65b8.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-e459281b8b2c44fcb9813f7a47609c3b.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-2afbb1072b524b22be1f27402eccce0f.webp": [
+        {
+          "src": "/products/catalog/img-87fa348002d54b1692e7b343f2954818.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-200ae1de984443cfacefc6c57ba28f2d.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-2afbb1072b524b22be1f27402eccce0f.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג 13161",
+        "image": "/products/catalog/img-2afbb1072b524b22be1f27402eccce0f.webp"
+      },
+      {
+        "label": "בד: אריג 13172",
+        "image": "/products/catalog/img-e459281b8b2c44fcb9813f7a47609c3b.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/rome-bed/"
+  },
+  {
+    "id": 724826,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם SOL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-cac973f112934c3f9e49fe718a1c9deb.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-cac973f112934c3f9e49fe718a1c9deb.webp": [
+        {
+          "src": "/products/catalog/img-5bd582bdf39f4b14910849cf772a3c0f.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-5df12cc88836416f80cbdfa6b68314fa.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-cac973f112934c3f9e49fe718a1c9deb.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג בז' 26400",
+        "image": "/products/catalog/img-cac973f112934c3f9e49fe718a1c9deb.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג אבן בהיר 62002",
+        "image": "/products/catalog/img-cac973f112934c3f9e49fe718a1c9deb.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/sol-jewish/"
+  },
+  {
+    "id": 724840,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם HALO",
+    "details": [],
+    "images": [
+      "/products/catalog/img-89ef3037197e4c66912207fe627d4a3b.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-89ef3037197e4c66912207fe627d4a3b.webp": [
+        {
+          "src": "/products/catalog/img-d377e3c4b515414e8cfff7b01a65e391.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-81c75e56ec1841028968c4f2a6b47ab5.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-89ef3037197e4c66912207fe627d4a3b.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אפור 103",
+        "image": "/products/catalog/img-89ef3037197e4c66912207fe627d4a3b.webp"
+      },
+      {
+        "label": "בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-89ef3037197e4c66912207fe627d4a3b.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/halo-jewish/"
+  },
+  {
+    "id": 722972,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם BELL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-bfde13edcbe545de856087723ba72b03.webp",
+      "/products/catalog/img-30d83366f67242999b7cffe2e742af1b.webp",
+      "/products/catalog/img-8dc1a8f3b86f4434ad92bf7c3e0f3c07.webp",
+      "/products/catalog/img-ed67f5409f034bd3ac6a5092da5feacf.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-bfde13edcbe545de856087723ba72b03.webp": [
+        {
+          "src": "/products/catalog/img-f619ddebc3614438b3a4145c2468143c.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-7d9794e209074882bca7fb6ff6c15907.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-bfde13edcbe545de856087723ba72b03.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-30d83366f67242999b7cffe2e742af1b.webp": [
+        {
+          "src": "/products/catalog/img-692869f311d04314b3ceed1d8ecf9146.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-ba315a5d8eb7450bbc9f78e3b401e549.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-30d83366f67242999b7cffe2e742af1b.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-8dc1a8f3b86f4434ad92bf7c3e0f3c07.webp": [
+        {
+          "src": "/products/catalog/img-b07650c8bcb843b1a27e98e06bd686ca.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-4ecd87cae4d740048f5ce144cc8f586d.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-8dc1a8f3b86f4434ad92bf7c3e0f3c07.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-ed67f5409f034bd3ac6a5092da5feacf.webp": [
+        {
+          "src": "/products/catalog/img-ce20c6246ad74fbdad90cb63b72bdcf1.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-e5c6c56db3744c0c82d0460f46221fe5.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ed67f5409f034bd3ac6a5092da5feacf.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג בז' 26400",
+        "image": "/products/catalog/img-30d83366f67242999b7cffe2e742af1b.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג בז' 26400",
+        "image": "/products/catalog/img-8dc1a8f3b86f4434ad92bf7c3e0f3c07.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 43552",
+        "image": "/products/catalog/img-ed67f5409f034bd3ac6a5092da5feacf.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 43552",
+        "image": "/products/catalog/img-bfde13edcbe545de856087723ba72b03.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג שמנת 62001",
+        "image": "/products/catalog/img-ed67f5409f034bd3ac6a5092da5feacf.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג שמנת 62001",
+        "image": "/products/catalog/img-bfde13edcbe545de856087723ba72b03.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/bell-jewish/"
+  },
+  {
+    "id": 722814,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם YOSEF",
+    "details": [],
+    "images": [
+      "/products/catalog/img-5724420506d54913b999f22b60ce47d1.webp",
+      "/products/catalog/img-8005a40bf79e46c3b4dc76716414d7e3.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-5724420506d54913b999f22b60ce47d1.webp": [
+        {
+          "src": "/products/catalog/img-b36e47e9eb414586ae80bfca0802f421.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-0e754bc1e86b411e8a4e153b4fbdb5d4.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-5724420506d54913b999f22b60ce47d1.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-8005a40bf79e46c3b4dc76716414d7e3.webp": [
+        {
+          "src": "/products/catalog/img-4d67750291954cfdac37a4657b7d4a7b.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-a1b537980bce4196b617c8bd753c7e8f.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-8005a40bf79e46c3b4dc76716414d7e3.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג VLNT2",
+        "image": "/products/catalog/img-5724420506d54913b999f22b60ce47d1.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג VLNT2",
+        "image": "/products/catalog/img-8005a40bf79e46c3b4dc76716414d7e3.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג VLNT10",
+        "image": "/products/catalog/img-5724420506d54913b999f22b60ce47d1.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג VLNT10",
+        "image": "/products/catalog/img-8005a40bf79e46c3b4dc76716414d7e3.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/yosef-jewish/"
+  },
+  {
+    "id": 718528,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם TZVITA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-e3cec2cb24c04728ba5d76f2915e9772.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-e3cec2cb24c04728ba5d76f2915e9772.webp": [
+        {
+          "src": "/products/catalog/img-b9b7a381e1ec4827a4a5fa8510d06f8a.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-8e1f7c7612d747dba9cc469f40decccd.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-e3cec2cb24c04728ba5d76f2915e9772.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "בד: אריג אפור 103",
+        "image": "/products/catalog/img-e3cec2cb24c04728ba5d76f2915e9772.webp"
+      },
+      {
+        "label": "בד: אריג שחור 107",
+        "image": "/products/catalog/img-e3cec2cb24c04728ba5d76f2915e9772.webp"
+      },
+      {
+        "label": "בד: אריג בז' שמנת 2002",
+        "image": "/products/catalog/img-e3cec2cb24c04728ba5d76f2915e9772.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/tzvita-jewish/"
+  },
+  {
+    "id": 718600,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם CLASS",
+    "details": [],
+    "images": [
+      "/products/catalog/img-2f27b46411af4a5995ec256910178f63.webp",
+      "/products/catalog/img-6572bb367c3e42dc85b1fb99085832e5.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-2f27b46411af4a5995ec256910178f63.webp": [
+        {
+          "src": "/products/catalog/img-73c307d570994c36a85b846e7504a45e.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-ed3103b75f1b4779808663dbd698edbf.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-2f27b46411af4a5995ec256910178f63.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-6572bb367c3e42dc85b1fb99085832e5.webp": [
+        {
+          "src": "/products/catalog/img-9569a3f7be34467bb681153f366ed15b.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-636d78c7541442298e9e356b2c0702d9.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-6572bb367c3e42dc85b1fb99085832e5.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-2f27b46411af4a5995ec256910178f63.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג בז' 580211",
+        "image": "/products/catalog/img-2f27b46411af4a5995ec256910178f63.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג בז' מוקה 580213",
+        "image": "/products/catalog/img-2f27b46411af4a5995ec256910178f63.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-6572bb367c3e42dc85b1fb99085832e5.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג בז' 580211",
+        "image": "/products/catalog/img-6572bb367c3e42dc85b1fb99085832e5.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג בז' מוקה 580213",
+        "image": "/products/catalog/img-6572bb367c3e42dc85b1fb99085832e5.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/class-jewish/"
+  },
+  {
+    "id": 718586,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם VICTORIA",
+    "details": [],
+    "images": [
+      "/products/catalog/img-1c933d05890d4fb1902a4be5c5a2b6d3.webp",
+      "/products/catalog/img-9aaec20fca644a3885b3fbb67644a093.webp",
+      "/products/catalog/img-03c9f0c54bbb4a4bbcd1cd5f31c491a1.webp",
+      "/products/catalog/img-615a8119acbe42019415330899ba4da5.webp",
+      "/products/catalog/img-ba0e19121a12451eaa890aa470e13f40.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-1c933d05890d4fb1902a4be5c5a2b6d3.webp": [
+        {
+          "src": "/products/catalog/img-45289cdd308840a7999b29b651bab738.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-6a04bfdfc9b64163b5b2bc110c9cfe33.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-1c933d05890d4fb1902a4be5c5a2b6d3.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-9aaec20fca644a3885b3fbb67644a093.webp": [
+        {
+          "src": "/products/catalog/img-173684c312b0430981cf92151e07fef9.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-282722e8aa4c4119aef41fc35cdb8aef.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-9aaec20fca644a3885b3fbb67644a093.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-03c9f0c54bbb4a4bbcd1cd5f31c491a1.webp": [
+        {
+          "src": "/products/catalog/img-28285deab12e425ca6177367d8858db4.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-7d6c24862d19439889763c015da62b7d.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-03c9f0c54bbb4a4bbcd1cd5f31c491a1.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-615a8119acbe42019415330899ba4da5.webp": [
+        {
+          "src": "/products/catalog/img-40417d0e9c58434bb69c61a04c54cb9f.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-749d9a4584e945a6a700e710c14b7f99.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-615a8119acbe42019415330899ba4da5.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-ba0e19121a12451eaa890aa470e13f40.webp": [
+        {
+          "src": "/products/catalog/img-6fb230b69bc24f09a2376f10d1f099db.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d4bbc1642b744cf9b96adc0ad0d5a269.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ba0e19121a12451eaa890aa470e13f40.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-9aaec20fca644a3885b3fbb67644a093.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג לבן שמנת 580200",
+        "image": "/products/catalog/img-03c9f0c54bbb4a4bbcd1cd5f31c491a1.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג אפור בהיר 545552",
+        "image": "/products/catalog/img-615a8119acbe42019415330899ba4da5.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 545553",
+        "image": "/products/catalog/img-615a8119acbe42019415330899ba4da5.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג אפור בהיר 545552",
+        "image": "/products/catalog/img-ba0e19121a12451eaa890aa470e13f40.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 545553",
+        "image": "/products/catalog/img-ba0e19121a12451eaa890aa470e13f40.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/victoria-jewish/"
+  },
+  {
+    "id": 718127,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם DOLCE",
+    "details": [],
+    "images": [
+      "/products/catalog/img-537ef30b00a24a89971b7c6d1c4423ce.webp",
+      "/products/catalog/img-910d87b9196641c6afeec48b81b0a799.webp",
+      "/products/catalog/img-3782efed9e304b04858e8d5884a01df8.webp",
+      "/products/catalog/img-9c7d94e7cac44e8cbcdd1b9170a454ce.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-537ef30b00a24a89971b7c6d1c4423ce.webp": [
+        {
+          "src": "/products/catalog/img-c87409f80c094781b3a3afd67805e558.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-dae3b9f0c9fc465e8a90e7abb1c9d486.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-537ef30b00a24a89971b7c6d1c4423ce.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-910d87b9196641c6afeec48b81b0a799.webp": [
+        {
+          "src": "/products/catalog/img-52f2478152af4e7cbfc41c25b7c11779.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-c9b220f481624c7bb64c404306dab946.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-910d87b9196641c6afeec48b81b0a799.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-3782efed9e304b04858e8d5884a01df8.webp": [
+        {
+          "src": "/products/catalog/img-3dd10f5109604f4e865285d318a63955.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-b0903e4a1bf940e5b9d8f84ec650d448.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-3782efed9e304b04858e8d5884a01df8.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-9c7d94e7cac44e8cbcdd1b9170a454ce.webp": [
+        {
+          "src": "/products/catalog/img-399e7de9006344d592fbe28586e075e0.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d12733cac4b9400fac15acd07648ee0e.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-9c7d94e7cac44e8cbcdd1b9170a454ce.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג בז' שמנת 2002",
+        "image": "/products/catalog/img-537ef30b00a24a89971b7c6d1c4423ce.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-910d87b9196641c6afeec48b81b0a799.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-910d87b9196641c6afeec48b81b0a799.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 1741",
+        "image": "/products/catalog/img-910d87b9196641c6afeec48b81b0a799.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-3782efed9e304b04858e8d5884a01df8.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-3782efed9e304b04858e8d5884a01df8.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג בז' שמנת 2002",
+        "image": "/products/catalog/img-9c7d94e7cac44e8cbcdd1b9170a454ce.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 1741",
+        "image": "/products/catalog/img-3782efed9e304b04858e8d5884a01df8.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/dolce-jewish/"
+  },
+  {
+    "id": 718473,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם CERAMONY",
+    "details": [],
+    "images": [
+      "/products/catalog/img-b664f1050a0449be99caf1750bfd1ca8.webp",
+      "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-b664f1050a0449be99caf1750bfd1ca8.webp": [
+        {
+          "src": "/products/catalog/img-9b3ee8af6d4449f4bc196affd7bd8038.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-c3dd2ca3141747419c5bda0ce6fc3752.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-b664f1050a0449be99caf1750bfd1ca8.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp": [
+        {
+          "src": "/products/catalog/img-a38340610b1f4ba1b3d186d4fb6c3b09.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-946d1d5ca7eb43e2b29000fc9d0d1bec.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 555400",
+        "image": "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 555403",
+        "image": "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 556461",
+        "image": "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה+גב חצוי · בד: אריג 555400",
+        "image": "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה+גב חצוי · בד: אריג 555403",
+        "image": "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה+גב חצוי · בד: אריג 556461",
+        "image": "/products/catalog/img-ef385be5c1574cb88ff77c17d266436f.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 555400",
+        "image": "/products/catalog/img-b664f1050a0449be99caf1750bfd1ca8.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 555403",
+        "image": "/products/catalog/img-b664f1050a0449be99caf1750bfd1ca8.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 556461",
+        "image": "/products/catalog/img-b664f1050a0449be99caf1750bfd1ca8.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/ceramony-jewish/"
+  },
+  {
+    "id": 718517,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם ARIEL",
+    "details": [],
+    "images": [
+      "/products/catalog/img-efd9244e46144cca841c422342ec3ca5.webp",
+      "/products/catalog/img-584398176e3a446c85204ffddc003931.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-efd9244e46144cca841c422342ec3ca5.webp": [
+        {
+          "src": "/products/catalog/img-11d08c14121a41508b15067df7f09102.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-c4935835a46e4baca912dc385e6ee822.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-efd9244e46144cca841c422342ec3ca5.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-584398176e3a446c85204ffddc003931.webp": [
+        {
+          "src": "/products/catalog/img-e7b880dbd2c6425f98f81dfc8639d9a0.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-0652e4c54bf84980a1a6186adf89ace4.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-584398176e3a446c85204ffddc003931.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-efd9244e46144cca841c422342ec3ca5.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-efd9244e46144cca841c422342ec3ca5.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג אפור בהיר 1703",
+        "image": "/products/catalog/img-584398176e3a446c85204ffddc003931.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג אפור כהה 1706",
+        "image": "/products/catalog/img-584398176e3a446c85204ffddc003931.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/ariel-jewish/"
+  },
+  {
+    "id": 718496,
+    "category": "beds",
+    "bedType": "jewish",
+    "name": "מיטה יהודית דגם ROME",
+    "details": [],
+    "images": [
+      "/products/catalog/img-9753841f242a456b9ca36e0bf6c18604.webp",
+      "/products/catalog/img-37d5d55e0eed40f0a9bd8efa92998c29.webp"
+    ],
+    "imageVariants": {
+      "/products/catalog/img-9753841f242a456b9ca36e0bf6c18604.webp": [
+        {
+          "src": "/products/catalog/img-fb4d45cf03734cb1b7c4605f2e44df9e.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-d8659248e9714ec79a5cedf52039e596.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-9753841f242a456b9ca36e0bf6c18604.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "/products/catalog/img-37d5d55e0eed40f0a9bd8efa92998c29.webp": [
+        {
+          "src": "/products/catalog/img-f6bb6a03f1c84aaf8179125c294eeb1a.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/products/catalog/img-02e2d1a76f4448749a11b7261f7b91be.webp",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "src": "/products/catalog/img-37d5d55e0eed40f0a9bd8efa92998c29.webp",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    "bedVariants": [
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 2114",
+        "image": "/products/catalog/img-9753841f242a456b9ca36e0bf6c18604.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 2115",
+        "image": "/products/catalog/img-9753841f242a456b9ca36e0bf6c18604.webp"
+      },
+      {
+        "label": "הפרדה: חזית שלמה · בד: אריג 2119",
+        "image": "/products/catalog/img-9753841f242a456b9ca36e0bf6c18604.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 2114",
+        "image": "/products/catalog/img-37d5d55e0eed40f0a9bd8efa92998c29.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 2115",
+        "image": "/products/catalog/img-37d5d55e0eed40f0a9bd8efa92998c29.webp"
+      },
+      {
+        "label": "הפרדה: חזית חצויה · בד: אריג 2119",
+        "image": "/products/catalog/img-37d5d55e0eed40f0a9bd8efa92998c29.webp"
+      }
+    ],
+    "sourceUrl": "https://nammal-sleep.co.il/product/rome-jewish/"
+  }
+]

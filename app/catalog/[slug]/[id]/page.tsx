@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { BedVariantViewer } from "@/components/bed-variant-viewer";
 import { ProductImage } from "@/components/product-image";
+import { ProductGalleryViewer } from "@/components/product-gallery-viewer";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProduct, products } from "@/lib/products";
@@ -48,7 +50,8 @@ export default async function ProductPage({ params }: Props) {
             <p>המידות בס״מ. לבירור המידה המתאימה, צרו קשר.</p>
           </div>
         )}
-        <div className="product-gallery">
+        {product.bedVariants ? <BedVariantViewer product={product} whatsappBase={business.whatsapp} /> : <>
+        {product.bedroomGroups ? <ProductGalleryViewer product={product} /> : <div className="product-gallery">
           {product.images.map((src, index) => {
             const focus = product.imageFocus?.[src];
             const original = product.imageVariants?.[src]?.at(-1);
@@ -59,6 +62,7 @@ export default async function ProductPage({ params }: Props) {
               : undefined;
             return (
               <div
+                id={`photo-${index}`}
                 className={`product-image${index === 0 ? " product-image-main" : ""}${src.startsWith("/products/edited/") ? " product-image-edited" : ""}${focus ? " product-image-focused" : ""}`}
                 style={displayAspect ? { aspectRatio: displayAspect } : undefined}
                 key={`${src}-${index}`}
@@ -67,7 +71,7 @@ export default async function ProductPage({ params }: Props) {
               </div>
             );
           })}
-        </div>
+        </div>}
         <div className="product-info">
           {product.details.length > 0 && <div className="product-details">
             <h2>פרטי המוצר</h2>
@@ -75,6 +79,7 @@ export default async function ProductPage({ params }: Props) {
           </div>}
           <a className="button button-primary product-contact" href={whatsapp} target="_blank" rel="noopener noreferrer">לפרטים בוואטסאפ</a>
         </div>
+        </>}
       </div>
     </section>
   );
