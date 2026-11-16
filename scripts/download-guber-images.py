@@ -15,11 +15,14 @@ from pathlib import Path
 
 from PIL import Image
 
+from guber_image_selection import selected_images
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/supplier/guber-products.json"
 MANIFEST = ROOT / "data/supplier/guber-image-manifest.json"
 DESTINATION = ROOT / "public/products/catalog"
+SELECTION = ROOT / "data/supplier/guber-wardrobe-selection.json"
 
 
 def save_manifest(records: dict[str, dict]) -> None:
@@ -62,7 +65,8 @@ def main() -> None:
         parser.error("Delay must be at least two seconds")
 
     source = json.loads(SOURCE.read_text())
-    urls = sorted({image["src"] for product in source["products"] for image in product["images"]})
+    images_by_product = selected_images(source["products"], SELECTION)
+    urls = sorted({image["src"] for images in images_by_product.values() for image in images})
     records: dict[str, dict] = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
     pending = [url for url in urls if url not in records or not (ROOT / "public" / records[url]["path"].lstrip("/")).is_file()]
     if args.limit:

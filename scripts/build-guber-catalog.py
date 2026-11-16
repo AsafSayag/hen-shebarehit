@@ -12,11 +12,14 @@ from pathlib import Path
 
 from PIL import Image, ImageOps
 
+from guber_image_selection import selected_images
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/supplier/guber-products.json"
 MANIFEST = ROOT / "data/supplier/guber-image-manifest.json"
 OUTPUT = ROOT / "data/guber-products.json"
+SELECTION = ROOT / "data/supplier/guber-wardrobe-selection.json"
 SIZES = (480, 960)
 DIMENSION_LIMITS = {"עומק": 150, "גובה": 400, "רוחב": 1000, "אורך": 1000}
 TABLE_LABELS = {"מידות", 'מידות בס"מ', "גובה", "רוחב", "עומק", "עומק/רוחב", "אורך / עומק", "תיאור מוצר"}
@@ -79,8 +82,9 @@ def main() -> None:
             raise RuntimeError(f"Group {group}: {actual} products, expected {expected}")
     if any(not product["name"].strip() or not product["images"] for product in source):
         raise RuntimeError("A source product has no title or images")
+    images_by_product = selected_images(source, SELECTION)
     manifest = json.loads(MANIFEST.read_text())
-    urls = {image["src"] for product in source for image in product["images"]}
+    urls = {image["src"] for images in images_by_product.values() for image in images}
     missing = sorted(urls - manifest.keys())
     if missing:
         raise RuntimeError(f"{len(missing)} images have not been downloaded; first: {missing[0]}")
@@ -102,7 +106,7 @@ def main() -> None:
         seen: set[str] = set()
         images: list[str] = []
         variants: dict[str, list[dict]] = {}
-        for image in product["images"]:
+        for image in images_by_product[product["id"]]:
             url = image["src"]
             if url in seen:
                 continue
