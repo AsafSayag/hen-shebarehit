@@ -568,72 +568,142 @@
   },
   {
     "id": 985971064,
-    "name": "ארון פתיחה דגם פנורמה",
+    "name": "ארון פתיחה דגם נוגה",
     "original": "/products/catalog/img-945eb5f060805a33c3177c9c.jpeg",
     "edited": "/products/edited/img-b4d84715b89dafed141c50273ebef4fb.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 900876880,
-    "name": "ארון פתיחה דגם פליקס",
+    "name": "ארון פתיחה דגם כרמל",
     "original": "/products/catalog/img-08a02c23d4a754a449e0a95b.jpeg",
     "edited": "/products/edited/img-d765bcb2b78536b5e5160ad5a0ad9628.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 947825576,
-    "name": "ארון דלתות דגם סקיצה 28",
+    "name": "ארון פתיחה דגם תבור",
     "original": "/products/catalog/img-a384d9f1dbc5fec3a1bb40a4.webp",
     "edited": "/products/edited/img-4a5050caa84abf61011122715417569a.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 949194922,
-    "name": "ארון דלתות דגם סקיצה 47",
+    "name": "ארון פתיחה דגם נווה",
     "original": "/products/catalog/img-9d75fef885b00405dcf5c631.webp",
     "edited": "/products/edited/img-673bdf72b71c0f98cf59a4ee61f77a81.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 921732084,
-    "name": "ארון דלתות דגם סקיצה 26",
+    "name": "ארון פתיחה דגם לביא",
     "original": "/products/catalog/img-f75dae227288436551b68ca8.webp",
     "edited": "/products/edited/img-5c8afb8777b4197b5c655157e963e54d.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 989623669,
-    "name": "ארון דלתות דגם סקיצה 9",
+    "name": "ארון פתיחה דגם גפן",
     "original": "/products/catalog/img-4993d3d29a4cc2702bd4be21.png",
     "edited": "/products/edited/img-432615631a69ab98e00e931a02f6de54.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 987771712,
-    "name": "ארון דלתות דגם סקיצה 6",
+    "name": "ארון פתיחה דגם שקד",
     "original": "/products/catalog/img-dd36dfd5f49cbeb38662028d.png",
     "edited": "/products/edited/img-ef45cfa9e02ddd6d0e0c5ea0a67fc617.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 917275233,
-    "name": "ארון דלתות דגם סקיצה 8",
+    "name": "ארון פתיחה דגם רותם",
     "original": "/products/catalog/img-4974f8b3de69085e85da64cc.png",
     "edited": "/products/edited/img-7b4a996bd9d874d9011591ea0e47028b.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 906673346,
-    "name": "ארון דלתות דגם סקיצה 24",
+    "name": "ארון פתיחה דגם רמון",
     "original": "/products/catalog/img-f6455090bcc9f7c299e4d3cc.webp",
     "edited": "/products/edited/img-ddad8a8cf9a634ecaf0608be318bc87a.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   },
   {
     "id": 930380205,
-    "name": "ארון דלתות דגם סקיצה 7",
+    "name": "ארון פתיחה דגם ארז",
     "original": "/products/catalog/img-df593c06b60a5b63ccbc8fdf.png",
     "edited": "/products/edited/img-bf6cdc85cba858f94cfd9d6caff5b127.webp",
     "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 956535597,
+    "name": "ארון פתיחה דגם רגב",
+    "original": "/products/catalog/img-2911d5122d3b199795509949.webp",
+    "edited": "/products/edited/img-f91af2b7ce5413517a084f694c4311da.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 937342913,
+    "name": "ארון פתיחה דגם יערה",
+    "original": "/products/catalog/img-983ec00f85d9e1b709be77ce.png",
+    "edited": "/products/edited/img-bba9549e55065200a4c1d00b6adea4c7.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 982753697,
+    "name": "ארון פתיחה דגם ספיר",
+    "original": "/products/catalog/img-820c5793b2eb5e5fe124ba28.png",
+    "edited": "/products/edited/img-e0aa602bf36eec7fa98f7481791a661a.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 986785535,
+    "name": "ארון פתיחה דגם שוהם",
+    "original": "/products/catalog/img-b3c4c80666ddaea05a2e2559.webp",
+    "edited": "/products/edited/img-42ebb27e45f479c1de1374bd3f3bff1e.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 990416908,
+    "name": "ארון פתיחה דגם אלמוג",
+    "original": "/products/catalog/img-078e5affb586a89e4e7f00ce.webp",
+    "edited": "/products/edited/img-c549f8a03de8616056f7eabb911b6e09.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 944813311,
+    "name": "ארון פתיחה דגם קדם",
+    "original": "/products/catalog/img-4063e8623cfa04bf25395986.webp",
+    "edited": "/products/edited/img-d25c178631989d15d7c5d7b410e5f17c.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 966864327,
+    "name": "ארון פתיחה דגם ניצן",
+    "original": "/products/catalog/img-a0402f2f1c6c9ff3d39a6fba.webp",
+    "edited": "/products/edited/img-f55bfde28f0e22c802cac639d3d02ffa.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 907227376,
+    "name": "ארון פתיחה דגם תמר",
+    "original": "/products/catalog/img-4860670bb3214a35e30202d2.png",
+    "edited": "/products/edited/img-de27d0fd78053cfc42b3471a15bac56d.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 919745833,
+    "name": "ארון פתיחה דגם גלעד",
+    "original": "/products/catalog/img-b8b57a24f8ac597431ac7d64.png",
+    "edited": "/products/edited/img-b723735144be3f2ebe5b25fe8081a109.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
+  },
+  {
+    "id": 951767344,
+    "name": "ארון פתיחה דגם דולב",
+    "original": "/products/catalog/img-3cb11640113c2ad2e2844bdc.png",
+    "edited": "/products/edited/img-2ddf26653b6e1058450c9fabf53ed5d1.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, drawers, handles, glass, finish, proportions and perspective."
   }
 ]
