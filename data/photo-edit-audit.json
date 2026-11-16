@@ -565,5 +565,75 @@
     "original": "/products/catalog/img-0d6db44c545d48d5a88fdf1feb648493.webp",
     "edited": "/products/edited/img-06a3fe844b2848c195391e5e73818442.webp",
     "sourceUrl": "https://drive.google.com/file/d/15WTmpappVRNilBcwsG1e_SwZjqxs5CfQ/view?usp=drivesdk"
+  },
+  {
+    "id": 985971064,
+    "name": "ארון פתיחה דגם פנורמה",
+    "original": "/products/catalog/img-945eb5f060805a33c3177c9c.jpeg",
+    "edited": "/products/edited/img-b4d84715b89dafed141c50273ebef4fb.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 900876880,
+    "name": "ארון פתיחה דגם פליקס",
+    "original": "/products/catalog/img-08a02c23d4a754a449e0a95b.jpeg",
+    "edited": "/products/edited/img-d765bcb2b78536b5e5160ad5a0ad9628.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 947825576,
+    "name": "ארון דלתות דגם סקיצה 28",
+    "original": "/products/catalog/img-a384d9f1dbc5fec3a1bb40a4.webp",
+    "edited": "/products/edited/img-4a5050caa84abf61011122715417569a.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 949194922,
+    "name": "ארון דלתות דגם סקיצה 47",
+    "original": "/products/catalog/img-9d75fef885b00405dcf5c631.webp",
+    "edited": "/products/edited/img-673bdf72b71c0f98cf59a4ee61f77a81.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 921732084,
+    "name": "ארון דלתות דגם סקיצה 26",
+    "original": "/products/catalog/img-f75dae227288436551b68ca8.webp",
+    "edited": "/products/edited/img-5c8afb8777b4197b5c655157e963e54d.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 989623669,
+    "name": "ארון דלתות דגם סקיצה 9",
+    "original": "/products/catalog/img-4993d3d29a4cc2702bd4be21.png",
+    "edited": "/products/edited/img-432615631a69ab98e00e931a02f6de54.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 987771712,
+    "name": "ארון דלתות דגם סקיצה 6",
+    "original": "/products/catalog/img-dd36dfd5f49cbeb38662028d.png",
+    "edited": "/products/edited/img-ef45cfa9e02ddd6d0e0c5ea0a67fc617.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 917275233,
+    "name": "ארון דלתות דגם סקיצה 8",
+    "original": "/products/catalog/img-4974f8b3de69085e85da64cc.png",
+    "edited": "/products/edited/img-7b4a996bd9d874d9011591ea0e47028b.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 906673346,
+    "name": "ארון דלתות דגם סקיצה 24",
+    "original": "/products/catalog/img-f6455090bcc9f7c299e4d3cc.webp",
+    "edited": "/products/edited/img-ddad8a8cf9a634ecaf0608be318bc87a.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
+  },
+  {
+    "id": 930380205,
+    "name": "ארון דלתות דגם סקיצה 7",
+    "original": "/products/catalog/img-df593c06b60a5b63ccbc8fdf.png",
+    "edited": "/products/edited/img-bf6cdc85cba858f94cfd9d6caff5b127.webp",
+    "editPrompt": "Replace only the surrounding room with a bright warm-neutral premium interior; preserve the exact wardrobe design, doors, handles, finish, proportions and perspective."
   }
 ]
