@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/supplier/guber-products.json"
 MANIFEST = ROOT / "data/supplier/guber-image-manifest.json"
 OUTPUT = ROOT / "data/guber-products.json"
+NAME_OVERRIDES = ROOT / "data/catalog-name-overrides.json"
 SELECTION = ROOT / "data/supplier/guber-wardrobe-selection.json"
 SIZES = (480, 960)
 DIMENSION_LIMITS = {"עומק": 150, "גובה": 400, "רוחב": 1000, "אורך": 1000}
@@ -100,6 +101,12 @@ def main() -> None:
     public_ids = [public_id(product["id"]) for product in source]
     if len(set(public_ids)) != len(public_ids):
         raise RuntimeError("Generated public product IDs are not unique")
+    name_overrides = json.loads(NAME_OVERRIDES.read_text())
+    unknown_ids = set(name_overrides) - {str(product_id) for product_id in public_ids}
+    if unknown_ids:
+        raise ValueError(f"Name overrides refer to unknown products: {sorted(unknown_ids)}")
+    if any(not isinstance(name, str) or not name.strip() for name in name_overrides.values()):
+        raise ValueError("Name overrides must be nonempty strings")
     catalog = []
     suspect_dimensions = 0
     for product in source:
@@ -123,6 +130,9 @@ def main() -> None:
             details.append("למידה המדויקת, צרו קשר.")
         if not details:
             details = ["לפרטים על המידות והאפשרויות של הדגם, צרו קשר."]
+        product_id = public_id(product["id"])
+        if str(product_id) in name_overrides:
+            details = [line for line in details if line not in {"ארון סקיצה", "ארון פתיחה פליקס"}]
         if any(re.search(r"₪|ש[\"״]ח|מחיר|הנחה|תוספת|%|\d{1,3},\d{3}", line) for line in details):
             raise ValueError(f"Price-like content in product {product['id']}")
         name = product["name"]
@@ -131,8 +141,9 @@ def main() -> None:
             if not doors:
                 raise ValueError(f"Cannot distinguish duplicate title for product {product['id']}")
             name += " · " + doors.group()
+        name = name_overrides.get(str(product_id), name)
         catalog.append({
-            "id": public_id(product["id"]),
+            "id": product_id,
             "category": "bedrooms",
             "bedroomGroups": product["groups"],
             "name": name,
@@ -140,6 +151,10 @@ def main() -> None:
             "images": images,
             "imageVariants": variants,
         })
+
+    duplicate_names = [name for name, count in Counter(product["name"] for product in catalog).items() if count > 1]
+    if duplicate_names:
+        raise ValueError(f"Public product names must be unique: {duplicate_names}")
 
     OUTPUT.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
     print(f"Wrote {len(catalog)} products to {OUTPUT}; omitted {suspect_dimensions} suspect dimension lines", flush=True)
