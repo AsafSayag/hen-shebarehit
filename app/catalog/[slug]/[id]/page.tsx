@@ -6,6 +6,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProduct, products } from "@/lib/products";
 import { business, getCategory } from "@/lib/site";
+import { canonicalMetadata } from "@/lib/site-origin";
 
 type Props = { params: Promise<{ slug: string; id: string }> };
 
@@ -16,7 +17,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, id } = await params;
   const product = getProduct(slug, id);
-  return { title: product?.name ?? "מוצר" };
+  return { title: product?.name ?? "מוצר", ...canonicalMetadata(`/catalog/${slug}/${id}`) };
 }
 
 export default async function ProductPage({ params }: Props) {

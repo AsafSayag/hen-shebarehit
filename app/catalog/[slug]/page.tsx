@@ -6,6 +6,7 @@ import { CategoryTile } from "@/components/category-tile";
 import { ProductCard } from "@/components/product-card";
 import { productsForCategory } from "@/lib/products";
 import { bedroomSubcategories, categories, getCategory } from "@/lib/site";
+import { canonicalMetadata } from "@/lib/site-origin";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -16,7 +17,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const category = getCategory(slug);
-  return { title: category?.title ?? "קטגוריה" };
+  return { title: category?.title ?? "קטגוריה", ...canonicalMetadata(`/catalog/${slug}`) };
 }
 
 export default async function CategoryPage({ params }: Props) {

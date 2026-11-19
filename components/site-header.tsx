@@ -5,6 +5,7 @@ const navigation = [
   { href: "/", label: "בית" },
   { href: "/catalog", label: "קטלוג" },
   { href: "/about", label: "אודות" },
+  { href: "/reviews", label: "ביקורות" },
   { href: "/contact", label: "יצירת קשר" },
 ];
 

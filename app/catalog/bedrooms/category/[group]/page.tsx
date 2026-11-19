@@ -5,6 +5,7 @@ import { CategoryIcon } from "@/components/category-icon";
 import { ProductCard } from "@/components/product-card";
 import { productsForCategory } from "@/lib/products";
 import { bedroomSubcategories } from "@/lib/site";
+import { canonicalMetadata } from "@/lib/site-origin";
 
 type Props = { params: Promise<{ group: string }> };
 
@@ -15,7 +16,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { group } = await params;
   const subcategory = bedroomSubcategories.find((item) => item.slug === group);
-  return { title: subcategory?.title ?? "תת־קטגוריה" };
+  return { title: subcategory?.title ?? "תת־קטגוריה", ...canonicalMetadata(`/catalog/bedrooms/category/${group}`) };
 }
 
 export default async function BedroomSubcategoryPage({ params }: Props) {

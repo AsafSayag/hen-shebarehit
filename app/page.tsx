@@ -1,11 +1,17 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { CategoryTile } from "@/components/category-tile";
 import { CtaBand } from "@/components/cta-band";
 import { ProductCard } from "@/components/product-card";
+import { ReviewCard } from "@/components/review-card";
 import { homeCopy, services } from "@/lib/content";
 import { products } from "@/lib/products";
+import { googleRating, googleReviews, googleReviewsUrl } from "@/lib/reviews";
+import { canonicalMetadata } from "@/lib/site-origin";
 import { business, categories, categoryHref, whatsappLink } from "@/lib/site";
+
+export const metadata: Metadata = canonicalMetadata("/");
 
 // Categories that already have products, so the home page never links to an empty page.
 const featuredSlugs = ["living-rooms", "dining-sets", "mattresses", "sideboards"];
@@ -18,7 +24,7 @@ const showcase = showcaseIds
   .filter((product) => product !== undefined);
 
 export default function HomePage() {
-  const { hero, categories: categoriesCopy, products: productsCopy, values, visit } = homeCopy;
+  const { hero, categories: categoriesCopy, products: productsCopy, values, about, reviews, visit } = homeCopy;
 
   return (
     <>
@@ -95,6 +101,38 @@ export default function HomePage() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      <section className="home-about-section section-pad" aria-labelledby="home-about-title">
+        <div className="container home-about-layout">
+          <div>
+            <span className="eyebrow">{about.eyebrow}</span>
+            <h2 id="home-about-title">{about.title}</h2>
+          </div>
+          <div>
+            <p>{about.text}</p>
+            <Link href="/about" className="text-link">{about.link} <span aria-hidden="true">←</span></Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="home-reviews-section section-pad" aria-labelledby="home-reviews-title">
+        <div className="container">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">{reviews.eyebrow}</span>
+              <h2 id="home-reviews-title">{reviews.title}</h2>
+              <p className="section-lead" aria-label={`${googleRating} מתוך 5 כוכבים על סמך ${googleReviews.length} ביקורות Google`}>
+                <span className="review-stars" aria-hidden="true">★★★★★</span> <span dir="ltr">{googleRating.toFixed(1)}</span> · {googleReviews.length} ביקורות Google
+              </p>
+            </div>
+            <Link href="/reviews" className="text-link">{reviews.link} <span aria-hidden="true">←</span></Link>
+          </div>
+          <div className="home-reviews-grid">
+            {googleReviews.slice(0, 3).map((review) => <ReviewCard key={review.name} review={review} />)}
+          </div>
+          <p className="reviews-disclaimer">הטקסטים הם תקצירי ביקורות. <a href={googleReviewsUrl} target="_blank" rel="noopener noreferrer">לנוסח המלא ב-Google <span aria-hidden="true">↗</span></a></p>
         </div>
       </section>
 

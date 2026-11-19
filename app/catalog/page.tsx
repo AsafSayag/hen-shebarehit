@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { CategoryTile } from "@/components/category-tile";
 import { categories, categoryHref } from "@/lib/site";
+import { canonicalMetadata } from "@/lib/site-origin";
 
-export const metadata: Metadata = { title: "קטלוג" };
+export const metadata: Metadata = { title: "קטלוג", ...canonicalMetadata("/catalog") };
 
 export default function CatalogPage() {
   return (

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { contactCopy } from "@/lib/content";
 import { business, whatsappLink } from "@/lib/site";
+import { canonicalMetadata } from "@/lib/site-origin";
 
-export const metadata: Metadata = contactCopy.meta;
+export const metadata: Metadata = { ...contactCopy.meta, ...canonicalMetadata("/contact") };
 
 export default function ContactPage() {
   const { hero, topics, card } = contactCopy;

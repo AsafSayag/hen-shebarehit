@@ -1,8 +1,7 @@
 // Marketing copy for the content pages (home, about, contact).
-// Only facts confirmed by the business are used here: the Netanya showroom,
-// personal advice, customization (fabric, color or size on some models),
-// and delivery with assembly. Add years, hours or other claims only after
-// the business confirms them.
+// Business details are drawn from the existing project and the Google Business
+// profile. Customer feedback informs the wording but is not presented as a
+// guarantee of delivery times, prices or product quality.
 
 export const services = [
   {
@@ -48,6 +47,17 @@ export const homeCopy = {
     title: "כשנוחות ויופי נפגשים",
     text: "רהיט טוב צריך להיות נוח ויפה באותה מידה, ולהתאים לבית שבו הוא יעמוד. לכן אנחנו לא מסתפקים בתמונה: מזמינים אתכם לראות, לנסות ולבחור יחד איתנו.",
   },
+  about: {
+    eyebrow: "הסיפור שלנו",
+    title: "רהיטים שבוחרים יחד",
+    text: "החן שברהיט היא חנות רהיטים במלאכה 43 בנתניה. שמואל גרידיש מלווה את הלקוחות באולם התצוגה, מקשיב לצרכים שלהם ועוזר לבחור רהיט שמתאים לבית. בביקורות Google חוזרים שוב ושוב היחס הסבלני, ההקשבה והליווי גם אחרי ההזמנה.",
+    link: "עוד עלינו",
+  },
+  reviews: {
+    eyebrow: "מילים של לקוחות",
+    title: "מה מספרים עלינו",
+    link: "לכל 40 הביקורות",
+  },
   visit: {
     eyebrow: "אולם התצוגה",
     title: "בואו לראות מקרוב",
@@ -61,14 +71,15 @@ export const homeCopy = {
 export const aboutCopy = {
   meta: {
     title: "אודות",
-    description: "החן שברהיט, חנות ריהוט בוטיק בנתניה: סלונים, פינות אוכל, מזרונים ומזנונים. אולם תצוגה, ייעוץ אישי, התאמה אישית, משלוח והרכבה.",
+    description: "החן שברהיט, חנות רהיטים ברחוב המלאכה 43 בנתניה. הכירו את שמואל גרידיש, את אולם התצוגה ואת הדרך שבה בוחרים רהיטים לבית.",
   },
   hero: {
     eyebrow: "קצת עלינו",
     title: "חנות ריהוט בוטיק בנתניה",
     paragraphs: [
-      "החן שברהיט היא חנות ריהוט לכל הבית ברחוב המלאכה 43 בנתניה: סלונים וכורסאות, פינות אוכל, חדרי שינה ומיטות, מזרונים ומזנונים.",
-      "המשפט שמלווה אותנו הוא ״כשנוחות ויופי נפגשים״. רהיט טוב צריך להיות נעים לשימוש יום־יום וגם להיראות טוב בחלל, ולכן אנחנו מזמינים אתכם לבחור בנחת, מקרוב.",
+      "החן שברהיט היא חנות רהיטים ברחוב המלאכה 43 בנתניה. באולם התצוגה תמצאו סלונים וכורסאות, מיטות, מזרנים, פינות אוכל ומזנונים לבית.",
+      "שמואל גרידיש, בעל החנות, מלווה את הבחירה מקרוב: מקשיב למה שצריך בבית, מציג אפשרויות ועוזר לדייק את המידה, הסגנון והנוחות. בחלק מהדגמים אפשר לבחור בד, צבע או מידה.",
+      "בביקורות Google לקוחות חוזרים ומתארים יחס אישי וסבלני, זמינות גם אחרי ההזמנה ושירות שנשאר קשוב לפרטים. אנחנו מזמינים אתכם להגיע, לראות את הרהיטים מקרוב ולבחור בקצב שלכם.",
     ],
     primary: "לקטלוג",
   },

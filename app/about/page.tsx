@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { CtaBand } from "@/components/cta-band";
 import { aboutCopy } from "@/lib/content";
+import { canonicalMetadata } from "@/lib/site-origin";
 
-export const metadata: Metadata = aboutCopy.meta;
+export const metadata: Metadata = { ...aboutCopy.meta, ...canonicalMetadata("/about") };
 
 export default function AboutPage() {
   const { hero, process, cta } = aboutCopy;
