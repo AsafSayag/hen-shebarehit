@@ -1,14 +1,32 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CategoryIcon } from "@/components/category-icon";
-import { CategoryTile } from "@/components/category-tile";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ArrowLeftIcon, ArrowRightIcon } from "@/components/icons";
 import { ProductCard } from "@/components/product-card";
-import { productsForCategory } from "@/lib/products";
-import { bedroomSubcategories, categories, getCategory } from "@/lib/site";
+import { WhatsappBand } from "@/components/whatsapp-band";
+import { productsForCategory, type Product } from "@/lib/products";
+import { bedroomGroupImage, bedroomSubcategories, catalogCards, categories, getCategory } from "@/lib/site";
 import { canonicalMetadata } from "@/lib/site-origin";
 
 type Props = { params: Promise<{ slug: string }> };
+
+const intros: Record<string, string> = {
+  "living-rooms": "ספות, סלונים וכורסאות. המקום שבו כולם נפגשים בסוף היום.",
+};
+
+// Categories whose products are split into sections, each with its own anchor.
+const sectionsBySlug: Record<string, { key: string; title: string; match: (product: Product) => boolean }[]> = {
+  "living-rooms": [
+    { key: "sofas", title: "ספות וסלונים", match: (p) => p.collection === "sofas" },
+    { key: "armchairs", title: "כורסאות", match: (p) => p.collection === "armchairs" },
+  ],
+  beds: [
+    { key: "double-beds", title: "מיטות זוגיות", match: (p) => p.bedType === "double" },
+    { key: "jewish-beds", title: "מיטות יהודיות", match: (p) => p.bedType === "jewish" },
+  ],
+};
 
 export function generateStaticParams() {
   return categories.map(({ slug }) => ({ slug }));
@@ -25,78 +43,80 @@ export default async function CategoryPage({ params }: Props) {
   const category = getCategory(slug);
   if (!category) notFound();
   const products = productsForCategory(slug);
+  const intro = intros[slug] ?? catalogCards.find((card) => card.key === slug)?.text;
+  const sections = sectionsBySlug[slug];
+  const isWardrobes = slug === "bedrooms" && products.length > 0;
 
   return (
-    <section className="category-page container">
-      <nav className="breadcrumbs" aria-label="פירורי לחם">
-        <Link href="/">בית</Link><span aria-hidden="true">/</span><Link href="/catalog">קטלוג</Link><span aria-hidden="true">/</span><span aria-current="page">{category.title}</span>
-      </nav>
-      <div className="category-hero">
-        <div>
-          <span className="eyebrow">קטלוג</span>
-          <h1>{category.title}</h1>
-        </div>
-        <span className={`category-orb category-hero-orb tone-${category.tone}`}>
-          <CategoryIcon name={category.icon} className="category-icon" />
-        </span>
-      </div>
+    <>
+      <section className="page-top section-cream">
+        <div className="container">
+          <div className="page-top-bar">
+            <Breadcrumbs items={[{ href: "/", label: "דף הבית" }, { href: "/catalog", label: "קטלוג" }, { label: isWardrobes ? "ארונות" : category.title }]} />
+            <Link href="/catalog" className="back-link"><ArrowRightIcon size={18} /> לכל הקטגוריות</Link>
+          </div>
 
-      {slug === "bedrooms" && products.length > 0 && (
-        <div className="subcategory-section">
-          <h2>בחרו תת־קטגוריה</h2>
-          <div className="category-grid subcategory-grid">
-            {bedroomSubcategories.map((group) => <CategoryTile
-              key={group.slug}
-              title={group.title}
-              href={`/catalog/bedrooms/category/${group.slug}`}
-              icon={group.icon}
-              tone={group.tone}
-              count={products.filter((product) => product.bedroomGroups?.includes(group.slug)).length}
-            />)}
-          </div>
+          {isWardrobes ? (
+            <>
+              <div className="section-title page-title">
+                <h1>איזה ארון אתם מחפשים?</h1>
+                <p>ארונות, חדרי שינה וחדרי ילדים בסגנונות ובגדלים שונים. בואו נמצא את מה שמתאים לחדר שלכם.</p>
+                <Link href="/catalog/bedrooms/all" className="button button-outline">לכל הדגמים · {products.length} דגמים <ArrowLeftIcon size={18} /></Link>
+              </div>
+              <div className="group-cards">
+                {bedroomSubcategories.map((group) => {
+                  const count = products.filter((product) => product.bedroomGroups?.includes(group.slug)).length;
+                  return (
+                    <Link key={group.slug} href={`/catalog/bedrooms/category/${group.slug}`} className="group-card">
+                      <span className="group-card-image"><Image src={bedroomGroupImage(group.slug)} alt="" fill sizes="(max-width: 760px) 46vw, 420px" /></span>
+                      <span className="group-card-copy">
+                        <span>
+                          <h2>{group.title}</h2>
+                          <span className="group-card-count">{count} דגמים</span>
+                        </span>
+                        <span className="round-button" aria-hidden="true"><ArrowLeftIcon size={18} /></span>
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="section-title page-title">
+                <h1>{category.title}</h1>
+                {intro && <p>{intro}</p>}
+                {products.length > 0 && <span className="page-count">{products.length} דגמים</span>}
+              </div>
+              {products.length === 0 ? (
+                <div className="empty-collection"><p>מוצרים בקטגוריה יתווספו בקרוב.</p></div>
+              ) : sections ? (
+                <>
+                  <nav className="collection-nav" aria-label="סוגי מוצרים">
+                    {sections.map((section) => (
+                      <a key={section.key} href={`#${section.key}`}>{section.title} <span>{products.filter(section.match).length}</span></a>
+                    ))}
+                  </nav>
+                  {sections.map((section) => {
+                    const items = products.filter(section.match);
+                    return (
+                      <section className="product-collection" id={section.key} key={section.key} aria-labelledby={`${section.key}-title`}>
+                        <div className="collection-heading"><h2 id={`${section.key}-title`}>{section.title}</h2><span>{items.length} דגמים</span></div>
+                        <div className="product-grid">{items.map((product) => <ProductCard key={product.id} product={product} />)}</div>
+                      </section>
+                    );
+                  })}
+                </>
+              ) : (
+                <div className={`product-grid${products.length === 3 ? " product-grid-three" : ""}`}>
+                  {products.map((product) => <ProductCard key={product.id} product={product} />)}
+                </div>
+              )}
+            </>
+          )}
         </div>
-      )}
-
-      {slug === "bedrooms" && products.length > 0 ? null : products.length > 0 ? (
-        <div className="collection-section">
-          {slug === "living-rooms" || slug === "beds" ? <>
-            <nav className="collection-nav" aria-label="סוגי מוצרים">
-              {slug === "beds" ? <>
-                <a href="#double-beds">מיטות זוגיות <span>{products.filter((p) => p.bedType === "double").length}</span></a>
-                <a href="#jewish-beds">מיטות יהודיות <span>{products.filter((p) => p.bedType === "jewish").length}</span></a>
-              </> : <>
-                <a href="#sofas">ספות וסלונים <span>{products.filter((p) => p.collection === "sofas").length}</span></a>
-                <a href="#armchairs">כורסאות <span>{products.filter((p) => p.collection === "armchairs").length}</span></a>
-              </>}
-            </nav>
-            {(slug === "beds"
-              ? [{ key: "double-beds", title: "מיטות זוגיות" }, { key: "jewish-beds", title: "מיטות יהודיות" }]
-              : [{ key: "sofas", title: "ספות וסלונים" }, { key: "armchairs", title: "כורסאות" }]
-            ).map((group) => {
-              const items = products.filter((p) => slug === "beds"
-                ? p.bedType === (group.key === "double-beds" ? "double" : "jewish")
-                : p.collection === group.key);
-              return <section className="product-collection" id={group.key} key={group.key} aria-labelledby={`${group.key}-title`}>
-                <div className="collection-heading"><h2 id={`${group.key}-title`}>{group.title}</h2><span>{items.length} מוצרים</span></div>
-                <div className="product-grid">{items.map((product) => <ProductCard key={product.id} product={product} />)}</div>
-              </section>;
-            })}
-          </> : <>
-          <div className="collection-heading">
-            <h2>{slug === "dining-sets" ? "שולחנות אוכל" : "המוצרים"}</h2>
-            <span>{products.length} מוצרים</span>
-          </div>
-          <div className={`product-grid${products.length === 3 ? " product-grid-three" : ""}`}>
-            {products.map((product) => <ProductCard key={product.id} product={product} />)}
-          </div>
-          </>}
-        </div>
-      ) : (
-        <div className="empty-collection">
-          <div className="empty-collection-mark" aria-hidden="true" />
-          <p>מוצרים בקטגוריה יתווספו בקרוב.</p>
-        </div>
-      )}
-    </section>
+      </section>
+      <WhatsappBand />
+    </>
   );
 }

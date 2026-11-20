@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CategoryIcon } from "@/components/category-icon";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ArrowRightIcon } from "@/components/icons";
 import { ProductCard } from "@/components/product-card";
+import { WhatsappBand } from "@/components/whatsapp-band";
 import { productsForCategory } from "@/lib/products";
 import { bedroomSubcategories } from "@/lib/site";
 import { canonicalMetadata } from "@/lib/site-origin";
@@ -25,22 +27,22 @@ export default async function BedroomSubcategoryPage({ params }: Props) {
   if (!subcategory) notFound();
   const products = productsForCategory("bedrooms").filter((product) => product.bedroomGroups?.includes(group));
 
-  return <section className="category-page container">
-    <nav className="breadcrumbs" aria-label="פירורי לחם">
-      <Link href="/">בית</Link><span aria-hidden="true">/</span>
-      <Link href="/catalog">קטלוג</Link><span aria-hidden="true">/</span>
-      <Link href="/catalog/bedrooms">ארונות וחדרי שינה</Link><span aria-hidden="true">/</span>
-      <span aria-current="page">{subcategory.title}</span>
-    </nav>
-    <div className="category-hero">
-      <div><span className="eyebrow">ארונות וחדרי שינה</span><h1>{subcategory.title}</h1></div>
-      <span className={`category-orb category-hero-orb tone-${subcategory.tone}`}>
-        <CategoryIcon name={subcategory.icon} className="category-icon" />
-      </span>
-    </div>
-    <div className="collection-section">
-      <div className="collection-heading"><h2>המוצרים</h2><span>{products.length} מוצרים</span></div>
-      <div className="product-grid">{products.map((product) => <ProductCard key={product.id} product={product} />)}</div>
-    </div>
-  </section>;
+  return (
+    <>
+      <section className="page-top section-cream">
+        <div className="container">
+          <div className="page-top-bar">
+            <Breadcrumbs items={[{ href: "/", label: "דף הבית" }, { href: "/catalog", label: "קטלוג" }, { href: "/catalog/bedrooms", label: "ארונות" }, { label: subcategory.title }]} />
+            <Link href="/catalog/bedrooms" className="back-link"><ArrowRightIcon size={18} /> לכל סוגי הארונות</Link>
+          </div>
+          <div className="section-title page-title">
+            <h1>{subcategory.title}</h1>
+            <span className="page-count">{products.length} דגמים</span>
+          </div>
+          <div className="product-grid">{products.map((product) => <ProductCard key={product.id} product={product} />)}</div>
+        </div>
+      </section>
+      <WhatsappBand />
+    </>
+  );
 }

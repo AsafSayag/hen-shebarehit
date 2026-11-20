@@ -1,27 +1,44 @@
-import { googleReviewsUrl } from "@/lib/reviews";
+import { StarIcon } from "@/components/icons";
 
 type Review = {
   name: string;
   summary: string | null;
 };
 
-export function ReviewCard({ review }: { review: Review }) {
+// First name and the initial of the last name, as in the designer's cards ("נטלי ק.").
+export function shortName(name: string) {
+  const parts = name.trim().split(/\s+/);
+  if (parts.length < 2) return parts[0];
+  const first = parts[0];
+  const initial = parts[parts.length - 1][0];
+  const formatted = `${first[0].toLocaleUpperCase()}${first.slice(1)}`;
+  return `${formatted} ${initial.toLocaleUpperCase()}.`;
+}
+
+export function Stars({ size = 14 }: { size?: number }) {
   return (
-    <article className="review-card">
-      <div className="review-card-top">
-        <span className="review-stars" role="img" aria-label="5 מתוך 5 כוכבים">★★★★★</span>
-        <span className="review-source">Google</span>
-      </div>
+    <span className="review-stars" role="img" aria-label="5 מתוך 5 כוכבים">
+      {[0, 1, 2, 3, 4].map((index) => <StarIcon key={index} size={size} />)}
+    </span>
+  );
+}
+
+export function ReviewCard({ review, tone = "light" }: { review: Review; tone?: "light" | "dark" }) {
+  const name = shortName(review.name);
+  return (
+    <article className={`review-card review-card-${tone}`}>
+      <Stars />
       {review.summary ? (
         <p className="review-summary">{review.summary}</p>
       ) : (
         <p className="review-summary review-summary-empty">דירוג של 5 כוכבים ללא טקסט</p>
       )}
-      <div className="review-card-bottom">
-        <span className="review-author" dir="auto">{review.name}</span>
-        <a href={googleReviewsUrl} target="_blank" rel="noopener noreferrer" aria-label="לכל הביקורות של החן שברהיט ב-Google">
-          לביקורות ב-Google <span aria-hidden="true">↗</span>
-        </a>
+      <div className="review-author">
+        <span className="review-avatar" aria-hidden="true">{name[0]}</span>
+        <span>
+          <strong dir="auto">{name}</strong>
+          <small>ביקורת ב-Google</small>
+        </span>
       </div>
     </article>
   );

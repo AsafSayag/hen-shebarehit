@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
-import { ReviewCard } from "@/components/review-card";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ExternalIcon } from "@/components/icons";
+import { ReviewCard, Stars } from "@/components/review-card";
+import { WhatsappBand } from "@/components/whatsapp-band";
 import { googleRating, googleReviews, googleReviewsUrl, reviewsCheckedAt } from "@/lib/reviews";
 import { canonicalMetadata } from "@/lib/site-origin";
 
@@ -11,21 +14,26 @@ export const metadata: Metadata = {
 
 export default function ReviewsPage() {
   return (
-    <section className="reviews-page container">
-      <div className="reviews-page-intro">
-        <span className="eyebrow">לקוחות מספרים</span>
-        <h1>הביקורות עלינו</h1>
-        <div className="reviews-rating" aria-label={`${googleRating} מתוך 5 כוכבים, ${googleReviews.length} ביקורות ב-Google`}>
-          <strong dir="ltr">{googleRating.toFixed(1)}</strong>
-          <span className="review-stars" aria-hidden="true">★★★★★</span>
-          <span>{googleReviews.length} ביקורות Google</span>
+    <>
+      <section className="page-top section-cream">
+        <div className="container">
+          <Breadcrumbs items={[{ href: "/", label: "דף הבית" }, { label: "ביקורות" }]} />
+          <div className="section-title page-title">
+            <span className="eyebrow">ביקורות Google</span>
+            <h1>מה הלקוחות שלנו מספרים</h1>
+            <div className="rating-summary" aria-label={`${googleRating} מתוך 5 כוכבים, ${googleReviews.length} ביקורות ב-Google`}>
+              <strong dir="ltr">{googleRating.toFixed(1)}</strong>
+              <span><Stars size={16} /><small>{googleReviews.length} ביקורות ב-Google</small></span>
+            </div>
+            <p>כאן מופיעות כל הביקורות שפורסמו בכרטיס העסק, עם תקציר לכל ביקורת כתובה. שתי ביקורות כוללות דירוג בלבד. הנתונים נבדקו ב־{reviewsCheckedAt}.</p>
+            <a className="button button-outline" href={googleReviewsUrl} target="_blank" rel="noopener noreferrer">לקריאת הביקורות המלאות ב-Google <ExternalIcon size={16} /></a>
+          </div>
+          <div className="reviews-grid">
+            {googleReviews.map((review) => <ReviewCard key={review.name} review={review} />)}
+          </div>
         </div>
-        <p>כאן מופיעות כל הביקורות שפורסמו בכרטיס העסק, עם תקציר לכל ביקורת כתובה. שתי ביקורות כוללות דירוג בלבד. הנתונים נבדקו ב־{reviewsCheckedAt}.</p>
-        <a className="text-link" href={googleReviewsUrl} target="_blank" rel="noopener noreferrer">לקריאת הביקורות המלאות ב-Google <span aria-hidden="true">↗</span></a>
-      </div>
-      <div className="reviews-grid">
-        {googleReviews.map((review) => <ReviewCard key={review.name} review={review} />)}
-      </div>
-    </section>
+      </section>
+      <WhatsappBand />
+    </>
   );
 }

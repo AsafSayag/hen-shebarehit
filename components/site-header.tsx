@@ -1,34 +1,35 @@
 import Image from "next/image";
 import Link from "next/link";
+import { HeaderNav, MobileMenu } from "@/components/header-nav";
+import { SearchIcon, WhatsappIcon } from "@/components/icons";
+import { business } from "@/lib/site";
 
-const navigation = [
-  { href: "/", label: "בית" },
+export const navigation = [
+  { href: "/", label: "דף הבית" },
   { href: "/catalog", label: "קטלוג" },
   { href: "/about", label: "אודות" },
-  { href: "/reviews", label: "ביקורות" },
-  { href: "/contact", label: "יצירת קשר" },
+  { href: "/contact", label: "צרו קשר" },
 ];
 
 export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="header-inner container">
-        <Link href="/" className="brand-link" aria-label="החן שברהיט — לדף הבית">
-          <Image src="/brand/logo-compact.png" alt="החן שברהיט" width={900} height={260} className="brand-image" priority />
+        <div className="header-start">
+          <MobileMenu items={navigation} whatsapp={business.whatsapp} phone={business.mobile} phoneDisplay={business.mobileDisplay} />
+          <HeaderNav items={navigation} />
+        </div>
+        <Link href="/" className="brand-link" aria-label="החן שברהיט, לדף הבית">
+          <Image src="/brand/logo-header.png" alt="החן שברהיט" width={1189} height={231} className="brand-image" priority />
         </Link>
-        <nav className="desktop-nav" aria-label="ניווט ראשי">
-          {navigation.map((item) => (
-            <Link key={item.href} href={item.href} className={item.href === "/contact" ? "nav-contact" : undefined}>
-              {item.label}
-            </Link>
-          ))}
-        </nav>
-        <details className="mobile-menu">
-          <summary>תפריט <span aria-hidden="true">☰</span></summary>
-          <nav aria-label="ניווט ראשי בנייד">
-            {navigation.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
-          </nav>
-        </details>
+        <div className="header-end">
+          <Link href="/search" className="icon-button" aria-label="חיפוש במוצרים">
+            <SearchIcon size={22} />
+          </Link>
+          <a href={business.whatsapp} className="button button-outline header-whatsapp" target="_blank" rel="noopener noreferrer">
+            <WhatsappIcon size={18} /> כתבו לנו בוואטסאפ
+          </a>
+        </div>
       </div>
     </header>
   );

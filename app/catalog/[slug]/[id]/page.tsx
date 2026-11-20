@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { BedVariantViewer } from "@/components/bed-variant-viewer";
 import { ProductImage } from "@/components/product-image";
 import { ProductGalleryViewer } from "@/components/product-gallery-viewer";
-import Link from "next/link";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { WhatsappIcon } from "@/components/icons";
+import { WhatsappBand } from "@/components/whatsapp-band";
 import { notFound } from "next/navigation";
 import { getProduct, products } from "@/lib/products";
 import { business, getCategory } from "@/lib/site";
@@ -29,13 +31,9 @@ export default async function ProductPage({ params }: Props) {
   const whatsapp = `${business.whatsapp}?text=${encodeURIComponent(`שלום, אשמח לפרטים על ${product.name}${product.sku ? ` (מק״ט ${product.sku})` : ""}`)}`;
 
   return (
+    <>
     <section className="product-page container">
-      <nav className="breadcrumbs" aria-label="פירורי לחם">
-        <Link href="/">בית</Link><span aria-hidden="true">/</span>
-        <Link href="/catalog">קטלוג</Link><span aria-hidden="true">/</span>
-        <Link href={`/catalog/${slug}`}>{category.title}</Link><span aria-hidden="true">/</span>
-        <span aria-current="page">{product.name}</span>
-      </nav>
+      <Breadcrumbs items={[{ href: "/", label: "דף הבית" }, { href: "/catalog", label: "קטלוג" }, { href: `/catalog/${slug}`, label: category.title }, { label: product.name }]} />
       <div className="product-layout">
         <div className="product-heading">
           <span className="eyebrow">{category.title}</span>
@@ -78,10 +76,12 @@ export default async function ProductPage({ params }: Props) {
             <h2>פרטי המוצר</h2>
             {product.details.map((line, index) => <p key={`${index}-${line}`}>{line}</p>)}
           </div>}
-          <a className="button button-primary product-contact" href={whatsapp} target="_blank" rel="noopener noreferrer">לפרטים בוואטסאפ</a>
+          <a className="button button-dark product-contact" href={whatsapp} target="_blank" rel="noopener noreferrer"><WhatsappIcon size={18} /> לפרטים בוואטסאפ</a>
         </div>
         </>}
       </div>
     </section>
+    <WhatsappBand />
+    </>
   );
 }

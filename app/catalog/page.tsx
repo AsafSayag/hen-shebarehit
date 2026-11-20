@@ -1,23 +1,41 @@
 import type { Metadata } from "next";
-import { CategoryTile } from "@/components/category-tile";
-import { categories, categoryHref } from "@/lib/site";
+import Image from "next/image";
+import Link from "next/link";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ArrowLeftIcon } from "@/components/icons";
+import { WhatsappBand } from "@/components/whatsapp-band";
+import { catalogCards } from "@/lib/site";
 import { canonicalMetadata } from "@/lib/site-origin";
 
 export const metadata: Metadata = { title: "קטלוג", ...canonicalMetadata("/catalog") };
 
 export default function CatalogPage() {
   return (
-    <section className="catalog-page container">
-      <div className="page-intro">
-        <span className="eyebrow">החן שברהיט</span>
-        <h1>הקטלוג</h1>
-        <p>בחרו קטגוריה כדי להמשיך.</p>
-      </div>
-      <div className="category-grid catalog-grid">
-        {categories.map((category) => (
-          <CategoryTile key={category.slug} title={category.title} href={categoryHref(category.slug)} icon={category.icon} tone={category.tone} />
-        ))}
-      </div>
-    </section>
+    <>
+      <section className="page-top section-cream">
+        <div className="container">
+          <Breadcrumbs items={[{ href: "/", label: "דף הבית" }, { label: "קטלוג" }]} />
+          <div className="section-title page-title">
+            <h1>מה אתם מחפשים לבית?</h1>
+            <p>כל הרהיטים שלנו, מסודרים לפי קטגוריות. תרגישו חופשי להסתכל.</p>
+          </div>
+          <div className="catalog-cards">
+            {catalogCards.map((card) => (
+              <Link key={card.key} href={card.href} className="catalog-card">
+                <span className="catalog-card-copy">
+                  <h2>{card.title}</h2>
+                  <span className="catalog-card-text">{card.text}</span>
+                  <span className="catalog-card-link">{card.link} <ArrowLeftIcon size={18} /></span>
+                </span>
+                <span className="catalog-card-image">
+                  <Image src={card.image} alt="" fill sizes="(max-width: 760px) 38vw, 300px" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+      <WhatsappBand />
+    </>
   );
 }

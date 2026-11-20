@@ -69,7 +69,7 @@ export function BedVariantViewer({ product, whatsappBase }: Props) {
         <h2>פרטי המוצר</h2>
         {product.details.map((line, index) => <p key={`${index}-${line}`}>{line}</p>)}
       </div>}
-      <a className="button button-primary product-contact" href={whatsapp} target="_blank" rel="noopener noreferrer">לפרטים בוואטסאפ</a>
+      <a className="button button-dark product-contact" href={whatsapp} target="_blank" rel="noopener noreferrer">לפרטים בוואטסאפ</a>
     </div>
   </>;
 }

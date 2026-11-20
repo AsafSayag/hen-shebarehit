@@ -6,3 +6,6 @@ out/
 .env*
 !.env.example
 .vercel/
+
+# Designer source files (Figma exports), kept locally
+/design/

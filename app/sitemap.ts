@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/reviews",
     "/catalog",
     ...categories.map(({ slug }) => `/catalog/${slug}`),
+    "/catalog/bedrooms/all",
     ...bedroomSubcategories.map(({ slug }) => `/catalog/bedrooms/category/${slug}`),
     ...products.map(({ category, id }) => `/catalog/${category}/${id}`),
   ];

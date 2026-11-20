@@ -4,11 +4,42 @@ export const business = {
   address: "המלאכה 43, נתניה",
   landline: "09-8615297",
   mobile: "052-6260068",
+  mobileDisplay: "052-626-0068",
   whatsapp: "https://wa.me/972526260068",
   maps: "https://www.google.com/maps/place/%D7%94%D7%97%D7%9F+%D7%A9%D7%91%D7%A8%D7%94%D7%99%D7%98/data=!4m2!3m1!1s0x0:0xcf3890f3acd6183f",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3373.0391562387294!2d34.860541700000006!3d32.2839252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d412eb09c467f%3A0xcf3890f3acd6183f!2z15TXl9efINep15HXqNeU15nXmA!5e0!3m2!1siw!2sil!4v1794905525060!5m2!1siw!2sil",
   waze: "https://waze.com/ul?q=%D7%94%D7%9E%D7%9C%D7%90%D7%9B%D7%94%2043%20%D7%A0%D7%AA%D7%A0%D7%99%D7%94&navigate=yes",
+  appleMaps: "https://maps.apple.com/?q=%D7%94%D7%97%D7%9F%20%D7%A9%D7%91%D7%A8%D7%94%D7%99%D7%98&ll=32.2839252,34.8605417",
 } as const;
+
+// Opening hours as given in the designer's mockup (November 2026). Confirm with the business before launch.
+export const openingHours = [
+  { days: "ראשון–חמישי", short: "א׳–ה׳", hours: "9:00-20:00" },
+  { days: "שישי", short: "ו׳", hours: "9:00-13:00" },
+  { days: "שבת", short: "שבת", hours: "סגור" },
+] as const;
+
+export const openingHoursLine = "א׳–ה׳ 9:00-20:00 · ו׳ 9:00-13:00";
+
+// Social profiles appear on the site only once their addresses are filled in.
+export const social: { instagram: string | null; facebook: string | null } = {
+  instagram: null,
+  facebook: null,
+};
+
+export type CatalogCard = { key: string; title: string; text: string; href: string; image: string; link: string };
+
+// The eight entry points of the designer's catalog. Sofas and armchairs share one page with a section for each.
+export const catalogCards: CatalogCard[] = [
+  { key: "sofas", title: "ספות", text: "המקום שבו כולם נפגשים בסוף היום.", href: "/catalog/living-rooms#sofas", image: "/images/design/categories/sofas.webp", link: "לכל הספות" },
+  { key: "armchairs", title: "כורסאות", text: "פינה אישית לקפה, לספר ולמנוחה.", href: "/catalog/living-rooms#armchairs", image: "/images/design/categories/armchairs.webp", link: "לכל הכורסאות" },
+  { key: "sideboards", title: "מזנונים", text: "מקום לכל הדברים שרוצים שיהיו קרובים, אבל מסודרים.", href: "/catalog/sideboards", image: "/images/design/categories/sideboards.webp", link: "לכל המזנונים" },
+  { key: "dining-sets", title: "פינות אוכל", text: "שולחן אחד לארוחות הגדולות והקטנות.", href: "/catalog/dining-sets", image: "/images/design/categories/dining-sets.webp", link: "לכל פינות האוכל" },
+  { key: "dining-chairs", title: "כיסאות אוכל", text: "נוחות לשיחות שנמשכות אחרי הארוחה.", href: "/catalog/dining-chairs", image: "/images/design/categories/dining-chairs.webp", link: "לכל כיסאות האוכל" },
+  { key: "beds", title: "מיטות", text: "לסיים בהן יום ארוך ולהתחיל אחד חדש.", href: "/catalog/beds", image: "/images/design/categories/beds.webp", link: "לכל המיטות" },
+  { key: "mattresses", title: "מזרנים", text: "לילות שקטים ונוחים, כל לילה מחדש.", href: "/catalog/mattresses", image: "/images/design/categories/mattresses.webp", link: "לכל המזרנים" },
+  { key: "wardrobes", title: "ארונות", text: "לבגדים, למצעים ולכל מה שצריך למצוא לו מקום.", href: "/catalog/bedrooms", image: "/images/design/categories/wardrobes.webp", link: "לבחירת סוג ארון · 6 סוגים" },
+];
 
 export function whatsappLink(message: string) {
   return `${business.whatsapp}?text=${encodeURIComponent(message)}`;
@@ -49,6 +80,26 @@ export const bedroomSubcategories = [
   { slug: "bedroom-sets", title: "חדרי שינה", icon: "bed", tone: "stone" },
   { slug: "kids-rooms", title: "חדרי ילדים", icon: "bed", tone: "linen" },
 ] as const;
+
+const typeLabels: Record<string, string> = {
+  sofas: "ספות",
+  armchairs: "כורסאות",
+  sideboards: "מזנונים",
+  "dining-chairs": "כיסאות אוכל",
+  "dining-sets": "פינות אוכל",
+  mattresses: "מזרנים",
+  beds: "מיטות",
+  bedrooms: "ארונות וחדרי שינה",
+};
+
+// The small label above a product name on its card.
+export function productTypeLabel(product: { category: string; collection?: string }) {
+  return typeLabels[product.collection ?? ""] ?? typeLabels[product.category] ?? "";
+}
+
+export function bedroomGroupImage(slug: string) {
+  return `/images/design/wardrobes/${slug}.webp`;
+}
 
 export function categoryHref(slug: string) {
   return `/catalog/${slug}`;

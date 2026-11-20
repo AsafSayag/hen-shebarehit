@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Assistant } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { business } from "@/lib/site";
@@ -7,13 +8,16 @@ import "./globals.css";
 
 const siteOrigin = getSiteOrigin();
 
+// The designer's typeface; Hebrew and Latin glyphs are self-hosted by next/font.
+const assistant = Assistant({ subsets: ["hebrew", "latin"], weight: ["300", "400", "500", "600", "700"], variable: "--font-assistant", display: "swap" });
+
 export const metadata: Metadata = {
   ...(siteOrigin ? { metadataBase: new URL(siteOrigin) } : {}),
   title: {
     default: `${business.name} | ריהוט בוטיק לבית`,
     template: `%s | ${business.name}`,
   },
-  description: "ריהוט בוטיק לבית בנתניה. סלונים, חדרי שינה, פינות אוכל ועוד.",
+  description: "ריהוט בוטיק לבית בנתניה: ספות וכורסאות, פינות אוכל, מיטות, מזרנים, ארונות ומזנונים. אולם תצוגה במלאכה 43 בנתניה.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -36,7 +40,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   };
 
   return (
-    <html lang="he" dir="rtl">
+    <html lang="he" dir="rtl" className={assistant.variable}>
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(store).replace(/</g, "\\u003c") }} />
         <SiteHeader />

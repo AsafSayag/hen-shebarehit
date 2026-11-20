@@ -5,7 +5,7 @@ export default function NotFound() {
     <section className="not-found container">
       <span className="eyebrow">404</span>
       <h1>העמוד לא נמצא</h1>
-      <Link href="/catalog" className="button button-primary">חזרה לקטלוג</Link>
+      <Link href="/catalog" className="button button-dark">חזרה לקטלוג</Link>
     </section>
   );
 }
