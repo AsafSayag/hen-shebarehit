@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Assistant } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { business } from "@/lib/site";
+import { business, social } from "@/lib/site";
 import { getSiteOrigin } from "@/lib/site-origin";
 import "./globals.css";
 
@@ -35,7 +35,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     },
     geo: { "@type": "GeoCoordinates", latitude: 32.2839252, longitude: 34.8605417 },
     hasMap: business.maps,
-    sameAs: [business.maps],
+    sameAs: [business.maps, social.facebook],
+    openingHoursSpecification: [
+      { "@type": "OpeningHoursSpecification", dayOfWeek: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"], opens: "09:00", closes: "20:00" },
+      { "@type": "OpeningHoursSpecification", dayOfWeek: "Friday", opens: "09:00", closes: "13:00" },
+    ],
     ...(siteOrigin ? { "@id": `${siteOrigin}/#business`, url: siteOrigin, image: `${siteOrigin}/brand/logo-primary.png` } : {}),
   };
 
@@ -43,6 +47,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="he" dir="rtl" className={assistant.variable}>
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(store).replace(/</g, "\\u003c") }} />
+        <a href="#main-content" className="skip-link">דילוג לתוכן הראשי</a>
         <SiteHeader />
         <main id="main-content">{children}</main>
         <SiteFooter />

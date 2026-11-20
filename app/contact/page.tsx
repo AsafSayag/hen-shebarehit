@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { DirectionsButton } from "@/components/directions-button";
-import { ChevronUpIcon, FacebookIcon, HeartIcon, InstagramIcon, LocationIcon, NavigateIcon, PhoneIcon, WhatsappIcon } from "@/components/icons";
+import { ChevronUpIcon, FacebookIcon, HeartIcon, LocationIcon, NavigateIcon, PhoneIcon, WhatsappIcon } from "@/components/icons";
 import { contactCopy, faqs } from "@/lib/content";
 import { business, openingHoursLine, social } from "@/lib/site";
 import { canonicalMetadata } from "@/lib/site-origin";
@@ -10,7 +10,6 @@ export const metadata: Metadata = { ...contactCopy.meta, ...canonicalMetadata("/
 
 export default function ContactPage() {
   const { hero, cards, faq } = contactCopy;
-  const hasSocial = Boolean(social.instagram || social.facebook);
 
   return (
     <>
@@ -21,7 +20,7 @@ export default function ContactPage() {
             <h1>{hero.title}</h1>
             <p>{hero.lead}</p>
           </div>
-          <div className={`contact-cards${hasSocial ? "" : " contact-cards-two"}`}>
+          <div className="contact-cards">
             <article className="contact-card">
               <span className="icon-circle icon-circle-cream" aria-hidden="true"><WhatsappIcon size={24} /></span>
               <h2>{cards.whatsapp.title}</h2>
@@ -43,18 +42,15 @@ export default function ContactPage() {
                 </DirectionsButton>
               </div>
             </article>
-            {hasSocial && (
-              <article className="contact-card">
-                <span className="icon-circle icon-circle-cream" aria-hidden="true"><HeartIcon size={24} /></span>
-                <h2>{cards.social.title}</h2>
-                <p className="contact-card-strong">{cards.social.subtitle}</p>
-                <p>{cards.social.text}</p>
-                <div className="contact-card-actions">
-                  {social.instagram && <a href={social.instagram} className="button button-outline" target="_blank" rel="noopener noreferrer"><InstagramIcon size={18} /> אינסטגרם</a>}
-                  {social.facebook && <a href={social.facebook} className="button button-outline" target="_blank" rel="noopener noreferrer"><FacebookIcon size={18} /> פייסבוק</a>}
-                </div>
-              </article>
-            )}
+            <article className="contact-card">
+              <span className="icon-circle icon-circle-cream" aria-hidden="true"><HeartIcon size={24} /></span>
+              <h2>{cards.social.title}</h2>
+              <p className="contact-card-strong">{cards.social.subtitle}</p>
+              <p>{cards.social.text}</p>
+              <div className="contact-card-actions">
+                <a href={social.facebook} className="button button-outline button-wide" target="_blank" rel="noopener noreferrer"><FacebookIcon size={18} /> לעמוד הפייסבוק</a>
+              </div>
+            </article>
           </div>
         </div>
       </section>

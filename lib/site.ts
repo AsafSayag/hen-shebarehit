@@ -12,7 +12,7 @@ export const business = {
   appleMaps: "https://maps.apple.com/?q=%D7%94%D7%97%D7%9F%20%D7%A9%D7%91%D7%A8%D7%94%D7%99%D7%98&ll=32.2839252,34.8605417",
 } as const;
 
-// Opening hours as given in the designer's mockup (November 2026). Confirm with the business before launch.
+// Opening hours, confirmed by the business on 20 November 2026.
 export const openingHours = [
   { days: "ראשון–חמישי", short: "א׳–ה׳", hours: "9:00-20:00" },
   { days: "שישי", short: "ו׳", hours: "9:00-13:00" },
@@ -21,11 +21,18 @@ export const openingHours = [
 
 export const openingHoursLine = "א׳–ה׳ 9:00-20:00 · ו׳ 9:00-13:00";
 
-// Social profiles appear on the site only once their addresses are filled in.
-export const social: { instagram: string | null; facebook: string | null } = {
-  instagram: null,
-  facebook: null,
-};
+// The business's only social profile; the site links to Facebook and no other network.
+export const social = {
+  facebook: "https://www.facebook.com/profile.php?id=61588336546147",
+} as const;
+
+// Pages linked from the footer's legal row.
+export const legalPages = [
+  { href: "/terms", label: "תקנון ותנאי שימוש" },
+  { href: "/privacy", label: "מדיניות פרטיות" },
+  { href: "/returns", label: "ביטולים, החזרות והחלפות" },
+  { href: "/accessibility", label: "הצהרת נגישות" },
+] as const;
 
 export type CatalogCard = { key: string; title: string; text: string; href: string; image: string; link: string };
 

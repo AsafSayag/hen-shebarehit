@@ -131,7 +131,7 @@ export const contactCopy = {
   cards: {
     whatsapp: { title: "וואטסאפ או שיחה", note: "מענה אישי לכל שאלה", whatsapp: "וואטסאפ", call: "התקשרו" },
     showroom: { title: "אולם התצוגה", navigate: "ניווט לאולם" },
-    social: { title: "עקבו אחרינו", subtitle: "פייסבוק ואינסטגרם", text: "מוזמנים לעקוב אחרינו גם ברשתות." },
+    social: { title: "עקבו אחרינו", subtitle: "בפייסבוק", text: "מוזמנים לעקוב אחרינו ולראות מה חדש באולם." },
   },
   faq: {
     title: "שאלות ששואלים אותנו הרבה",

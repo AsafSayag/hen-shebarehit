@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FacebookIcon, InstagramIcon, WhatsappIcon } from "@/components/icons";
-import { business, openingHours, social } from "@/lib/site";
+import { FacebookIcon, WhatsappIcon } from "@/components/icons";
+import { business, legalPages, openingHours, social } from "@/lib/site";
 
 const columns = [
   {
@@ -28,6 +28,7 @@ const columns = [
     title: "שירות לקוחות",
     links: [
       { href: "/contact#faq", label: "משלוחים" },
+      { href: "/returns", label: "החזרות והחלפות" },
       { href: "/contact#faq", label: "שאלות נפוצות" },
       { href: business.whatsapp, label: "כתבו לנו בוואטסאפ", external: true },
     ],
@@ -42,8 +43,7 @@ export function SiteFooter() {
           <Image src="/brand/logo-light.png" alt="החן שברהיט" width={1189} height={231} className="footer-logo" />
           <p>רהיטים שמרגישים בית, באולם התצוגה שלנו בנתניה.</p>
           <div className="footer-social">
-            {social.instagram && <a href={social.instagram} target="_blank" rel="noopener noreferrer" aria-label="אינסטגרם"><InstagramIcon /></a>}
-            {social.facebook && <a href={social.facebook} target="_blank" rel="noopener noreferrer" aria-label="פייסבוק"><FacebookIcon /></a>}
+            <a href={social.facebook} target="_blank" rel="noopener noreferrer" aria-label="החן שברהיט בפייסבוק"><FacebookIcon /></a>
             <a href={business.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="וואטסאפ"><WhatsappIcon /></a>
           </div>
         </div>
@@ -76,6 +76,11 @@ export function SiteFooter() {
       </div>
       <div className="container footer-bottom">
         <p>© {new Date().getFullYear()} {business.name}. כל הזכויות שמורות.</p>
+        <nav aria-label="מידע משפטי">
+          <ul>
+            {legalPages.map((page) => <li key={page.href}><Link href={page.href}>{page.label}</Link></li>)}
+          </ul>
+        </nav>
       </div>
     </footer>
   );
