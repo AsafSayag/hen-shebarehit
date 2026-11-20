@@ -16,10 +16,33 @@ export function generateStaticParams() {
   return products.map((product) => ({ slug: product.category, id: String(product.id) }));
 }
 
+// The product's first photo, at a size that suits link previews.
+function shareImage(product: NonNullable<ReturnType<typeof getProduct>>) {
+  const src = product.images[0];
+  const variants = product.imageVariants?.[src];
+  const pick = variants ? variants.find((variant) => variant.width >= 960) ?? variants.at(-1) : undefined;
+  return pick ? { url: pick.src, width: pick.width, height: pick.height, alt: product.name } : { url: src, alt: product.name };
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, id } = await params;
   const product = getProduct(slug, id);
-  return { title: product?.name ?? "מוצר", ...canonicalMetadata(`/catalog/${slug}/${id}`) };
+  const category = getCategory(slug);
+  if (!product || !category) return { title: "מוצר" };
+  const description = `${product.name}. ${category.title} באולם התצוגה של ${business.name} בנתניה. לפרטים ולבירור זמינות, כתבו לנו בוואטסאפ.`;
+  return {
+    title: product.name,
+    description,
+    ...canonicalMetadata(`/catalog/${slug}/${id}`),
+    openGraph: {
+      type: "website",
+      locale: "he_IL",
+      siteName: business.name,
+      title: `${product.name} | ${business.name}`,
+      description,
+      images: [shareImage(product)],
+    },
+  };
 }
 
 export default async function ProductPage({ params }: Props) {

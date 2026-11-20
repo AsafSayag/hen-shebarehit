@@ -18,6 +18,16 @@ export const metadata: Metadata = {
     template: `%s | ${business.name}`,
   },
   description: "ריהוט בוטיק לבית בנתניה: ספות וכורסאות, פינות אוכל, מיטות, מזרנים, ארונות ומזנונים. אולם תצוגה במלאכה 43 בנתניה.",
+  // Link previews in WhatsApp, Facebook and others. Product pages replace the image with the product's own photo.
+  openGraph: {
+    type: "website",
+    locale: "he_IL",
+    siteName: business.name,
+    title: `${business.name} | ריהוט בוטיק לבית`,
+    description: "ריהוט בוטיק לבית ואולם תצוגה בנתניה. ספות וכורסאות, פינות אוכל, מיטות, מזרנים, ארונות ומזנונים.",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "החן שברהיט, ריהוט בוטיק לבית ואולם תצוגה בנתניה" }],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

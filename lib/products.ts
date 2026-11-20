@@ -5,6 +5,7 @@ import driveFurnitureData from "@/data/drive-furniture.json";
 import nammalBedsData from "@/data/nammal-beds.json";
 import guberProductsData from "@/data/guber-products.json";
 import photoOverrides from "@/data/photo-overrides.json";
+import textOverrides from "@/data/text-overrides.json";
 
 export type Product = {
   id: number;
@@ -24,6 +25,8 @@ export type Product = {
 
 const sourceProducts = [...productData, ...mattressData, ...zvzMattressData, ...driveFurnitureData, ...nammalBedsData, ...guberProductsData] as Product[];
 const editedPhotos = photoOverrides as unknown as Record<string, Partial<Product>>;
+// Cleaner names and details (no supplier promotions, colors in otherwise identical names). Kept apart from the imported data so re-imports do not undo them.
+const editedText = textOverrides as Record<string, Pick<Partial<Product>, "name" | "details">>;
 
 export const products = sourceProducts.map((product) => {
   const override = editedPhotos[String(product.id)];
@@ -45,6 +48,7 @@ export const products = sourceProducts.map((product) => {
   };
   return {
     ...publicProduct,
+    ...editedText[String(product.id)],
     ...override,
     imageFocus: override?.images ? override.imageFocus : override?.imageFocus ?? product.imageFocus,
   };
