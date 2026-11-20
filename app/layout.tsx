@@ -50,7 +50,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       { "@type": "OpeningHoursSpecification", dayOfWeek: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"], opens: "09:00", closes: "20:00" },
       { "@type": "OpeningHoursSpecification", dayOfWeek: "Friday", opens: "09:00", closes: "13:00" },
     ],
-    ...(siteOrigin ? { "@id": `${siteOrigin}/#business`, url: siteOrigin, image: `${siteOrigin}/brand/logo-primary.png` } : {}),
+    ...(siteOrigin ? { "@id": `${siteOrigin}/#business`, url: siteOrigin, image: `${siteOrigin}/og-image.jpg`, logo: `${siteOrigin}/brand/logo.png` } : {}),
   };
 
   return (

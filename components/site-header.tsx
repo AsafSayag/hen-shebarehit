@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import { HeaderNav, MobileMenu } from "@/components/header-nav";
 import { SearchIcon, WhatsappIcon } from "@/components/icons";
+import { Logo } from "@/components/logo";
 import { business } from "@/lib/site";
 
 export const navigation = [
@@ -20,7 +20,7 @@ export function SiteHeader() {
           <HeaderNav items={navigation} />
         </div>
         <Link href="/" className="brand-link" aria-label="החן שברהיט, לדף הבית">
-          <Image src="/brand/logo-header.png" alt="החן שברהיט" width={1189} height={231} className="brand-image" priority />
+          <Logo className="brand-logo" />
         </Link>
         <div className="header-end">
           <Link href="/search" className="icon-button" aria-label="חיפוש במוצרים">

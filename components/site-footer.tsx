@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FacebookIcon, WhatsappIcon } from "@/components/icons";
+import { Logo } from "@/components/logo";
 import { business, legalPages, openingHours, social } from "@/lib/site";
 
 const columns = [
@@ -40,7 +40,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Image src="/brand/logo-light.png" alt="החן שברהיט" width={1189} height={231} className="footer-logo" />
+          <Link href="/" className="footer-logo-link" aria-label="החן שברהיט, לדף הבית"><Logo tone="dark" className="footer-logo" /></Link>
           <p>רהיטים שמרגישים בית, באולם התצוגה שלנו בנתניה.</p>
           <div className="footer-social">
             <a href={social.facebook} target="_blank" rel="noopener noreferrer" aria-label="החן שברהיט בפייסבוק"><FacebookIcon /></a>

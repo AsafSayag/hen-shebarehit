@@ -87,7 +87,19 @@ p { line-height: 1.7; }
 .header-start { display: flex; align-items: center; justify-self: start; }
 .header-end { display: flex; align-items: center; gap: 14px; justify-self: end; }
 .brand-link { display: inline-flex; justify-self: center; }
-.brand-image { display: block; width: 222px; height: auto; }
+/* Logo: lamp-and-sofa mark beside the name; sizes are set per context with --logo-size (the name's font size). */
+.logo { --logo-size: 28px; display: inline-flex; align-items: center; gap: calc(var(--logo-size) * .5); line-height: 1; white-space: nowrap; }
+.logo-mark { flex: 0 0 auto; width: calc(var(--logo-size) * 1.6); height: auto; }
+.logo-words { display: flex; flex-direction: column; align-items: center; }
+.logo-name { font-size: var(--logo-size); letter-spacing: -.01em; }
+.logo-first { font-weight: 700; }
+.logo-second { font-weight: 300; }
+.logo-tagline { margin-block-start: calc(var(--logo-size) * .2); font-size: max(10px, calc(var(--logo-size) * .36)); font-weight: 400; letter-spacing: .04em; }
+.logo-light .logo-first { color: #333530; }
+.logo-light .logo-second, .logo-light .logo-tagline { color: #8a755a; }
+.logo-dark .logo-first { color: #f6f2eb; }
+.logo-dark .logo-second, .logo-dark .logo-tagline { color: #c9b79c; }
+.brand-logo { --logo-size: 32px; }
 .desktop-nav { display: flex; align-items: center; gap: 32px; font-size: 16px; }
 .desktop-nav a { position: relative; padding-block: 8px; color: var(--ink); transition: color .2s ease; }
 .desktop-nav a:hover { color: var(--accent); }
@@ -430,7 +442,8 @@ p { line-height: 1.7; }
 /* Footer */
 .site-footer { padding-block: 80px 36px; background: var(--ink); color: var(--on-dark-muted); }
 .footer-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) repeat(4, minmax(0, 1fr)); gap: 40px; }
-.footer-logo { display: block; width: 222px; height: auto; margin-block-end: 22px; }
+.footer-logo-link { display: inline-block; margin-block-end: 22px; }
+.footer-logo { --logo-size: 32px; }
 .footer-brand p { max-width: 320px; margin-block-end: 24px; font-size: 16px; }
 .footer-social { display: flex; gap: 12px; }
 .footer-social a { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid rgba(207, 198, 184, .45); border-radius: 50%; color: var(--on-dark); transition: background .2s ease; }
@@ -463,7 +476,7 @@ p { line-height: 1.7; }
 @media (max-width: 1100px) {
   .container { width: min(calc(100% - 64px), 1312px); }
   .desktop-nav { gap: 20px; font-size: 15px; }
-  .brand-image { width: 190px; }
+  .brand-logo { --logo-size: 28px; }
   .header-whatsapp { padding: 0 14px; font-size: 14px; }
   .category-photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .scroll-rail-item { flex-basis: calc((100% - 48px) / 3); }
@@ -484,7 +497,7 @@ p { line-height: 1.7; }
   .desktop-nav, .header-whatsapp { display: none; }
   .mobile-menu { display: block; }
   .header-inner { min-height: 64px; gap: 8px; }
-  .brand-image { width: 164px; }
+  .brand-logo { --logo-size: 24px; }
   .section { padding-block: 72px; }
   .page-top { padding-block: 40px 72px; }
   .page-title { margin-block: 28px 36px; }
