@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ArrowRightIcon } from "@/components/icons";
-import { ProductCard } from "@/components/product-card";
+import { firstRow, ProductCard } from "@/components/product-card";
 import { WhatsappBand } from "@/components/whatsapp-band";
 import { productsForCategory } from "@/lib/products";
 import { canonicalMetadata } from "@/lib/site-origin";
@@ -28,7 +28,7 @@ export default function AllBedroomsPage() {
             <h1>ארונות וחדרי שינה</h1>
             <span className="page-count">{products.length} דגמים</span>
           </div>
-          <div className="product-grid">{products.map((product) => <ProductCard key={product.id} product={product} />)}</div>
+          <div className="product-grid">{products.map((product, index) => <ProductCard key={product.id} product={product} eager={index < firstRow} />)}</div>
         </div>
       </section>
       <WhatsappBand />

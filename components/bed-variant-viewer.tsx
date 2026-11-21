@@ -18,7 +18,7 @@ export function BedVariantViewer({ product, whatsappBase, children }: Props) {
   const whatsapp = `${whatsappBase}?text=${encodeURIComponent(message)}`;
 
   return <>
-    <div className="product-gallery bed-gallery" aria-label={`תמונות ${product.name}`}>
+    <div className="product-gallery bed-gallery" role="group" aria-label={`תמונות ${product.name}`}>
       <div className="product-image product-image-main bed-main-image" ref={mainImageRef} key={selectedImage}>
         <ProductImage product={product} index={selectedImageIndex} featured />
       </div>

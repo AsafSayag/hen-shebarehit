@@ -29,7 +29,8 @@ export function Logo({ tone = "light", className }: { tone?: Tone; className?: s
     <span className={`logo logo-${tone}${className ? ` ${className}` : ""}`} aria-hidden="true">
       <LogoMark tone={tone} className="logo-mark" />
       <span className="logo-words">
-        <span className="logo-name"><span className="logo-first">החן</span> <span className="logo-second">שברהיט</span></span>
+        {/* The space keeps the name and tagline apart in the link's text ("שברהיט איכות"); a flex column does not draw it. */}
+        <span className="logo-name"><span className="logo-first">החן</span> <span className="logo-second">שברהיט</span></span>{" "}
         <span className="logo-tagline">{business.tagline}</span>
       </span>
     </span>

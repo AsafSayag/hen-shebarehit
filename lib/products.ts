@@ -7,12 +7,15 @@ import guberProductsData from "@/data/guber-products.json";
 import photoOverrides from "@/data/photo-overrides.json";
 import textOverrides from "@/data/text-overrides.json";
 import productDescriptions from "@/data/product-descriptions.json";
+import generatedVariants from "@/data/image-variants.json";
+import generatedCrops from "@/data/image-crops.json";
+
+type ImageFile = { src: string; width: number; height: number };
 
 export type Product = {
   id: number;
   category: string;
   name: string;
-  sku?: string;
   // One or two sentences shown under the name, with the main dimensions when known (scripts/build-product-descriptions.py).
   description?: string;
   details: string[];
@@ -21,8 +24,10 @@ export type Product = {
   bedType?: "double" | "jewish";
   bedVariants?: { label: string; image: string }[];
   bedroomGroups?: string[];
-  imageVariants?: Record<string, { src: string; width: number; height: number }[]>;
+  imageVariants?: Record<string, ImageFile[]>;
   imageFocus?: Record<string, [number, number, number, number]>;
+  // The framed item of a multi-item photo, saved as its own small files (scripts/build-image-variants.py).
+  imageCrops?: Record<string, ImageFile[]>;
   sizes?: string[];
 };
 
@@ -31,6 +36,24 @@ const editedPhotos = photoOverrides as unknown as Record<string, Partial<Product
 // Cleaner names and details (no supplier promotions, colors in otherwise identical names). Kept apart from the imported data so re-imports do not undo them.
 const editedText = textOverrides as Record<string, Pick<Partial<Product>, "name" | "details">>;
 const descriptions = productDescriptions as Record<string, string>;
+// Small WebP copies for photos the importers left without them (scripts/build-image-variants.py).
+const extraVariants = generatedVariants as Record<string, ImageFile[]>;
+const crops = generatedCrops as Record<string, ImageFile[]>;
+
+function withVariants(images: string[], variants: Product["imageVariants"]) {
+  const missing = images.filter((src) => !variants?.[src] && extraVariants[src]);
+  if (missing.length === 0) return variants;
+  return { ...variants, ...Object.fromEntries(missing.map((src) => [src, extraVariants[src]])) };
+}
+
+function cropsFor(images: string[], focus: Product["imageFocus"]) {
+  const found = images.flatMap((src) => {
+    const frame = focus?.[src];
+    const files = frame && crops[`${src}|${frame.join(",")}`];
+    return files ? [[src, files] as const] : [];
+  });
+  return found.length > 0 ? Object.fromEntries(found) : undefined;
+}
 
 // Supplier notes come wrapped in asterisks. Customer-facing ones are kept in plain words; internal ones are dropped.
 const supplierNotes: Record<string, string> = {
@@ -47,12 +70,12 @@ function cleanDetails(details: string[]) {
 
 export const products = sourceProducts.map((product) => {
   const override = editedPhotos[String(product.id)];
-  // Only these fields may reach rendered pages or client components.
+  // Only these fields may reach rendered pages or client components. The supplier's SKU stays in data/products.json
+  // for the store's own use: customers do not see it, and it is not sent to the browser.
   const publicProduct: Product = {
     id: product.id,
     category: product.category,
     name: product.name,
-    sku: product.sku,
     description: descriptions[String(product.id)],
     details: product.details,
     images: product.images,
@@ -70,7 +93,12 @@ export const products = sourceProducts.map((product) => {
     ...override,
     imageFocus: override?.images ? override.imageFocus : override?.imageFocus ?? product.imageFocus,
   };
-  return { ...merged, details: cleanDetails(merged.details) };
+  return {
+    ...merged,
+    details: cleanDetails(merged.details),
+    imageVariants: withVariants(merged.images, merged.imageVariants),
+    imageCrops: cropsFor(merged.images, merged.imageFocus),
+  };
 });
 
 export function productsForCategory(category: string) {

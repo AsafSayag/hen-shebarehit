@@ -34,7 +34,7 @@ export default async function StylePage({ params }: Props) {
   return (
     <>
       <section className="room-hero style-hero" aria-labelledby="style-title">
-        <Image src={style.image} alt={style.imageAlt} fill priority sizes="100vw" className="room-hero-image" />
+        <Image src={style.image} alt={style.imageAlt} fill loading="eager" fetchPriority="high" sizes="100vw" className="room-hero-image" />
         <div className="container room-hero-content">
           <Breadcrumbs items={[{ href: "/", label: "דף הבית" }, { href: "/#styles-title", label: homeCopy.styles.title.replace("?", "") }, { label: style.title }]} />
           <span className="style-hero-eyebrow">סגנון</span>

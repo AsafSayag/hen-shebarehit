@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ArrowRightIcon } from "@/components/icons";
-import { ProductCard } from "@/components/product-card";
+import { firstRow, ProductCard } from "@/components/product-card";
 import { WhatsappBand } from "@/components/whatsapp-band";
 import { productsForCategory } from "@/lib/products";
 import { bedroomSubcategories } from "@/lib/site";
@@ -44,7 +44,7 @@ export default async function BedroomSubcategoryPage({ params }: Props) {
             <h1>{subcategory.title}</h1>
             <span className="page-count">{products.length} דגמים</span>
           </div>
-          <div className="product-grid">{products.map((product) => <ProductCard key={product.id} product={product} />)}</div>
+          <div className="product-grid">{products.map((product, index) => <ProductCard key={product.id} product={product} eager={index < firstRow} />)}</div>
         </div>
       </section>
       <WhatsappBand />

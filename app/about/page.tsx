@@ -32,7 +32,7 @@ export default function AboutPage() {
             <p>{hero.lead}</p>
           </div>
           <div className="about-hero-image">
-            <Image src="/images/design/about/showroom.webp" alt="אולם תצוגה מואר עם סלון, פינת אוכל, כורסה ומיטה" fill priority sizes="(max-width: 1340px) 96vw, 1312px" />
+            <Image src="/images/design/about/showroom.webp" alt="אולם תצוגה מואר עם סלון, פינת אוכל, כורסה ומיטה" fill loading="eager" fetchPriority="high" sizes="(max-width: 1340px) 96vw, 1312px" />
           </div>
         </div>
       </section>
@@ -74,7 +74,7 @@ export default function AboutPage() {
         <div className="container about-reviews">
           <div className="about-reviews-copy">
             <h2 id="about-reviews-title">{reviews.title}</h2>
-            <div className="rating-summary rating-summary-start" aria-label={`${googleRating} מתוך 5 כוכבים, ${googleReviews.length} ביקורות ב-Google`}>
+            <div className="rating-summary rating-summary-start">
               <strong dir="ltr">{googleRating.toFixed(1)}</strong>
               <span><Stars size={16} /><small>{googleReviews.length} ביקורות ב-Google</small></span>
             </div>

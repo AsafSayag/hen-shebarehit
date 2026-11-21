@@ -21,7 +21,7 @@ export default function ReviewsPage() {
           <div className="section-title page-title">
             <span className="eyebrow">ביקורות Google</span>
             <h1>מה הלקוחות שלנו מספרים</h1>
-            <div className="rating-summary" aria-label={`${googleRating} מתוך 5 כוכבים, ${googleReviews.length} ביקורות ב-Google`}>
+            <div className="rating-summary">
               <strong dir="ltr">{googleRating.toFixed(1)}</strong>
               <span><Stars size={16} /><small>{googleReviews.length} ביקורות ב-Google</small></span>
             </div>

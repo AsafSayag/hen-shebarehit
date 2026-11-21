@@ -29,7 +29,7 @@ export default function HomePage() {
   return (
     <>
       <section className="home-hero" aria-labelledby="hero-title">
-        <Image src="/images/design/home/hero.webp" alt="סלון בגוונים חמים עם ספה בהירה, כורסה ירוקה ושולחן עץ עגול" fill priority sizes="100vw" className="home-hero-image" />
+        <Image src="/images/design/home/hero.webp" alt="סלון בגוונים חמים עם ספה בהירה, כורסה ירוקה ושולחן עץ עגול" fill loading="eager" fetchPriority="high" sizes="100vw" className="home-hero-image" />
         <div className="container home-hero-content">
           <h1 id="hero-title">{hero.title}</h1>
           <p>{hero.lead}</p>
@@ -151,7 +151,7 @@ export default function HomePage() {
             <span className="eyebrow">{reviews.eyebrow}</span>
             <h2 id="home-reviews-title">{reviews.title}</h2>
             <span className="title-ornament" aria-hidden="true" />
-            <a href={googleReviewsUrl} className="rating-badge" target="_blank" rel="noopener noreferrer" aria-label={`דירוג ${googleRating.toFixed(1)} מתוך 5 ב-Google, ${googleReviews.length} ביקורות. לביקורות ב-Google`}>
+            <a href={googleReviewsUrl} className="rating-badge" target="_blank" rel="noopener noreferrer">
               <GoogleIcon size={30} />
               <strong dir="ltr">{googleRating.toFixed(1)}</strong>
               <span><Stars size={18} /><small>{googleReviews.length} ביקורות ב-Google</small></span>

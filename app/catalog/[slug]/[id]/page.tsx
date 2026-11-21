@@ -71,7 +71,7 @@ export default async function ProductPage({ params }: Props) {
   const category = getCategory(slug);
   if (!product || !category) notFound();
 
-  const whatsapp = `${business.whatsapp}?text=${encodeURIComponent(`שלום, אשמח לפרטים על ${product.name}${product.sku ? ` (מק״ט ${product.sku})` : ""}`)}`;
+  const whatsapp = `${business.whatsapp}?text=${encodeURIComponent(`שלום, אשמח לפרטים על ${product.name}`)}`;
 
   return (
     <>
@@ -80,9 +80,7 @@ export default async function ProductPage({ params }: Props) {
       <div className="product-layout">
         <div className="product-heading">
           <span className="eyebrow">{category.title}</span>
-          <h1>{product.name}</h1>
-          {product.sku && <p className="product-sku">מק״ט <bdi>{product.sku}</bdi></p>}
-          {product.description && <p className="product-lead">{product.description}</p>}
+          <h1>{product.name}</h1>          {product.description && <p className="product-lead">{product.description}</p>}
         </div>
         {product.sizes && (
           <div className="product-sizes">

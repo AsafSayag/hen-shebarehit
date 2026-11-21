@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ArrowLeftIcon, ArrowRightIcon } from "@/components/icons";
-import { ProductCard } from "@/components/product-card";
+import { firstRow, ProductCard } from "@/components/product-card";
 import { WhatsappBand } from "@/components/whatsapp-band";
 import { productsForCategory, type Product } from "@/lib/products";
 import { bedroomGroupImage, bedroomSubcategories, catalogCards, categories, categoryDescription, getCategory } from "@/lib/site";
@@ -97,19 +97,19 @@ export default async function CategoryPage({ params }: Props) {
                       <a key={section.key} href={`#${section.key}`}>{section.title} <span>{products.filter(section.match).length}</span></a>
                     ))}
                   </nav>
-                  {sections.map((section) => {
+                  {sections.map((section, sectionIndex) => {
                     const items = products.filter(section.match);
                     return (
                       <section className="product-collection" id={section.key} key={section.key} aria-labelledby={`${section.key}-title`}>
                         <div className="collection-heading"><h2 id={`${section.key}-title`}>{section.title}</h2><span>{items.length} דגמים</span></div>
-                        <div className="product-grid">{items.map((product) => <ProductCard key={product.id} product={product} />)}</div>
+                        <div className="product-grid">{items.map((product, index) => <ProductCard key={product.id} product={product} eager={sectionIndex === 0 && index < firstRow} />)}</div>
                       </section>
                     );
                   })}
                 </>
               ) : (
                 <div className={`product-grid${products.length === 3 ? " product-grid-three" : ""}`}>
-                  {products.map((product) => <ProductCard key={product.id} product={product} />)}
+                  {products.map((product, index) => <ProductCard key={product.id} product={product} eager={index < firstRow} />)}
                 </div>
               )}
             </>

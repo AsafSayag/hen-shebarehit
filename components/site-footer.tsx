@@ -41,7 +41,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Link href="/" className="footer-logo-link" aria-label="החן שברהיט, לדף הבית"><Logo tone="dark" className="footer-logo" /></Link>
+          <Link href="/" className="footer-logo-link" aria-label={`${business.name} – ${business.tagline}. לדף הבית`}><Logo tone="dark" className="footer-logo" /></Link>
           <p>רהיטים שמרגישים בית, באולם התצוגה שלנו בנתניה.</p>
           <div className="footer-social">
             <a href={social.facebook} className="footer-social-facebook" target="_blank" rel="noopener noreferrer" aria-label="החן שברהיט בפייסבוק"><FacebookIcon /></a>

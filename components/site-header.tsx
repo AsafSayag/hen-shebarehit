@@ -19,7 +19,7 @@ export function SiteHeader() {
           <MobileMenu items={navigation} whatsapp={business.whatsapp} phone={business.mobile} phoneDisplay={business.mobileDisplay} phoneName={business.owner} />
           <HeaderNav items={navigation} />
         </div>
-        <Link href="/" className="brand-link" aria-label="החן שברהיט, לדף הבית">
+        <Link href="/" className="brand-link" aria-label={`${business.name} – ${business.tagline}. לדף הבית`}>
           <Logo className="brand-logo" />
         </Link>
         <div className="header-end">

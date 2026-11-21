@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SearchIcon } from "@/components/icons";
-import { ProductCard } from "@/components/product-card";
+import { firstRow, ProductCard } from "@/components/product-card";
 import { WhatsappBand } from "@/components/whatsapp-band";
 import { products } from "@/lib/products";
 import { bedroomSubcategories, getCategory, productTypeLabel } from "@/lib/site";
@@ -19,7 +19,7 @@ function normalize(text: string) {
 
 function searchableText(product: (typeof products)[number]) {
   const groups = (product.bedroomGroups ?? []).map((slug) => bedroomSubcategories.find((group) => group.slug === slug)?.title ?? "");
-  return normalize([product.name, product.sku ?? "", productTypeLabel(product), getCategory(product.category)?.title ?? "", ...groups].join(" "));
+  return normalize([product.name, productTypeLabel(product), getCategory(product.category)?.title ?? "", ...groups].join(" "));
 }
 
 export default async function SearchPage({ searchParams }: Props) {
@@ -59,7 +59,7 @@ export default async function SearchPage({ searchParams }: Props) {
           </div>
           {results.length > 0 && (
             <>
-              <div className="product-grid">{results.slice(0, MAX_RESULTS).map((product) => <ProductCard key={product.id} product={product} showType />)}</div>
+              <div className="product-grid">{results.slice(0, MAX_RESULTS).map((product, index) => <ProductCard key={product.id} product={product} showType eager={index < firstRow} />)}</div>
               {results.length > MAX_RESULTS && <p className="search-more">מוצגים {MAX_RESULTS} הראשונים. כדאי לחדד את החיפוש.</p>}
             </>
           )}

@@ -10,7 +10,7 @@ export function ProductGalleryViewer({ product }: { product: Product }) {
   const original = product.imageVariants?.[src]?.at(-1);
   const aspect = original ? Math.min(2.2, Math.max(0.85, original.width / original.height)) : 1;
 
-  return <div className="product-gallery catalog-gallery" aria-label={`תמונות ${product.name}`}>
+  return <div className="product-gallery catalog-gallery" role="group" aria-label={`תמונות ${product.name}`}>
     <div className="product-image catalog-gallery-main" style={{ aspectRatio: aspect }} key={src}>
       <ProductImage product={product} index={selected} featured />
     </div>
@@ -19,7 +19,7 @@ export function ProductGalleryViewer({ product }: { product: Product }) {
       <span dir="ltr">{selected + 1} / {product.images.length}</span>
       <button type="button" aria-label="התמונה הבאה" disabled={selected === product.images.length - 1} onClick={() => setSelected(selected + 1)}>←</button>
     </div>}
-    {product.images.length > 1 && <div className="catalog-gallery-thumbs" aria-label="בחירת תמונה">
+    {product.images.length > 1 && <div className="catalog-gallery-thumbs" role="group" aria-label="בחירת תמונה">
       {product.images.map((image, index) => <button
         type="button"
         className={`product-image product-photo-thumb${selected === index ? " is-selected" : ""}`}

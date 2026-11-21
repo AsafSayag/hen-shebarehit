@@ -92,7 +92,7 @@ export function ScrollRail({ label, children, footer, variant = "default", autop
       onFocus={(event) => { if ((event.target as HTMLElement).matches(":focus-visible")) hold(true); }}
       onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) hold(false); }}
     >
-      <div className="scroll-rail-track" ref={track} role="region" aria-label={label} tabIndex={0} onWheel={() => { lastTouch.current = Date.now(); }}>
+      <div className="scroll-rail-track" ref={track} role="region" aria-label={`רשימת ${label}`} tabIndex={0} onWheel={() => { lastTouch.current = Date.now(); }}>
         {children}
       </div>
       <div className="scroll-rail-footer">

@@ -35,7 +35,7 @@ export default async function RoomPage({ params }: Props) {
   return (
     <>
       <section className="room-hero" aria-labelledby="room-page-title">
-        <Image src="/images/design/home/room-bedroom.webp" alt="חדר שינה עם מיטה מרופדת, ארון כהה וכורסת עץ ליד החלון" fill priority sizes="100vw" className="room-hero-image" style={{ objectPosition: `${x}% ${y}%` }} />
+        <Image src="/images/design/home/room-bedroom.webp" alt="חדר שינה עם מיטה מרופדת, ארון כהה וכורסת עץ ליד החלון" fill loading="eager" fetchPriority="high" sizes="100vw" className="room-hero-image" style={{ objectPosition: `${x}% ${y}%` }} />
         <div className="container room-hero-content">
           <Breadcrumbs items={[{ href: "/", label: "דף הבית" }, { href: "/#room-title", label: homeCopy.room.title.replace("?", "") }, { label: page.label }]} />
           <h1 id="room-page-title">{page.title}</h1>
