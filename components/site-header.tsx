@@ -16,7 +16,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="header-inner container">
         <div className="header-start">
-          <MobileMenu items={navigation} whatsapp={business.whatsapp} phone={business.mobile} phoneDisplay={business.mobileDisplay} />
+          <MobileMenu items={navigation} whatsapp={business.whatsapp} phone={business.mobile} phoneDisplay={business.mobileDisplay} phoneName={business.owner} />
           <HeaderNav items={navigation} />
         </div>
         <Link href="/" className="brand-link" aria-label="החן שברהיט, לדף הבית">

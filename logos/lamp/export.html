@@ -34,7 +34,7 @@ const mark = (ink, warm) => `<svg class="mark" viewBox="0 0 64 72" fill="none" s
   <path d="M17 59v-3.5a3 3 0 0 1 3-3h24a3 3 0 0 1 3 3V59" stroke="${ink}" stroke-width="2.4"/>
   <path d="M12 68v-7.5a3 3 0 0 1 6 0V63h28v-2.5a3 3 0 0 1 6 0V68z" stroke="${ink}" stroke-width="2.4"/>
 </svg>`;
-const words = `<span class="words"><span class="name"><span class="first">החן</span> <span class="second">שברהיט</span></span><span class="tagline">כשנוחות ויופי נפגשים</span></span>`;
+const words = `<span class="words"><span class="name"><span class="first">החן</span> <span class="second">שברהיט</span></span><span class="tagline">איכות ושירות, זה אנחנו</span></span>`;
 const variant = location.hash.slice(1) || 'light';
 const stage = document.getElementById('stage');
 if (variant === 'dark') stage.innerHTML = `<span class="logo dark">${mark('#f6f2eb', '#c9b79c')}${words}</span>`;

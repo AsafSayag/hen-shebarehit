@@ -1,5 +1,6 @@
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { WhatsappIcon } from "@/components/icons";
+import { PhoneLink } from "@/components/phone-link";
 import { business } from "@/lib/site";
 
 export const legalUpdated = "20 בנובמבר 2026";
@@ -19,7 +20,7 @@ export function LegalPage({ title, lead, children }: { title: string; lead: stri
           {children}
           <aside className="legal-contact" aria-label="יצירת קשר">
             <h2>יש שאלה?</h2>
-            <p>{business.name}, {business.address}. טלפון: <a href={`tel:${business.mobile}`} dir="ltr">{business.mobileDisplay}</a>, טלפון בחנות: <a href={`tel:${business.landline}`} dir="ltr">{business.landline}</a>.</p>
+            <p>{business.name}, {business.address}. טלפון: <PhoneLink />, טלפון בחנות: <a href={`tel:${business.landline}`} dir="ltr">{business.landline}</a>.</p>
             <a href={business.whatsapp} className="button button-dark" target="_blank" rel="noopener noreferrer"><WhatsappIcon size={18} /> כתבו לנו בוואטסאפ</a>
           </aside>
         </article>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { DirectionsButton } from "@/components/directions-button";
+import { PhoneLink } from "@/components/phone-link";
 import { ChevronUpIcon, FacebookIcon, HeartIcon, LocationIcon, NavigateIcon, PhoneIcon, WhatsappIcon } from "@/components/icons";
 import { contactCopy, faqs } from "@/lib/content";
 import { business, openingHoursLine, social } from "@/lib/site";
@@ -24,11 +25,11 @@ export default function ContactPage() {
             <article className="contact-card">
               <span className="icon-circle icon-circle-cream" aria-hidden="true"><WhatsappIcon size={24} /></span>
               <h2>{cards.whatsapp.title}</h2>
-              <a href={`tel:${business.mobile}`} className="contact-card-phone" dir="ltr">{business.mobileDisplay}</a>
+              <PhoneLink className="contact-card-phone" />
               <p>{cards.whatsapp.note}</p>
               <div className="contact-card-actions">
                 <a href={business.whatsapp} className="button button-dark" target="_blank" rel="noopener noreferrer"><WhatsappIcon size={18} /> {cards.whatsapp.whatsapp}</a>
-                <a href={`tel:${business.mobile}`} className="button button-outline"><PhoneIcon size={18} /> {cards.whatsapp.call}</a>
+                <a href={`tel:${business.mobile}`} className="button button-outline"><PhoneIcon size={18} /> {cards.whatsapp.call} ל{business.owner}</a>
               </div>
             </article>
             <article className="contact-card">

@@ -29,7 +29,7 @@ export default function ReviewsPage() {
             <a className="button button-outline" href={googleReviewsUrl} target="_blank" rel="noopener noreferrer">לקריאת הביקורות המלאות ב-Google <ExternalIcon size={16} /></a>
           </div>
           <div className="reviews-grid">
-            {googleReviews.map((review) => <ReviewCard key={review.name} review={review} />)}
+            {googleReviews.map((review, index) => <ReviewCard key={review.name} review={review} index={index} />)}
           </div>
         </div>
       </section>

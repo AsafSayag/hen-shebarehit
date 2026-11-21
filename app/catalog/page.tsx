@@ -4,10 +4,15 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ArrowLeftIcon } from "@/components/icons";
 import { WhatsappBand } from "@/components/whatsapp-band";
+import { products } from "@/lib/products";
 import { catalogCards } from "@/lib/site";
 import { canonicalMetadata } from "@/lib/site-origin";
 
-export const metadata: Metadata = { title: "קטלוג", ...canonicalMetadata("/catalog") };
+export const metadata: Metadata = {
+  title: "קטלוג",
+  description: `הקטלוג של החן שברהיט: ספות וכורסאות, פינות אוכל, כיסאות, מיטות, מזרנים, ארונות ומזנונים. ${products.length} דגמים, ואולם תצוגה בנתניה.`,
+  ...canonicalMetadata("/catalog"),
+};
 
 export default function CatalogPage() {
   return (

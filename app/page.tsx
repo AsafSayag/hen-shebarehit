@@ -2,24 +2,23 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { DirectionsButton } from "@/components/directions-button";
-import { ArrowLeftIcon, ClockIcon, DeliveryIcon, ExternalIcon, LocationIcon, PersonIcon, PhoneIcon, SlidersIcon, SofaIcon, WhatsappIcon } from "@/components/icons";
+import { ArrowLeftIcon, ClockIcon, DeliveryIcon, ExternalIcon, GoogleIcon, LocationIcon, PersonIcon, PhoneIcon, SlidersIcon, SofaIcon, WhatsappIcon } from "@/components/icons";
+import { PhoneLink } from "@/components/phone-link";
 import { ProductCard } from "@/components/product-card";
 import { ReviewCard, Stars } from "@/components/review-card";
 import { RoomScene } from "@/components/room-scene";
 import { ScrollRail } from "@/components/scroll-rail";
-import { features, homeCopy, roomHotspots, styleCards } from "@/lib/content";
+import { pick, showcaseIds, styleCollections } from "@/lib/collections";
+import { features, homeCopy, roomHotspots } from "@/lib/content";
 import { products } from "@/lib/products";
-import { googleRating, googleReviews } from "@/lib/reviews";
+import { googleRating, googleReviews, googleReviewsUrl } from "@/lib/reviews";
 import { canonicalMetadata } from "@/lib/site-origin";
 import { business, catalogCards, openingHours, whatsappLink } from "@/lib/site";
 
 export const metadata: Metadata = canonicalMetadata("/");
 
-// Products with clean studio photos, one or two from each main category.
-const showcaseIds = [60026, 61012, 62013, 61002, 60021, 62002, 61008, 60003];
-const showcase = showcaseIds
-  .map((id) => products.find((product) => product.id === id))
-  .filter((product) => product !== undefined);
+// Products with clean photos from every category; the rail moves by itself (see ScrollRail).
+const showcase = pick(showcaseIds);
 
 const featureIcons = { delivery: DeliveryIcon, person: PersonIcon, sliders: SlidersIcon, sofa: SofaIcon };
 
@@ -63,10 +62,11 @@ export default function HomePage() {
           <div className="container">
             <div className="section-title">
               <h2 id="showcase-title">{productsCopy.title}</h2>
-              <p>{productsCopy.lead.replace("{count}", String(products.length))}</p>
+              <p>{productsCopy.lead.replace("{shown}", String(showcase.length)).replace("{count}", String(products.length))}</p>
             </div>
             <ScrollRail
               label={productsCopy.title}
+              autoplay
               footer={<Link href="/catalog" className="button button-outline">{productsCopy.link} <ArrowLeftIcon size={18} /></Link>}
             >
               {showcase.map((product) => (
@@ -92,16 +92,19 @@ export default function HomePage() {
             <p>{styles.lead}</p>
           </div>
           <div className="style-grid">
-            {styleCards.map((card) => (
-              <Link key={card.key} href={card.href} className={`style-card style-card-${card.key}`}>
-                <Image src={card.image} alt="" fill sizes="(max-width: 760px) 92vw, 60vw" />
-                <span className="style-card-copy">
-                  <strong>{card.title}</strong>
-                  <span>{card.text}</span>
-                  <span className="style-card-link">{card.link} <ArrowLeftIcon size={16} /></span>
-                </span>
-              </Link>
-            ))}
+            {styleCollections.map((style) => {
+              const count = style.groups.reduce((sum, group) => sum + pick(group.ids).length, 0);
+              return (
+                <Link key={style.key} href={`/styles/${style.slug}`} className={`style-card style-card-${style.key}`}>
+                  <Image src={style.image} alt="" fill sizes="(max-width: 760px) 92vw, 60vw" />
+                  <span className="style-card-copy">
+                    <strong>{style.title}</strong>
+                    <span>{style.card}</span>
+                    <span className="style-card-link">{count} רהיטים בסגנון {style.title} <ArrowLeftIcon size={16} /></span>
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -142,24 +145,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section section-dark" aria-labelledby="home-reviews-title">
+      <section className="section section-reviews" aria-labelledby="home-reviews-title">
         <div className="container">
           <div className="section-title section-title-dark">
             <span className="eyebrow">{reviews.eyebrow}</span>
             <h2 id="home-reviews-title">{reviews.title}</h2>
             <span className="title-ornament" aria-hidden="true" />
-            <div className="rating-summary" aria-label={`${googleRating} מתוך 5 כוכבים, ${googleReviews.length} ביקורות ב-Google`}>
+            <a href={googleReviewsUrl} className="rating-badge" target="_blank" rel="noopener noreferrer" aria-label={`דירוג ${googleRating.toFixed(1)} מתוך 5 ב-Google, ${googleReviews.length} ביקורות. לביקורות ב-Google`}>
+              <GoogleIcon size={30} />
               <strong dir="ltr">{googleRating.toFixed(1)}</strong>
-              <span><Stars /><small>{googleReviews.length} ביקורות ב-Google</small></span>
-            </div>
+              <span><Stars size={18} /><small>{googleReviews.length} ביקורות ב-Google</small></span>
+            </a>
           </div>
-          <div className="review-row">
-            {writtenReviews.slice(0, 6).map((review) => <ReviewCard key={review.name} review={review} tone="dark" />)}
-          </div>
-          <div className="section-actions">
-            <Link href="/reviews" className="button button-ghost-light">{reviews.link} <ArrowLeftIcon size={18} /></Link>
-            <p className="reviews-note">הטקסטים הם תקצירי ביקורות שפורסמו ב-Google.</p>
-          </div>
+          <ScrollRail
+            label="ביקורות לקוחות"
+            variant="thirds"
+            footer={<Link href="/reviews" className="button button-light">{reviews.link} <ArrowLeftIcon size={18} /></Link>}
+          >
+            {writtenReviews.slice(0, 12).map((review, index) => (
+              <div className="scroll-rail-item" key={review.name}><ReviewCard review={review} tone="color" index={index} /></div>
+            ))}
+          </ScrollRail>
+          <p className="reviews-note">
+            תקצירים של ביקורות אמיתיות שלקוחות פרסמו ב-Google.{" "}
+            <a href={googleReviewsUrl} target="_blank" rel="noopener noreferrer">לקריאת הביקורות המלאות ב-Google <ExternalIcon size={14} /></a>
+          </p>
         </div>
       </section>
 
@@ -191,7 +201,7 @@ export default function HomePage() {
                 <span className="icon-circle icon-circle-cream" aria-hidden="true"><PhoneIcon size={22} /></span>
                 <div>
                   <h3>טלפון</h3>
-                  <a href={`tel:${business.mobile}`} dir="ltr">{business.mobileDisplay}</a>
+                  <PhoneLink />
                 </div>
               </div>
               <div className="visit-card-foot">

@@ -7,7 +7,11 @@ import { WhatsappBand } from "@/components/whatsapp-band";
 import { productsForCategory } from "@/lib/products";
 import { canonicalMetadata } from "@/lib/site-origin";
 
-export const metadata: Metadata = { title: "כל הארונות וחדרי השינה", ...canonicalMetadata("/catalog/bedrooms/all") };
+export const metadata: Metadata = {
+  title: "כל הארונות וחדרי השינה",
+  description: `כל ${productsForCategory("bedrooms").length} דגמי הארונות, חדרי השינה וחדרי הילדים במקום אחד, עם תמונות ומידות. אולם תצוגה במלאכה 43, נתניה.`,
+  ...canonicalMetadata("/catalog/bedrooms/all"),
+};
 
 export default function AllBedroomsPage() {
   const products = productsForCategory("bedrooms");

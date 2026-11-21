@@ -1,6 +1,8 @@
 // The החן שברהיט logo (option C, "מנורה", chosen 20 November 2026): a pendant lamp lighting a sofa,
 // next to the name set in Assistant, the site's typeface. The text is live text so it stays sharp at any size.
 
+import { business } from "@/lib/site";
+
 type Tone = "light" | "dark";
 
 const colors: Record<Tone, { ink: string; warm: string }> = {
@@ -28,7 +30,7 @@ export function Logo({ tone = "light", className }: { tone?: Tone; className?: s
       <LogoMark tone={tone} className="logo-mark" />
       <span className="logo-words">
         <span className="logo-name"><span className="logo-first">החן</span> <span className="logo-second">שברהיט</span></span>
-        <span className="logo-tagline">כשנוחות ויופי נפגשים</span>
+        <span className="logo-tagline">{business.tagline}</span>
       </span>
     </span>
   );

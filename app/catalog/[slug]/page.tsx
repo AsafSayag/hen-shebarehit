@@ -7,7 +7,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@/components/icons";
 import { ProductCard } from "@/components/product-card";
 import { WhatsappBand } from "@/components/whatsapp-band";
 import { productsForCategory, type Product } from "@/lib/products";
-import { bedroomGroupImage, bedroomSubcategories, catalogCards, categories, getCategory } from "@/lib/site";
+import { bedroomGroupImage, bedroomSubcategories, catalogCards, categories, categoryDescription, getCategory } from "@/lib/site";
 import { canonicalMetadata } from "@/lib/site-origin";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -35,7 +35,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const category = getCategory(slug);
-  return { title: category?.title ?? "קטגוריה", ...canonicalMetadata(`/catalog/${slug}`) };
+  return { title: category?.title ?? "קטגוריה", description: categoryDescription(slug, productsForCategory(slug).length), ...canonicalMetadata(`/catalog/${slug}`) };
 }
 
 export default async function CategoryPage({ params }: Props) {

@@ -82,7 +82,7 @@ export default function AboutPage() {
             <a href={googleReviewsUrl} className="button button-outline" target="_blank" rel="noopener noreferrer">{reviews.link} <ExternalIcon size={16} /></a>
           </div>
           <div className="about-reviews-grid">
-            {featuredReviews.map((review) => <ReviewCard key={review.name} review={review} />)}
+            {featuredReviews.map((review, index) => <ReviewCard key={review.name} review={review} index={index} />)}
           </div>
         </div>
       </section>

@@ -24,7 +24,7 @@ export function HeaderNav({ items }: { items: Item[] }) {
   );
 }
 
-export function MobileMenu({ items, whatsapp, phone, phoneDisplay }: { items: Item[]; whatsapp: string; phone: string; phoneDisplay: string }) {
+export function MobileMenu({ items, whatsapp, phone, phoneDisplay, phoneName }: { items: Item[]; whatsapp: string; phone: string; phoneDisplay: string; phoneName: string }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
@@ -67,7 +67,7 @@ export function MobileMenu({ items, whatsapp, phone, phoneDisplay }: { items: It
         </nav>
         <div className="mobile-menu-actions">
           <a href={whatsapp} className="button button-dark" target="_blank" rel="noopener noreferrer"><WhatsappIcon size={18} /> כתבו לנו בוואטסאפ</a>
-          <a href={`tel:${phone}`} className="button button-outline"><PhoneIcon size={18} /> <span dir="ltr">{phoneDisplay}</span></a>
+          <a href={`tel:${phone}`} className="button button-outline"><PhoneIcon size={18} /> {phoneName} <bdi dir="ltr">{phoneDisplay}</bdi></a>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { StarIcon } from "@/components/icons";
+import { GoogleIcon, StarIcon } from "@/components/icons";
 
 type Review = {
   name: string;
@@ -23,10 +23,14 @@ export function Stars({ size = 14 }: { size?: number }) {
   );
 }
 
-export function ReviewCard({ review, tone = "light" }: { review: Review; tone?: "light" | "dark" }) {
+// Avatar colours rotate through six warm tones from the site palette, so neighbouring cards differ.
+const avatarTones = 6;
+
+export function ReviewCard({ review, tone = "light", index = 0 }: { review: Review; tone?: "light" | "dark" | "color"; index?: number }) {
   const name = shortName(review.name);
   return (
     <article className={`review-card review-card-${tone}`}>
+      {tone === "color" && <span className="review-quote" aria-hidden="true">”</span>}
       <Stars />
       {review.summary ? (
         <p className="review-summary">{review.summary}</p>
@@ -34,10 +38,10 @@ export function ReviewCard({ review, tone = "light" }: { review: Review; tone?: 
         <p className="review-summary review-summary-empty">דירוג של 5 כוכבים ללא טקסט</p>
       )}
       <div className="review-author">
-        <span className="review-avatar" aria-hidden="true">{name[0]}</span>
+        <span className={`review-avatar review-avatar-${index % avatarTones}`} aria-hidden="true">{name[0]}</span>
         <span>
           <strong dir="auto">{name}</strong>
-          <small>ביקורת ב-Google</small>
+          <small><GoogleIcon size={12} /> ביקורת ב-Google</small>
         </span>
       </div>
     </article>

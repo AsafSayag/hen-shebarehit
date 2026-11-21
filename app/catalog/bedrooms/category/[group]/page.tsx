@@ -18,7 +18,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { group } = await params;
   const subcategory = bedroomSubcategories.find((item) => item.slug === group);
-  return { title: subcategory?.title ?? "תת־קטגוריה", ...canonicalMetadata(`/catalog/bedrooms/category/${group}`) };
+  const count = productsForCategory("bedrooms").filter((product) => product.bedroomGroups?.includes(group)).length;
+  return {
+    title: subcategory?.title ?? "תת־קטגוריה",
+    description: subcategory ? `${subcategory.title} באולם התצוגה של החן שברהיט בנתניה: ${count} דגמים עם תמונות ומידות. לפרטים ולבירור זמינות, כתבו לנו בוואטסאפ.` : undefined,
+    ...canonicalMetadata(`/catalog/bedrooms/category/${group}`),
+  };
 }
 
 export default async function BedroomSubcategoryPage({ params }: Props) {

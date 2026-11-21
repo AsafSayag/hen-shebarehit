@@ -4,9 +4,9 @@ import { useRef, useState } from "react";
 import { ProductImage } from "@/components/product-image";
 import type { Product } from "@/lib/products";
 
-type Props = { product: Product; whatsappBase: string };
+type Props = { product: Product; whatsappBase: string; children?: React.ReactNode };
 
-export function BedVariantViewer({ product, whatsappBase }: Props) {
+export function BedVariantViewer({ product, whatsappBase, children }: Props) {
   const mainImageRef = useRef<HTMLDivElement>(null);
   const [selectedVariantIndex, setSelectedVariantIndex] = useState<number | null>(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -70,6 +70,7 @@ export function BedVariantViewer({ product, whatsappBase }: Props) {
         {product.details.map((line, index) => <p key={`${index}-${line}`}>{line}</p>)}
       </div>}
       <a className="button button-dark product-contact" href={whatsapp} target="_blank" rel="noopener noreferrer">לפרטים בוואטסאפ</a>
+      {children}
     </div>
   </>;
 }

@@ -1,6 +1,8 @@
 export const business = {
   name: "החן שברהיט",
-  tagline: "כשנוחות ויופי נפגשים",
+  tagline: "איכות ושירות, זה אנחנו",
+  // The owner answers the mobile number; his name is shown next to it wherever it appears.
+  owner: "שמואל",
   address: "המלאכה 43, נתניה",
   landline: "09-8615297",
   mobile: "052-6260068",
@@ -114,4 +116,20 @@ export function categoryHref(slug: string) {
 
 export function getCategory(slug: string) {
   return categories.find((category) => category.slug === slug);
+}
+
+// Meta descriptions for the catalog pages (what search results show under the title). {count} is the number of models.
+export const categoryDescriptions: Record<string, string> = {
+  "living-rooms": "ספות, סלונים פינתיים, ספות שזלונג וכורסאות במגוון בדים וגוונים. {count} דגמים באולם התצוגה של החן שברהיט, המלאכה 43 בנתניה.",
+  sideboards: "מזנונים לסלון, תלויים ועומדים, בגימורי עץ, שמנת ושחור. {count} דגמים באולם התצוגה של החן שברהיט, המלאכה 43 בנתניה.",
+  "dining-sets": "שולחנות אוכל נפתחים מאבן קרמית, פורניר ולמינציה, עגולים, אובליים ומלבניים. {count} דגמים באולם התצוגה של החן שברהיט בנתניה.",
+  "dining-chairs": "זוגות כיסאות לפינת האוכל, מרופדים בבד רחיץ או בדמוי עור, עם מידות מלאות. {count} דגמים באולם התצוגה של החן שברהיט בנתניה.",
+  beds: "מיטות זוגיות ומיטות יהודיות מרופדות, עם בדים ומידות לבחירה. {count} דגמים באולם התצוגה של החן שברהיט, המלאכה 43 בנתניה.",
+  mattresses: "מזרנים עם קפיצי פוקט, ויסקו ולטקס, במגוון מידות ודרגות קשיחות. בואו לשכב עליהם באולם התצוגה של החן שברהיט בנתניה.",
+  bedrooms: "ארונות הזזה ופתיחה, ארונות ייבוא, חדרי שינה וחדרי ילדים קומפלט: {count} דגמים עם מידות, באולם התצוגה של החן שברהיט בנתניה.",
+};
+
+export function categoryDescription(slug: string, count: number) {
+  const text = categoryDescriptions[slug];
+  return text ? text.replace("{count}", String(count)) : undefined;
 }

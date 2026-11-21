@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FacebookIcon, WhatsappIcon } from "@/components/icons";
+import { PhoneLink } from "@/components/phone-link";
 import { Logo } from "@/components/logo";
 import { business, legalPages, openingHours, social } from "@/lib/site";
 
@@ -43,8 +44,8 @@ export function SiteFooter() {
           <Link href="/" className="footer-logo-link" aria-label="החן שברהיט, לדף הבית"><Logo tone="dark" className="footer-logo" /></Link>
           <p>רהיטים שמרגישים בית, באולם התצוגה שלנו בנתניה.</p>
           <div className="footer-social">
-            <a href={social.facebook} target="_blank" rel="noopener noreferrer" aria-label="החן שברהיט בפייסבוק"><FacebookIcon /></a>
-            <a href={business.whatsapp} target="_blank" rel="noopener noreferrer" aria-label="וואטסאפ"><WhatsappIcon /></a>
+            <a href={social.facebook} className="footer-social-facebook" target="_blank" rel="noopener noreferrer" aria-label="החן שברהיט בפייסבוק"><FacebookIcon /></a>
+            <a href={business.whatsapp} className="footer-social-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="וואטסאפ"><WhatsappIcon /></a>
           </div>
         </div>
         {columns.map((column) => (
@@ -65,7 +66,7 @@ export function SiteFooter() {
           <h2>צרו קשר</h2>
           <ul>
             <li><a href={business.maps} target="_blank" rel="noopener noreferrer">{business.address}</a></li>
-            <li><a href={`tel:${business.mobile}`} dir="ltr">{business.mobileDisplay}</a></li>
+            <li><PhoneLink /></li>
           </ul>
           <dl className="footer-hours">
             {openingHours.map((row) => (

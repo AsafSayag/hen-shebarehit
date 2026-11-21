@@ -24,7 +24,7 @@ export const homeCopy = {
   },
   products: {
     title: "מהקטלוג שלנו",
-    lead: "כמה דגמים ששווה להכיר מתוך {count} הדגמים שבקטלוג.",
+    lead: "{shown} דגמים ששווה להכיר מתוך {count} הדגמים שבקטלוג.",
     link: "לכל הקטלוג",
   },
   room: {
@@ -33,7 +33,7 @@ export const homeCopy = {
   },
   styles: {
     title: "איזה סגנון מתאים לכם?",
-    lead: "אוהבים מראה נקי ומודרני? אולי משהו חמים יותר? בואו לראות כמה כיוונים.",
+    lead: "אוהבים מראה נקי ומודרני? אולי משהו חמים יותר? בחרנו לכל סגנון רהיטים מהקטלוג שמתאימים לו.",
   },
   features: {
     title: "כמה דברים שכדאי לדעת עלינו",
@@ -61,19 +61,13 @@ export const homeCopy = {
   },
 } as const;
 
-// The style cards link to the category shown in each photo; the catalog has no style filter yet.
-export const styleCards = [
-  { key: "modern", title: "מודרני חם", text: "קווים נקיים, בדים רכים וגווני אדמה שמחממים את החלל.", image: "/images/design/home/style-modern.webp", href: "/catalog/dining-sets", link: "לפינות האוכל" },
-  { key: "rustic", title: "כפרי", text: "עץ מלא, טקסטורות טבעיות ופרטים שמספרים סיפור.", image: "/images/design/home/style-rustic.webp", href: "/catalog/living-rooms#sofas", link: "לספות ולסלונים" },
-  { key: "scandinavian", title: "סקנדינבי", text: "אור, פשטות ועץ בהיר לבית מאוורר ונעים.", image: "/images/design/home/style-scandinavian.webp", href: "/catalog/beds", link: "למיטות" },
-] as const;
-
 // Hotspots on the bedroom scene; positions are percentages of the image (from the left and top).
+// Each leads to a page that shows its category as large carousels (app/room/[slug]).
 export const roomHotspots = [
-  { key: "wardrobe", label: "ארונות", text: "ארונות הזזה ופתיחה, ארונות ייבוא וארונות קודש.", href: "/catalog/bedrooms", thumb: "/images/design/home/room-wardrobe.webp", x: 11, y: 44 },
-  { key: "bed", label: "מיטות", text: "מיטות זוגיות ומיטות יהודיות, בבדים ובגימורים שונים.", href: "/catalog/beds", thumb: "/images/design/categories/beds.webp", x: 46, y: 36 },
-  { key: "mattress", label: "מזרנים", text: "מזרנים לשינה נוחה, במידות שונות.", href: "/catalog/mattresses", thumb: "/images/design/categories/mattresses.webp", x: 61, y: 62 },
-  { key: "armchair", label: "כורסאות", text: "כורסה לפינת קריאה או לצד המיטה.", href: "/catalog/living-rooms#armchairs", thumb: "/images/design/categories/armchairs.webp", x: 87, y: 56 },
+  { key: "wardrobe", label: "ארונות", text: "ארונות הזזה ופתיחה, ארונות ייבוא, חדרי שינה וחדרי ילדים.", href: "/room/wardrobes", thumb: "/images/design/home/room-wardrobe.webp", x: 11, y: 44 },
+  { key: "bed", label: "מיטות", text: "מיטות זוגיות ומיטות יהודיות, בבדים ובגימורים שונים.", href: "/room/beds", thumb: "/images/design/categories/beds.webp", x: 46, y: 36 },
+  { key: "mattress", label: "מזרנים", text: "מזרנים לשינה נוחה, במידות שונות.", href: "/room/mattresses", thumb: "/images/design/categories/mattresses.webp", x: 61, y: 62 },
+  { key: "armchair", label: "כורסאות", text: "כורסה לפינת קריאה או לצד המיטה.", href: "/room/armchairs", thumb: "/images/design/categories/armchairs.webp", x: 87, y: 56 },
 ] as const;
 
 export const whatsappBand = {
@@ -146,3 +140,14 @@ export const faqs = [
   { question: "צריך לתאם הגעה לאולם התצוגה?", answer: "אפשר להגיע בשעות הפתיחה. אם אתם באים לראות דגם מסוים, כדאי לכתוב לנו קודם כדי לוודא שהוא מוצג באולם." },
   { question: "איך בודקים אם דגם זמין?", answer: "שלחו לנו בוואטסאפ את שם הדגם או צילום מסך מהאתר, ונבדוק עבורכם את הזמינות." },
 ] as const;
+
+// The three reasons on every product page, as worded by the business (21 November 2026).
+// Warranty terms follow the terms page: they depend on the product and the manufacturer and come in writing.
+export const productTrust = {
+  title: "למה לקנות אצלנו",
+  points: [
+    { icon: "heart", title: "יושרה ואמינות", text: "מאות לקוחות מרוצים כבר קנו אצלנו. מחיר הוגן, תשובות כנות, ומה שסיכמנו הוא מה שמגיע אליכם." },
+    { icon: "delivery", title: "שירות משלוחים", text: "מביאים את הרהיט עד הבית ומרכיבים אותו במקום, במועד שמתאמים איתכם." },
+    { icon: "shield", title: "חומרים איכותיים ואחריות", text: "רהיטים מחומרים איכותיים, עם אחריות לפי היצרן והדגם. את תנאי האחריות תקבלו בכתב עם ההזמנה." },
+  ],
+} as const;
