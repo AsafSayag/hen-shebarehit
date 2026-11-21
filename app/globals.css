@@ -513,9 +513,13 @@ p { line-height: 1.7; }
   .section { padding-block: 72px; }
   .page-top { padding-block: 40px 72px; }
   .page-title { margin-block: 28px 36px; }
-  .home-hero { min-height: 560px; align-items: end; }
-  .home-hero::after { background: linear-gradient(to bottom, rgba(46, 33, 23, .3) 0%, rgba(46, 33, 23, .62) 40%, rgba(46, 33, 23, .72) 100%); }
-  .home-hero-content { padding-block: 48px 40px; }
+  /* The photo is scaled to the hero's height, so its wall fills the top 40%, the sofa the middle and the rug and floor the
+     bottom. The heading and text sit on the wall and the buttons on the floor, leaving the sofa clear. The hero fills the
+     first screen below the 65px header, within limits. */
+  .home-hero { align-items: stretch; min-height: 560px; min-height: clamp(560px, calc(100svh - 65px), 720px); }
+  .home-hero::after { background: linear-gradient(to bottom, rgba(46, 33, 23, .6) 0%, rgba(46, 33, 23, .5) 36%, rgba(46, 33, 23, .08) 50%, rgba(46, 33, 23, .08) 66%, rgba(46, 33, 23, .6) 84%, rgba(46, 33, 23, .7) 100%); }
+  .home-hero-content { display: flex; flex-direction: column; padding-block: 24px 28px; }
+  .home-hero-actions { margin-block-start: auto; }
   .group-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
   .home-about { grid-template-columns: 1fr; }
   .home-about-media { order: -1; max-width: 520px; }
@@ -545,7 +549,7 @@ p { line-height: 1.7; }
   h2 { font-size: 28px; }
   .section-title { margin-block-end: 32px; }
   .section-title > p { font-size: 17px; }
-  .home-hero-content h1 { font-size: 40px; }
+  .home-hero-content h1 { margin-block-end: 16px; font-size: 40px; }
   .home-hero-content p { font-size: 17px; }
   .home-hero-actions { flex-direction: column; }
   .home-hero-actions .button { width: 100%; }
